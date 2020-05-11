@@ -1,0 +1,2 @@
+date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200324,SD,46,30,2,790,28,268,1088,820,30,820,,,,,,,,,3/24/2020 12:30,1,,,,2020-03-24T20:00:00Z,58cb5d0c154e2e9790d597bb41e1279d85ecb7c2

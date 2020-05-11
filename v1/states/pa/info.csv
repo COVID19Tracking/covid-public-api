@@ -1,0 +1,2 @@
+state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
+PA,Pennsylvania,42,"County level data may differ from the state totals. We are not adding deaths back into positives. As of April 27, Pennsylvania is reporting people tested.",https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://www.arcgis.com/apps/opsdashboard/index.html#/85054b06472e4208b02285b8557f24cf,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,@PAHealthDept,Only positives,

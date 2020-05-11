@@ -1,0 +1,2 @@
+date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200425,NJ,34,105523,3327,108163,4397,,213686,213686,7724,213686,6722,,1971,,1442,,,A,4/25/2020 13:00,5863,246,,,2020-04-25T20:00:00Z,099c927c24db3393d1056349584a78bade582226

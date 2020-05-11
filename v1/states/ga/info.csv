@@ -1,0 +1,3 @@
+state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
+GA,Georgia,13,"Positive includes deaths. Positives occasionally update before totals.
+We use the state's ""as of"" time as our Update Time. As of April 27, Georgia is reporting people tested.",https://dph.georgia.gov/covid-19-daily-status-report,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,https://dph.georgia.gov/novelcoronavirus,@GaDPH,Only positives,

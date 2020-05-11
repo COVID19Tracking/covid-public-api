@@ -1,0 +1,102 @@
+Type Press {
+  title: String
+  url: String
+  addToCovidTrackingProjectWebsite: Boolean
+  publication: String
+  publicationDate: String
+}
+
+Type Screenshots {
+  state: String
+  url: String
+  dateChecked: String
+  secondary: String
+  date: String
+  size: Int
+}
+
+Type Volunteers {
+  name: String
+  website: String
+}
+
+Type CDCTests {
+  dateCollected: Date
+  cdcLabs: Int
+  usPubHealthLabs: Int
+  dailyTotal: Int
+}
+
+Type Us {
+  date: Int
+  states: Int
+  positive: Int
+  negative: Int
+  pending: Int
+  hospitalizedCurrently: Int
+  hospitalizedCumulative: Int
+  inIcuCurrently: Int
+  inIcuCumulative: Int
+  onVentilatorCurrently: Int
+  onVentilatorCumulative: Int
+  recovered: Int
+  dateChecked: String
+  death: Int
+  hospitalized: Int
+  total: Int
+  totalTestResults: Int
+  posNeg: Int
+  deathIncrease: Int
+  hospitalizedIncrease: Int
+  negativeIncrease: Int
+  positiveIncrease: Int
+  totalTestResultsIncrease: Int
+  hash: String
+}
+
+Type StatesInfo {
+  state: String
+  name: String
+  fips: String
+  notes: String
+  covid19Site: String
+  covid19SiteSecondary: String
+  covid19SiteOld: String
+  twitter: String
+  pui: String
+  pum: Boolean
+}
+
+Type States {
+  date: Int
+  state: String
+  fips: String
+  positive: Int
+  positiveIncrease: Int
+  negative: Int
+  negativeIncrease: Int
+  pending: Int
+  total: Int
+  totalTestResults: Int
+  totalTestResultsIncrease: Int
+  posNeg: Int
+  hospitalizedCurrently: Int
+  hospitalizedCumulative: Int
+  hospitalizedCumulative: Int
+  inIcuCurrently: Int
+  inIcuCumulative: Int
+  onVentilatorCurrently: Int
+  onVentilatorCumulative: Int
+  recovered: Int
+  dataQualityGrade: Int
+  lastUpdateEt: Int
+  recovered: Int
+  death: Int
+  death: Int
+  deathIncrease: Int
+  hospitalized: Int
+  hospitalizedIncrease: Int
+  total: String
+  dateChecked: String
+  hash: String
+}

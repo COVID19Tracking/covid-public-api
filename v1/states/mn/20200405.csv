@@ -1,0 +1,2 @@
+date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200405,MN,27,935,70,25842,1284,,26777,26777,1354,26777,106,202,48,77,,,451,,4/4/2020 17:00,29,5,202,22,2020-04-05T20:00:00Z,cfdf2700078d6ac5d17d8ce06299e92516500ef2

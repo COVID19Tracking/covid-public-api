@@ -1,0 +1,1219 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "COVID Tracking API Sandbox",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://covidtracking.com"
+    }
+  ],
+  "paths": {
+    "/api/v1/internal/press.{format}": {
+      "get": {
+        "tags": [
+          "Internal Endpoints"
+        ],
+        "description": "A list of news articles the COVID Tracking Project has appeared in.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Press"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Press"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/states/screenshots.{format}": {
+      "get": {
+        "tags": [
+          "Internal Endpoints"
+        ],
+        "description": "State website screenshots.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Screenshots"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Screenshots"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/internal/volunteers.{format}": {
+      "get": {
+        "tags": [
+          "Internal Endpoints"
+        ],
+        "description": "A list of volunteers who opted in to be listed on the website.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Volunteers"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Volunteers"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/internal/cdc-tests.{format}": {
+      "get": {
+        "tags": [
+          "Internal Endpoints"
+        ],
+        "description": "Data on the CDC's public testing initiatives.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CDCTests"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CDCTests"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/us/daily.{format}": {
+      "get": {
+        "tags": [
+          "US Current and Historical Data"
+        ],
+        "description": "US historic values.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Us"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Us"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/us/current.{format}": {
+      "get": {
+        "tags": [
+          "US Current and Historical Data"
+        ],
+        "description": "US current values.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Us"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Us"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/us/{date}.{format}": {
+      "get": {
+        "tags": [
+          "US Current and Historical Data"
+        ],
+        "description": "US current values.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Us"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Us"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          },
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "20200501"
+            },
+            "description": "Use the ISO-formatted date, without hyphens, to select just the data for a specific date."
+          }
+        ]
+      }
+    },
+    "/api/v1/states/info.{format}": {
+      "get": {
+        "tags": [
+          "Additional Endpoints"
+        ],
+        "description": "States information.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StatesInfo"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StatesInfo"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/states/{state}/info.{format}": {
+      "get": {
+        "tags": [
+          "Additional Endpoints"
+        ],
+        "description": "The metadata about the specified state",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StatesInfo"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StatesInfo"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "ca"
+            },
+            "description": "Use the two-letter state code to select the current value for a single state."
+          }
+        ]
+      }
+    },
+    "/api/v1/states/daily.{format}": {
+      "get": {
+        "tags": [
+          "States Current and Historical Data"
+        ],
+        "description": "States historical data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/states/current.{format}": {
+      "get": {
+        "tags": [
+          "States Current and Historical Data"
+        ],
+        "description": "State current values.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
+    },
+    "/api/v1/states/{state}/current.{format}": {
+      "get": {
+        "tags": [
+          "States Current and Historical Data"
+        ],
+        "description": "State current values.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "ca"
+            },
+            "description": "Use the two-letter state code to select the current value for a single state."
+          }
+        ]
+      }
+    },
+    "/api/v1/states/{state}/daily.{format}": {
+      "get": {
+        "tags": [
+          "States Current and Historical Data"
+        ],
+        "description": "State daily values.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "ca"
+            },
+            "description": "Use the two-letter state code to select the current value for a single state."
+          }
+        ]
+      }
+    },
+    "/api/v1/states/{state}/{date}.{format}": {
+      "get": {
+        "tags": [
+          "States Current and Historical Data"
+        ],
+        "description": "State date values",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/States"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "ca"
+            },
+            "description": "Use the two-letter state code to select the current value for a single state."
+          },
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "20200501"
+            },
+            "description": "Use the ISO-formatted date, without hyphens, to select just the data for a specific date."
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Press": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Title of the article.",
+            "nullable": false,
+            "example": "News from the COVID Tracking Project"
+          },
+          "url": {
+            "type": "string",
+            "description": "URL of the press article.",
+            "nullable": false,
+            "example": ""
+          },
+          "addToCovidTrackingProjectWebsite": {
+            "type": "boolean",
+            "description": "Whether the article should be included on the website.",
+            "nullable": true,
+            "example": ""
+          },
+          "publication": {
+            "type": "string",
+            "description": "Name of the publication.",
+            "nullable": false,
+            "example": ""
+          },
+          "publicationDate": {
+            "type": "string",
+            "description": "Date of publication.",
+            "nullable": false,
+            "example": ""
+          }
+        }
+      },
+      "Screenshots": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "string",
+            "description": "State abbreviation.",
+            "nullable": false,
+            "example": "AK"
+          },
+          "url": {
+            "type": "string",
+            "description": "URL of screenshot on covidtracking.com.",
+            "nullable": false,
+            "example": ""
+          },
+          "dateChecked": {
+            "type": "string",
+            "nullable": false,
+            "example": ""
+          },
+          "secondary": {
+            "type": "boolean",
+            "nullable": false,
+            "example": ""
+          },
+          "date": {
+            "type": "string",
+            "nullable": false,
+            "example": ""
+          },
+          "size": {
+            "type": "number",
+            "nullable": false,
+            "example": ""
+          }
+        }
+      },
+      "Volunteers": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of volunteer.",
+            "nullable": false,
+            "example": "bell hooks"
+          },
+          "website": {
+            "type": "string",
+            "description": "URL of the volunteer's website.",
+            "nullable": true,
+            "example": ""
+          }
+        }
+      },
+      "CDCTests": {
+        "type": "object",
+        "properties": {
+          "dateCollected": {
+            "type": "string",
+            "description": "Date.",
+            "nullable": false,
+            "example": "2020-04-05"
+          },
+          "cdcLabs": {
+            "type": "number",
+            "description": "Number of tests from CDC labs.",
+            "nullable": false,
+            "example": 10
+          },
+          "usPubHealthLabs": {
+            "type": "number",
+            "description": "Number of tests from public health labs.",
+            "nullable": false,
+            "example": 10
+          },
+          "dailyTotal": {
+            "type": "number",
+            "description": "Number of tests total tests reported by the CDC.",
+            "nullable": false,
+            "example": 10
+          }
+        }
+      },
+      "Us": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "integer",
+            "description": "",
+            "nullable": false,
+            "example": 20200501
+          },
+          "states": {
+            "type": "integer",
+            "description": "",
+            "nullable": false,
+            "example": 50
+          },
+          "positive": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "negative": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "pending": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "hospitalizedCurrently": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "hospitalizedCumulative": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "inIcuCurrently": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "inIcuCumulative": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "onVentilatorCurrently": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "onVentilatorCumulative": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "recovered": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "dateChecked": {
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "death": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "hospitalized": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "total": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "totalTestResults": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "posNeg": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "deathIncrease": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "hospitalizedIncrease": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "negativeIncrease": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "positiveIncrease": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "totalTestResultsIncrease": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "hash": {
+            "type": "string",
+            "description": "A hash for this record",
+            "nullable": false,
+            "example": 50
+          }
+        }
+      },
+      "StatesInfo": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "string",
+            "description": "The state postal code",
+            "nullable": false,
+            "example": "CA"
+          },
+          "name": {
+            "type": "string",
+            "description": "The name of the state",
+            "nullable": false,
+            "example": "California"
+          },
+          "fips": {
+            "type": "string",
+            "description": "The census FIPS code",
+            "nullable": false,
+            "example": "09"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Notes about the state",
+            "nullable": false,
+            "example": "This state reports data correctly."
+          },
+          "covid19Site": {
+            "type": "string",
+            "description": "URL to the state's COVID website",
+            "nullable": true,
+            "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
+          },
+          "covid19SiteSecondary": {
+            "type": "string",
+            "description": "URL to the state's secondary COVID website",
+            "nullable": true,
+            "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
+          },
+          "covid19SiteOld": {
+            "type": "string",
+            "description": "URL to the state's old COVID website",
+            "nullable": true,
+            "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
+          },
+          "twitter": {
+            "type": "string",
+            "description": "The state's COVID-related Twitter handle",
+            "nullable": true,
+            "example": "@Alaska_DHSS"
+          },
+          "pui": {
+            "type": "string",
+            "description": "Depcreated field",
+            "nullable": true,
+            "example": "No data"
+          },
+          "pum": {
+            "type": "boolean",
+            "description": "Depcreated field",
+            "nullable": true,
+            "example": ""
+          }
+        }
+      },
+      "States": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "integer",
+            "description": "",
+            "nullable": false,
+            "example": 20200501
+          },
+          "state": {
+            "type": "string",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "fips": {
+            "type": "string",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "positive": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "positiveIncrease": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "negative": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "negativeIncrease": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "pending": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "total": {
+            "type": "string",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "totalTestResults": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "totalTestResultsIncrease": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "posNeg": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "hospitalizedCurrently": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "hospitalizedCumulative": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "inIcuCurrently": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "inIcuCumulative": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "onVentilatorCurrently": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "onVentilatorCumulative": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "recovered": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "dataQualityGrade": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "lastUpdateEt": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "death": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "deathIncrease": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "hospitalized": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "hospitalizedIncrease": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "dateChecked": {
+            "type": "string",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "hash": {
+            "type": "string",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          }
+        }
+      }
+    }
+  }
+}

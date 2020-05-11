@@ -1,0 +1,2 @@
+date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200428,AL,01,6687,188,69140,1642,,75827,75827,1830,75827,,911,,335,,195,,B,4/28/2020 00:00,242,20,911,39,2020-04-28T20:00:00Z,169b97fd9cde983527da8d9d783e492e0f5fba46

@@ -1,0 +1,2 @@
+date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200325,NY,36,30811,5146,72668,7063,,103479,103479,12209,103479,4079,3805,,,,,,,3/25/2020 11:45,285,75,3805,571,2020-03-25T20:00:00Z,b67dc06aaf211fdf4d12eba2eb9b80e893bbaf5a

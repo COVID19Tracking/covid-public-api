@@ -1,0 +1,2 @@
+date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200411,GA,13,12159,676,39556,4892,,51715,51715,5568,51715,,2479,,,,,,,4/11/2020 11:28,428,12,2479,128,2020-04-11T20:00:00Z,6f382c726669772adb132bc12341765840cbdce1

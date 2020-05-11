@@ -1,0 +1,2 @@
+date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200507,NJ,34,133635,1745,159023,1993,552,293210,292658,3738,292658,4996,,1470,,1107,,15642,A+,5/7/2020 13:00,8801,252,,,2020-05-07T20:00:00Z,d8ffb126817aff7fabdb6c9c39dff0e7c0f5dd0f

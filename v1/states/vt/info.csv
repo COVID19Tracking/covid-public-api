@@ -1,0 +1,2 @@
+state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
+VT,Vermont,50,"Negative = (Total Tested - Positives). VT reports both Currently Hospitalized (implicitly, confirmed cases only) and Hospitalized Under Investigation. For Currently Hospitalized, we sum these two numbers. As of May 2, Vermont is reporting people tested.",https://vcgi.maps.arcgis.com/apps/opsdashboard/index.html#/6128a0bc9ae14e98a686b635001ef7a7,,https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavirus,@healthvermont,Positives + Negatives,true

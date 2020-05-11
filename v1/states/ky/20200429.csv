@@ -1,0 +1,2 @@
+date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200429,KY,21,4375,229,48036,3383,,52411,52411,3612,52411,320,1331,170,625,,,1617,A,4/28/2020 17:00,225,12,1331,50,2020-04-29T20:00:00Z,df6edc9d0a7030a370a6d7f29f2b01bb81c459f4
