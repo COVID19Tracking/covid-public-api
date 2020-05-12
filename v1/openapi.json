@@ -711,6 +711,51 @@
           }
         ]
       }
+    },
+    "/api/v1/status.{format}": {
+      "get": {
+        "tags": [
+          "Internal Endpoints"
+        ],
+        "description": "The current status of the API.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Status"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Status"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          }
+        ]
+      }
     }
   },
   "components": {
@@ -1211,6 +1256,29 @@
             "description": "",
             "nullable": false,
             "example": ""
+          }
+        }
+      },
+      "Status": {
+        "type": "object",
+        "properties": {
+          "buildTime": {
+            "type": "string",
+            "description": "The last time the API was built.",
+            "nullable": false,
+            "example": "2020-05-01T19:00:00Z"
+          },
+          "runNumber": {
+            "type": "integer",
+            "description": "The run ID. Set to zero if it is a non-production run.",
+            "nullable": false,
+            "example": true
+          },
+          "production": {
+            "type": "boolean",
+            "description": "Whether this is a production build of the API.",
+            "nullable": false,
+            "example": true
           }
         }
       }

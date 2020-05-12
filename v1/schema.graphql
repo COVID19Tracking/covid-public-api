@@ -100,3 +100,9 @@ Type States {
   dateChecked: String
   hash: String
 }
+
+Type Status {
+  buildTime: String
+  runNumber: Int
+  production: Boolean
+}
