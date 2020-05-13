@@ -1,2 +1,2 @@
 date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
-20200411,NY,36,180458,9946,260522,13149,,440980,440980,23095,440980,18654,40679,5009,,,,22025,,4/11/2020 00:00,8627,783,40679,1861,2020-04-11T20:00:00Z,f683d967ea1dc30e0f71e4d36a27aacfd7bbcf94
+20200411,NY,36,180458,9946,260522,13149,,440980,440980,23095,440980,18654,40679,5009,,,,22025,A,4/11/2020 00:00,8627,783,40679,1861,2020-04-11T20:00:00Z,1f687946d6f7f8d586148a2bda286065258d0bd6

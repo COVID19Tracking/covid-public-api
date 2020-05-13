@@ -1,2 +1,2 @@
 date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
-20200407,NH,33,715,46,8019,318,49,8783,8734,364,8734,,103,,,,,151,,4/6/2020 09:00,9,,103,11,2020-04-07T20:00:00Z,620d3480fc1b2bc857fc89c0f0da662884d42e4b
+20200407,NH,33,715,46,8019,318,49,8783,8734,364,8734,,103,,,,,151,B,4/6/2020 09:00,9,,103,11,2020-04-07T20:00:00Z,ac7837f3d56be772db57865fdffbc54ac60b68e3
