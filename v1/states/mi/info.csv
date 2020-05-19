@@ -1,3 +1,4 @@
 state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
 MI,Michigan,26,"Michigan has reported each day's negative results since 3/10 but has never totaled them. We sum all the negative results and report the total. Michigan reports specimens tested instead of people tested. 
-Recovered counts are updated once a week. On 4/26 we mistakenly entered the total number of tests in place of the total number of negative results: we are fixing this issue.","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",https://www.michigan.gov/coronavirus,@MichiganHHS,All data,true
+Recovered counts are updated once a week. 
+As of May 16, Michigan uses 'total specimens' reported on lab testing page","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",https://www.michigan.gov/coronavirus,@MichiganHHS,All data,true
