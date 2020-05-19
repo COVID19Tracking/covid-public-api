@@ -1992,6 +1992,18 @@
             "nullable": false,
             "example": ""
           },
+          "blackPercentOfPopulation": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "blackPercentOfDeath": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
           "blackLivesExpectedMultiplier": {
             "type": "number",
             "description": "Expected lives lost based on population.",
