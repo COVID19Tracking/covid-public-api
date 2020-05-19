@@ -57,6 +57,8 @@ Type Us {
 Type RaceStatesCombined {
   state: String
   stateName: String
+  anyPosData: Boolean
+  anyDeathData: Boolean
   unknownRaceEthPos: Int
   unknownRaceEthDeath: Int
   knownRaceEthPos: Int
@@ -162,6 +164,12 @@ Type RaceStatesCombined {
 Type RaceStatesCombined {
   state: String
   stateName: String
+  anyPosData: Boolean
+  posRaceData: Boolean
+  posEthData: Boolean
+  anyDeathData: Boolean
+  deathRaceData: Boolean
+  deathEthData: Boolean
   unknownRacePos: Int
   unknownRaceDeath: Int
   knownRacePos: Int

@@ -1177,6 +1177,42 @@
             "nullable": false,
             "example": ""
           },
+          "anyPosData": {
+            "type": "boolean",
+            "description": "The state reports any positive case data by race/ethnicity.",
+            "nullable": true,
+            "example": ""
+          },
+          "posRaceData": {
+            "type": "boolean",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "posEthData": {
+            "type": "boolean",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "anyDeathData": {
+            "type": "boolean",
+            "description": "The state reports any death data by race/ethnicity.",
+            "nullable": true,
+            "example": ""
+          },
+          "deathRaceData": {
+            "type": "boolean",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "deathEthData": {
+            "type": "boolean",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
           "unknownRacePos": {
             "type": "number",
             "description": "",
