@@ -1,4 +1,5 @@
 date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200520,TX,48,51323,1411,718918,23893,,770241,770241,25304,770241,1791,,,,,,30341,B,5/19/2020 16:50,1419,50,,0,2020-05-20T20:00:00Z,caccfc18610aea98a4d84bc05db6b49f44769015
 20200519,TX,48,49912,1219,695025,20705,,744937,744937,21924,744937,1732,,,,,,29359,A,5/19/2020 16:50,1369,22,,0,2020-05-19T20:00:00Z,461cf8812b4eef60c75973f7a570b22140cbe64a
 20200518,TX,48,48693,909,674320,28828,,723013,723013,29737,723013,1551,,,,,,28371,A,5/18/2020 16:25,1347,11,,0,2020-05-18T20:00:00Z,8159f79dda1cba93744f03b36b41dda9cdbb913f
 20200517,TX,48,47784,785,645492,14020,,693276,693276,14805,693276,1512,,,,,,27570,A,5/17/2020 16:15,1336,31,,0,2020-05-17T20:00:00Z,4528021d0e53d37f4271c9a3f822734e17a1d499
