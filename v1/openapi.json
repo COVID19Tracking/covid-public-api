@@ -1292,13 +1292,13 @@
             "example": ""
           },
           "blackPosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "blackDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1376,13 +1376,13 @@
             "example": ""
           },
           "asianPosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "asianDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1460,13 +1460,13 @@
             "example": ""
           },
           "aianPosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "aianDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1544,13 +1544,13 @@
             "example": ""
           },
           "nhpiPosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nhpiDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1628,13 +1628,13 @@
             "example": ""
           },
           "twoPosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "twoDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1712,13 +1712,13 @@
             "example": ""
           },
           "whitePosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "whiteDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1796,13 +1796,13 @@
             "example": ""
           },
           "otherPosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "otherDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1880,13 +1880,13 @@
             "example": ""
           },
           "latinXPosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "latinXDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1964,13 +1964,13 @@
             "example": ""
           },
           "nonhispanicPosDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nonhispanicDeathDispFlag": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
