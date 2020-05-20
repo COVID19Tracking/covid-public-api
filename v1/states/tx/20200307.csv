@@ -1,2 +1,2 @@
 date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
-20200307,TX,48,8,3,,,,8,8,3,8,,,,,,,,,,,,,,2020-03-07T21:00:00Z,5c0133e8eaecf31efa67b30ae41034be337da00e
+20200307,TX,48,8,3,,0,,8,8,3,8,,,,,,,,,,,0,,0,2020-03-07T21:00:00Z,1aaeb53a2420a325671f583044fd9a9198cbcc13

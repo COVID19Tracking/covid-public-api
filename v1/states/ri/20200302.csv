@@ -1,2 +1,2 @@
 date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
-20200302,RI,44,1,,,,,1,1,,1,,,,,,,,,,,,,,2020-03-02T21:00:00Z,d1310320b5992b09bd9b9800365a59c53ae63066
+20200302,RI,44,1,0,,0,,1,1,0,1,,,,,,,,,,,0,,0,2020-03-02T21:00:00Z,5d3d3bcfb64fd897947f5ac44c7e5ec55140a9b8

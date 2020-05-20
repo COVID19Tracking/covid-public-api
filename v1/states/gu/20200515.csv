@@ -1,2 +1,2 @@
 date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
-20200515,GU,66,154,1,4361,135,,4515,4515,136,4515,,,,,,,124,C,5/15/2020 04:45,5,,,,2020-05-15T20:00:00Z,961bddbebae58ce382cf467e75c823e245cd69fe
+20200515,GU,66,154,1,4361,135,,4515,4515,136,4515,,,,,,,124,C,5/15/2020 04:45,5,0,,0,2020-05-15T20:00:00Z,981969d6e85822c6249d75718549198237b2d658

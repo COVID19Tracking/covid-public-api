@@ -1,2 +1,2 @@
 date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
-20200317,WY,56,10,7,95,95,,105,105,102,105,,,,,,,,,3/17/2020 00:00,,,,,2020-03-17T20:00:00Z,d020d268b655b9d00335d5607c32f23faa4f3861
+20200317,WY,56,10,7,95,95,,105,105,102,105,,,,,,,,,3/17/2020 00:00,,0,,0,2020-03-17T20:00:00Z,1bcf2b7615b6b1471a085243d2347e7d328d5180
