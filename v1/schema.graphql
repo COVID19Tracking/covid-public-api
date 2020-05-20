@@ -70,8 +70,8 @@ Type RaceStatesCombined {
   blackPctDeath: Int
   blackPosDispFlag: Boolean
   blackDeathDispFlag: Boolean
-  blackPosCaution: Int
-  blackDeathCaution: Int
+  blackPosCaution: Boolean
+  blackDeathCaution: Boolean
   blackANHPINotes: String
   blackPosNotes: Int
   blackDeathNotes: Int
@@ -82,8 +82,8 @@ Type RaceStatesCombined {
   asianPctDeath: Int
   asianPosDispFlag: Boolean
   asianDeathDispFlag: Boolean
-  asianPosCaution: Int
-  asianDeathCaution: Int
+  asianPosCaution: Boolean
+  asianDeathCaution: Boolean
   asianANHPINotes: String
   asianPosNotes: Int
   asianDeathNotes: Int
@@ -94,8 +94,8 @@ Type RaceStatesCombined {
   aianPctDeath: Int
   aianPosDispFlag: Boolean
   aianDeathDispFlag: Boolean
-  aianPosCaution: Int
-  aianDeathCaution: Int
+  aianPosCaution: Boolean
+  aianDeathCaution: Boolean
   aianANHPINotes: String
   aianPosNotes: Int
   aianDeathNotes: Int
@@ -106,8 +106,8 @@ Type RaceStatesCombined {
   nhpiPctDeath: Int
   nhpiPosDispFlag: Boolean
   nhpiDeathDispFlag: Boolean
-  nhpiPosCaution: Int
-  nhpiDeathCaution: Int
+  nhpiPosCaution: Boolean
+  nhpiDeathCaution: Boolean
   nhpiANHPINotes: String
   nhpiPosNotes: Int
   nhpiDeathNotes: Int
@@ -118,8 +118,8 @@ Type RaceStatesCombined {
   twoPctDeath: Int
   twoPosDispFlag: Boolean
   twoDeathDispFlag: Boolean
-  twoPosCaution: Int
-  twoDeathCaution: Int
+  twoPosCaution: Boolean
+  twoDeathCaution: Boolean
   twoANHPINotes: String
   twoPosNotes: Int
   twoDeathNotes: Int
@@ -130,8 +130,8 @@ Type RaceStatesCombined {
   whitePctDeath: Int
   whitePosDispFlag: Boolean
   whiteDeathDispFlag: Boolean
-  whitePosCaution: Int
-  whiteDeathCaution: Int
+  whitePosCaution: Boolean
+  whiteDeathCaution: Boolean
   whiteANHPINotes: String
   whitePosNotes: Int
   whiteDeathNotes: Int
@@ -142,8 +142,8 @@ Type RaceStatesCombined {
   otherPctDeath: Int
   otherPosDispFlag: Boolean
   otherDeathDispFlag: Boolean
-  otherPosCaution: Int
-  otherDeathCaution: Int
+  otherPosCaution: Boolean
+  otherDeathCaution: Boolean
   otherANHPINotes: String
   otherPosNotes: Int
   otherDeathNotes: Int
@@ -154,8 +154,8 @@ Type RaceStatesCombined {
   latinXPctDeath: Int
   latinXPosDispFlag: Boolean
   latinXDeathDispFlag: Boolean
-  latinXPosCaution: Int
-  latinXDeathCaution: Int
+  latinXPosCaution: Boolean
+  latinXDeathCaution: Boolean
   latinXANHPINotes: String
   latinXPosNotes: Int
   latinXDeathNotes: Int
@@ -185,8 +185,8 @@ Type RaceStatesCombined {
   blackPctDeath: Int
   blackPosDispFlag: Boolean
   blackDeathDispFlag: Boolean
-  blackPosCaution: Int
-  blackDeathCaution: Int
+  blackPosCaution: Boolean
+  blackDeathCaution: Boolean
   blackANHPIPosNotes: Int
   blackANHPIDeathNotes: Int
   blackPosNotes: Int
@@ -199,8 +199,8 @@ Type RaceStatesCombined {
   asianPctDeath: Int
   asianPosDispFlag: Boolean
   asianDeathDispFlag: Boolean
-  asianPosCaution: Int
-  asianDeathCaution: Int
+  asianPosCaution: Boolean
+  asianDeathCaution: Boolean
   asianANHPIPosNotes: Int
   asianANHPIDeathNotes: Int
   asianPosNotes: Int
@@ -213,8 +213,8 @@ Type RaceStatesCombined {
   aianPctDeath: Int
   aianPosDispFlag: Boolean
   aianDeathDispFlag: Boolean
-  aianPosCaution: Int
-  aianDeathCaution: Int
+  aianPosCaution: Boolean
+  aianDeathCaution: Boolean
   aianANHPIPosNotes: Int
   aianANHPIDeathNotes: Int
   aianPosNotes: Int
@@ -227,8 +227,8 @@ Type RaceStatesCombined {
   nhpiPctDeath: Int
   nhpiPosDispFlag: Boolean
   nhpiDeathDispFlag: Boolean
-  nhpiPosCaution: Int
-  nhpiDeathCaution: Int
+  nhpiPosCaution: Boolean
+  nhpiDeathCaution: Boolean
   nhpiANHPIPosNotes: Int
   nhpiANHPIDeathNotes: Int
   nhpiPosNotes: Int
@@ -241,8 +241,8 @@ Type RaceStatesCombined {
   twoPctDeath: Int
   twoPosDispFlag: Boolean
   twoDeathDispFlag: Boolean
-  twoPosCaution: Int
-  twoDeathCaution: Int
+  twoPosCaution: Boolean
+  twoDeathCaution: Boolean
   twoANHPIPosNotes: Int
   twoANHPIDeathNotes: Int
   twoPosNotes: Int
@@ -255,8 +255,8 @@ Type RaceStatesCombined {
   whitePctDeath: Int
   whitePosDispFlag: Boolean
   whiteDeathDispFlag: Boolean
-  whitePosCaution: Int
-  whiteDeathCaution: Int
+  whitePosCaution: Boolean
+  whiteDeathCaution: Boolean
   whiteANHPIPosNotes: Int
   whiteANHPIDeathNotes: Int
   whitePosNotes: Int
@@ -269,8 +269,8 @@ Type RaceStatesCombined {
   otherPctDeath: Int
   otherPosDispFlag: Boolean
   otherDeathDispFlag: Boolean
-  otherPosCaution: Int
-  otherDeathCaution: Int
+  otherPosCaution: Boolean
+  otherDeathCaution: Boolean
   otherANHPIPosNotes: Int
   otherANHPIDeathNotes: Int
   otherPosNotes: Int
@@ -283,8 +283,8 @@ Type RaceStatesCombined {
   latinXPctDeath: Int
   latinXPosDispFlag: Boolean
   latinXDeathDispFlag: Boolean
-  latinXPosCaution: Int
-  latinXDeathCaution: Int
+  latinXPosCaution: Boolean
+  latinXDeathCaution: Boolean
   latinXANHPIPosNotes: Int
   latinXANHPIDeathNotes: Int
   latinXPosNotes: Int
@@ -297,8 +297,8 @@ Type RaceStatesCombined {
   nonhispanicPctDeath: Int
   nonhispanicPosDispFlag: Boolean
   nonhispanicDeathDispFlag: Boolean
-  nonhispanicPosCaution: Int
-  nonhispanicDeathCaution: Int
+  nonhispanicPosCaution: Boolean
+  nonhispanicDeathCaution: Boolean
   nonhispanicANHPIPosNotes: Int
   nonhispanicANHPIDeathNotes: Int
   nonhispanicPosNotes: Int

@@ -1304,13 +1304,13 @@
             "example": ""
           },
           "blackPosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "blackDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1388,13 +1388,13 @@
             "example": ""
           },
           "asianPosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "asianDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1472,13 +1472,13 @@
             "example": ""
           },
           "aianPosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "aianDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1556,13 +1556,13 @@
             "example": ""
           },
           "nhpiPosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nhpiDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1640,13 +1640,13 @@
             "example": ""
           },
           "twoPosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "twoDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1724,13 +1724,13 @@
             "example": ""
           },
           "whitePosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "whiteDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1808,13 +1808,13 @@
             "example": ""
           },
           "otherPosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "otherDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1892,13 +1892,13 @@
             "example": ""
           },
           "latinXPosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "latinXDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1976,13 +1976,13 @@
             "example": ""
           },
           "nonhispanicPosCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nonhispanicDeathCaution": {
-            "type": "number",
+            "type": "boolean",
             "description": "",
             "nullable": true,
             "example": ""
