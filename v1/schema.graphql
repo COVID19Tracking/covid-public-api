@@ -161,7 +161,7 @@ Type RaceStatesCombined {
   latinXDeathNotes: Int
 }
 
-Type RaceStatesCombined {
+Type RaceStatesSeparate {
   state: String
   stateName: String
   anyPosData: Boolean
