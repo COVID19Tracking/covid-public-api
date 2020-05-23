@@ -1,4 +1,5 @@
 date,state,fips,positive,positiveIncrease,negative,negativeIncrease,pending,total,totalTestResults,totalTestResultsIncrease,posNeg,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,death,deathIncrease,hospitalized,hospitalizedIncrease,dateChecked,hash
+20200523,KY,21,8426,140,163033,5079,,171459,171459,5219,171459,477,2076,90,889,,,3069,A,5/22/2020 17:00,391,5,2076,35,2020-05-23T20:00:00Z,01c8783f3c29d34ee340d0fd28d885a1eb8c0740
 20200522,KY,21,8286,119,157954,7449,,166240,166240,7568,166240,475,2041,92,886,,,3008,A,5/21/2020 17:00,386,10,2041,25,2020-05-22T20:00:00Z,5069aa2ea7cfdca11ac51c3e90dcebcabf6cbe33
 20200521,KY,21,8167,98,150505,4588,,158672,158672,4686,158672,474,2016,98,879,,,2919,A,5/20/2020 17:00,376,10,2016,6,2020-05-21T20:00:00Z,d51fcee2ba31c3a460153c73ce7846f5f0edc8c1
 20200520,KY,21,8069,0,145917,0,,153986,153986,0,153986,443,2010,269,875,,,2826,A,5/19/2020 17:00,366,0,2010,30,2020-05-20T20:00:00Z,01ff0a7e3ac862702897f00454cd2111b3437cfc
