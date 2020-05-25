@@ -1,4 +1,4 @@
 state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
 MO,Missouri,29,"Negative = Total - Positive. As of April 27, Missouri is reporting people tested.
 Missouri has a lag in reporting total patients tested; this figure does not include patients tested as of a particular day until the following day's data update
-As of 5/22, MO started separating out PCR and antibody tests. Total tests might be impacted",https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php,https://missouri-coronavirus-gis-hub-mophep.hub.arcgis.com/,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,@HealthyLivingMo,Only positives,false
+As of May 22, Missouri is separating out PCR and antibody tests; we report the number of PCR tests. Total tests might be impacted",https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php,https://missouri-coronavirus-gis-hub-mophep.hub.arcgis.com/,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,@HealthyLivingMo,Only positives,false

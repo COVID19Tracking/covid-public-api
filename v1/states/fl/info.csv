@@ -2,4 +2,4 @@ state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pu
 FL,Florida,12,"We report using the raw data provided by FDOH but we include both Florida residents and non-residents.
 On March 26, the dashboard stopped including non-residents in its visible counts, but they're still tracked behind the scenes.  
 On March 21, negatives jumped due to a methodology change: tests of people not investigated as PUIs are now included. 
-As of May 15, Florida is reporting both specimens and people tested. We report positives and negatives based on the number of people tested.",https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,https://o-vid.herokuapp.com/florida,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,@HealthyFla,All data,true
+As of May 15, Florida is reporting both specimens (PCR and antibody) and people tested. We report positives and negatives based on the number of people tested.",https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,https://o-vid.herokuapp.com/florida,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,@HealthyFla,All data,true
