@@ -3,4 +3,4 @@ AK,Alaska,02,"Total tests are taken from the annotations on the charts on the pa
 Negatives = (Totals – Positives)
 Positives occasionally update before totals do; do not revise negatives down, keep the last calculated negative.
 Last Updated (Local Time) = (today's date + time = 00:00) 
-As of May 16, Alaska reports specimens tested, because some people may be tested more than once, this number may be higher than the number of people tested.",http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/monitoring.aspx,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,@Alaska_DHSS,All data,false
+As of May 16, Alaska reports specimens tested; because some people may be tested more than once, this number may be higher than the number of people tested.",http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/monitoring.aspx,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,@Alaska_DHSS,All data,false
