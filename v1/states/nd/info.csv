@@ -1,2 +1,2 @@
-state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
-ND,North Dakota,38,"As of May 2, North Dakota is reporting people tested.",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,https://www.health.nd.gov/diseases-conditions/coronavirus,@NDDOH,All data,true
+state,notes,covid19Site,covid19SiteSecondary,twitter,name,fips
+ND,"As of May 2, North Dakota is reporting people tested.",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,@NDDOH,North Dakota,38

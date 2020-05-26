@@ -922,7 +922,7 @@
             "nullable": false,
             "example": ""
           },
-          "publicationDate": {
+          "publishDate": {
             "type": "string",
             "description": "Date of publication.",
             "nullable": false,
@@ -2728,29 +2728,11 @@
             "nullable": true,
             "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
           },
-          "covid19SiteOld": {
-            "type": "string",
-            "description": "URL to the state's old COVID website",
-            "nullable": true,
-            "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
-          },
           "twitter": {
             "type": "string",
             "description": "The state's COVID-related Twitter handle",
             "nullable": true,
             "example": "@Alaska_DHSS"
-          },
-          "pui": {
-            "type": "string",
-            "description": "Depcreated field",
-            "nullable": true,
-            "example": "No data"
-          },
-          "pum": {
-            "type": "boolean",
-            "description": "Depcreated field",
-            "nullable": true,
-            "example": ""
           }
         }
       },
@@ -2772,137 +2754,143 @@
           "fips": {
             "type": "string",
             "description": "",
-            "nullable": false,
+            "nullable": true,
             "example": ""
           },
           "positive": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "positiveIncrease": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "negative": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "negativeIncrease": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "pending": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "total": {
-            "type": "string",
+            "type": "integer",
             "description": "",
-            "nullable": false,
+            "nullable": true,
             "example": ""
           },
           "totalTestResults": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "totalTestResultsIncrease": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "posNeg": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "hospitalizedCurrently": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "hospitalizedCumulative": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "inIcuCurrently": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "inIcuCumulative": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "onVentilatorCurrently": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "onVentilatorCumulative": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "recovered": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "dataQualityGrade": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "lastUpdateEt": {
-            "type": "number",
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "dateModified": {
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "death": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "deathIncrease": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "hospitalized": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "hospitalizedIncrease": {
-            "type": "number",
+            "type": "integer",
             "description": "",
             "nullable": true,
             "example": ""
@@ -2910,13 +2898,13 @@
           "dateChecked": {
             "type": "string",
             "description": "",
-            "nullable": false,
+            "nullable": true,
             "example": ""
           },
           "hash": {
             "type": "string",
             "description": "",
-            "nullable": false,
+            "nullable": true,
             "example": ""
           }
         }

@@ -1,3 +1,3 @@
-state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
-IL,Illinois,17,"Illinois counts deaths in positives. 
-As of May 25, Illinois is reporting PCR specimens tested. Because some people may be tested more than once, this number is probably higher than the number of people tested.",http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,@IDPH,All data,false
+state,notes,covid19Site,covid19SiteSecondary,twitter,name,fips
+IL,"Illinois counts deaths in positives. 
+As of May 25, Illinois is reporting PCR specimens tested. Because some people may be tested more than once, this number is probably higher than the number of people tested.",http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,,@IDPH,Illinois,17

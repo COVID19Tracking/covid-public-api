@@ -3,7 +3,7 @@ Type Press {
   url: String
   addToCovidTrackingProjectWebsite: Boolean
   publication: String
-  publicationDate: String
+  publishDate: String
 }
 
 Type Screenshots {
@@ -322,10 +322,7 @@ Type StatesInfo {
   notes: String
   covid19Site: String
   covid19SiteSecondary: String
-  covid19SiteOld: String
   twitter: String
-  pui: String
-  pum: Boolean
 }
 
 Type States {
@@ -343,21 +340,18 @@ Type States {
   posNeg: Int
   hospitalizedCurrently: Int
   hospitalizedCumulative: Int
-  hospitalizedCumulative: Int
   inIcuCurrently: Int
   inIcuCumulative: Int
   onVentilatorCurrently: Int
   onVentilatorCumulative: Int
   recovered: Int
-  dataQualityGrade: Int
-  lastUpdateEt: Int
-  recovered: Int
-  death: Int
+  dataQualityGrade: String
+  lastUpdateEt: String
+  dateModified: String
   death: Int
   deathIncrease: Int
   hospitalized: Int
   hospitalizedIncrease: Int
-  total: String
   dateChecked: String
   hash: String
 }

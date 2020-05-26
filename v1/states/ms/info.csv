@@ -1,4 +1,4 @@
-state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
-MS,Mississippi,28,"Negatives = Total - Positives.
+state,notes,covid19Site,covid19SiteSecondary,twitter,name,fips
+MS,"Negatives = Total - Positives.
 Hospitalizations are calculated by calculating multiplying % of hospitalized times total cases, pending clarification from the state. Recoveries are estimated, and updated twice weekly.
-As of May 23, Mississippi is separating out PCR and antibody tests; we report PCR specimens tested. Total tests might be impacted. Mississippi notes that hospitalization data for May 23 is incomplete.","https://msdh.ms.gov/msdhsite/_static/14,0,420.html",,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",@msdh,Only positives,false
+As of May 23, Mississippi is separating out PCR and antibody tests; we report PCR specimens tested. Total tests might be impacted. Mississippi notes that hospitalization data for May 23 is incomplete.","https://msdh.ms.gov/msdhsite/_static/14,0,420.html",,@msdh,Mississippi,28

@@ -1,4 +1,4 @@
-state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
-HI,Hawaii,15,"Data now pulled from their [new Dashboard Project](https://www.hawaiidata.org/covid19).
+state,notes,covid19Site,covid19SiteSecondary,twitter,name,fips
+HI,"Data now pulled from their [new Dashboard Project](https://www.hawaiidata.org/covid19).
 As of May 16, Hawaii is reporting people tested
-On May 23rd, Hawaii revised down 5 cases due to updated testing information",https://health.hawaii.gov/coronavirusdisease2019/,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,@HIgov_Health,Only positives,false
+On May 23rd, Hawaii revised down 5 cases due to updated testing information",https://health.hawaii.gov/coronavirusdisease2019/,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,@HIgov_Health,Hawaii,15

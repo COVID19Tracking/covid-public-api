@@ -1,3 +1,3 @@
-state,name,fips,notes,covid19Site,covid19SiteSecondary,covid19SiteOld,twitter,pui,pum
-WA,Washington,53,"Washington reports confirmed cases, laboratory tests, and deaths as of the previous day. WA did not report new negative test results between March 31 and April 15.
-On April 18, data cleaning removed 190 confirmed cases that were discovered to be out of state residents tested in WA labs. As of April 27, Washington is reporting people tested.",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,https://www.doh.wa.gov/Emergencies/Coronavirus,@WADeptHealth,Positives + Negatives,true
+state,notes,covid19Site,covid19SiteSecondary,twitter,name,fips
+WA,"Washington reports confirmed cases, laboratory tests, and deaths as of the previous day. WA did not report new negative test results between March 31 and April 15.
+On April 18, data cleaning removed 190 confirmed cases that were discovered to be out of state residents tested in WA labs. As of April 27, Washington is reporting people tested.",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,@WADeptHealth,Washington,53
