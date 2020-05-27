@@ -1,4 +1,5 @@
 date,state,positive,negative,pending,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,dateModified,checkTimeEt,death,hospitalized,dateChecked,fips,positiveIncrease,negativeIncrease,total,totalTestResults,totalTestResultsIncrease,posNeg,deathIncrease,hospitalizedIncrease,hash,commercialScore,negativeRegularScore,negativeScore,positiveScore,score,grade
+20200527,AS,0,174,,,,,,,,,C,5/27/2020 00:00,2020-05-27T00:00:00Z,05/26 20:00,0,,2020-05-26T00:00:00Z,60,0,50,174,174,50,174,0,0,702b97ecfbf0d3b67a2c0c9799f07a0ba42dc81a,0,0,0,0,0,
 20200526,AS,0,124,,,,,,,,,C,5/19/2020 00:00,2020-05-19T00:00:00Z,05/18 20:00,0,,2020-05-26T00:00:00Z,60,0,0,124,124,0,124,0,0,03a9a30d6a6c8f999fe4dbad039cc7926f25dfcb,0,0,0,0,0,
 20200525,AS,0,124,,,,,,,,,C,5/19/2020 00:00,2020-05-19T00:00:00Z,05/18 20:00,0,,2020-05-26T00:00:00Z,60,0,0,124,124,0,124,0,0,cbe6fa5cadc23f75f0904ef0078798c194bacf37,0,0,0,0,0,
 20200524,AS,0,124,,,,,,,,,C,5/19/2020 00:00,2020-05-19T00:00:00Z,05/18 20:00,0,,2020-05-26T00:00:00Z,60,0,0,124,124,0,124,0,0,3f48920ffda633b661580515059eb1d84e49df33,0,0,0,0,0,
