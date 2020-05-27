@@ -2,4 +2,4 @@ state,notes,covid19Site,covid19SiteSecondary,twitter,covid19SiteOld,name,fips,pu
 GA,"Positive includes deaths. Positives occasionally update before totals.
 We use the state's ""as of"" time as our Update Time. 
 As of May 16, Georgia is reporting specimens tested. Because some people may be tested more than once, this number is probably higher than the number of people tested. 
-Georgia is reporting combined antibody and PCR tests. As of May 22nd, these two numbers have not been separated out",https://dph.georgia.gov/covid-19-daily-status-report,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,@GaDPH,https://dph.georgia.gov/novelcoronavirus,Georgia,13,,false
+As of May 27, GA started separating serology tests from PCR. This caused a the number of tests to decline on that day from the combined number.",https://dph.georgia.gov/covid-19-daily-status-report,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,@GaDPH,https://dph.georgia.gov/novelcoronavirus,Georgia,13,,false
