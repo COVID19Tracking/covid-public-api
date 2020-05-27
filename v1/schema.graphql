@@ -51,6 +51,7 @@ Type Us {
   negativeIncrease: Int
   positiveIncrease: Int
   totalTestResultsIncrease: Int
+  lastModified: String
   hash: String
 }
 
@@ -351,12 +352,19 @@ Type States {
   dataQualityGrade: String
   lastUpdateEt: String
   dateModified: String
+  checkTimeEt: String
   death: Int
   deathIncrease: Int
   hospitalized: Int
   hospitalizedIncrease: Int
   dateChecked: String
   hash: String
+  commercialScore: Int
+  negativeRegularScore: Int
+  negativeScore: Int
+  positiveScore: Int
+  score: Int
+  grade: String
 }
 
 Type Status {

@@ -1154,6 +1154,12 @@
             "nullable": true,
             "example": 50
           },
+          "lastModified": {
+            "type": "string",
+            "description": "",
+            "nullable": false,
+            "example": "2020-05-27T12:18:23.392Z"
+          },
           "hash": {
             "type": "string",
             "description": "A hash for this record",
@@ -2889,6 +2895,12 @@
             "nullable": true,
             "example": ""
           },
+          "checkTimeEt": {
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
           "death": {
             "type": "integer",
             "description": "",
@@ -2922,6 +2934,42 @@
           "hash": {
             "type": "string",
             "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "commercialScore": {
+            "type": "integer",
+            "description": "Deprecated",
+            "nullable": true,
+            "example": ""
+          },
+          "negativeRegularScore": {
+            "type": "integer",
+            "description": "Deprecated",
+            "nullable": true,
+            "example": ""
+          },
+          "negativeScore": {
+            "type": "integer",
+            "description": "Deprecated",
+            "nullable": true,
+            "example": ""
+          },
+          "positiveScore": {
+            "type": "integer",
+            "description": "Deprecated",
+            "nullable": true,
+            "example": ""
+          },
+          "score": {
+            "type": "integer",
+            "description": "Deprecated",
+            "nullable": true,
+            "example": ""
+          },
+          "grade": {
+            "type": "string",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           }
