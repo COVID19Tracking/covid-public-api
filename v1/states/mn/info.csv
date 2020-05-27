@@ -1,2 +1,2 @@
-state,notes,covid19Site,covid19SiteSecondary,twitter,name,fips
-MN,"Since March 23, Negative = Total - Positive.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,,@mnhealth,Minnesota,27
+state,notes,covid19Site,covid19SiteSecondary,twitter,covid19SiteOld,name,fips,pui,pum
+MN,"Since March 23, Negative = Total - Positive.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Minnesota,27,,false

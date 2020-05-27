@@ -1,4 +1,4 @@
-state,notes,covid19Site,covid19SiteSecondary,twitter,name,fips
+state,notes,covid19Site,covid19SiteSecondary,twitter,covid19SiteOld,name,fips,pui,pum
 WI,"Negatives include only Wisconsin residents whose negative test results were reported electronically to DHS. This underestimates total negative test results. 
 Deaths must be reported by health providers or coroners, and recorded by local health departments, to be counted. As of April 27, Wisconsin is reporting people tested. 
-On March 30, WI revised down negatives from 16550 to 15856.",https://www.dhs.wisconsin.gov/outbreaks/index.htm,,@DHSWI,Wisconsin,55
+On March 30, WI revised down negatives from 16550 to 15856.",https://www.dhs.wisconsin.gov/outbreaks/index.htm,,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,Wisconsin,55,,false

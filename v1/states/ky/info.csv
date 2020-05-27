@@ -1,4 +1,4 @@
-state,notes,covid19Site,covid19SiteSecondary,twitter,name,fips
+state,notes,covid19Site,covid19SiteSecondary,twitter,covid19SiteOld,name,fips,pui,pum
 KY,"Negative = Total - Positive.
 Positives sometimes update before totals do; when this happens, we keep the last calculated negative. As of April 27, Kentucky is reporting people tested.
-On May 23, KY revised down the total number of tests.",https://kygeonet.maps.arcgis.com/apps/opsdashboard/index.html#/543ac64bc40445918cf8bc34dc40e334,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,@CHFSKy,Kentucky,21
+On May 23, KY revised down the total number of tests.",https://kygeonet.maps.arcgis.com/apps/opsdashboard/index.html#/543ac64bc40445918cf8bc34dc40e334,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,@CHFSKy,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,Kentucky,21,,false

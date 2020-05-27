@@ -2733,6 +2733,24 @@
             "description": "The state's COVID-related Twitter handle",
             "nullable": true,
             "example": "@Alaska_DHSS"
+          },
+          "covid19SiteOld": {
+            "type": "string",
+            "description": "URL to the state's old COVID website",
+            "nullable": true,
+            "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
+          },
+          "pui": {
+            "type": "string",
+            "description": "Deprecated",
+            "nullable": true,
+            "example": ""
+          },
+          "pum": {
+            "type": "boolean",
+            "description": "Deprecated",
+            "nullable": true,
+            "example": ""
           }
         }
       },
