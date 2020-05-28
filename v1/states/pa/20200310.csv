@@ -1,2 +1,2 @@
 date,state,positive,negative,pending,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,dateModified,checkTimeEt,death,hospitalized,dateChecked,fips,positiveIncrease,negativeIncrease,total,totalTestResults,totalTestResultsIncrease,posNeg,deathIncrease,hospitalizedIncrease,hash,commercialScore,negativeRegularScore,negativeScore,positiveScore,score,grade
-20200310,PA,12,,,,,,,,,,,,Invalid DateTime,Invalid DateTime,,,2020-05-26T00:00:00Z,42,2,0,12,12,2,12,0,0,9f67ff9c4dc23a63379de1b8b1979a50895c6640,0,0,0,0,0,
+20200310,PA,12,,,,,,,,,,,,Invalid DateTime,Invalid DateTime,,,,42,2,0,12,12,2,12,0,0,8047c05d5c9d98f192c42406b8af5bc7e1405d6c,0,0,0,0,0,
