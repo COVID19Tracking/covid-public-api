@@ -145,51 +145,6 @@
         ]
       }
     },
-    "/api/v1/internal/cdc-tests.{format}": {
-      "get": {
-        "tags": [
-          "Internal Endpoints"
-        ],
-        "description": "Data on the CDC's public testing initiatives.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CDCTests"
-                  }
-                }
-              },
-              "text/csv": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CDCTests"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "parameters": [
-          {
-            "name": "format",
-            "in": "path",
-            "required": true,
-            "style": "simple",
-            "explode": false,
-            "schema": {
-              "type": "string",
-              "example": "json"
-            },
-            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
-          }
-        ]
-      }
-    },
     "/api/v1/us/daily.{format}": {
       "get": {
         "tags": [
@@ -981,35 +936,6 @@
             "description": "URL of the volunteer's website.",
             "nullable": true,
             "example": ""
-          }
-        }
-      },
-      "CDCTests": {
-        "type": "object",
-        "properties": {
-          "dateCollected": {
-            "type": "string",
-            "description": "Date.",
-            "nullable": false,
-            "example": "2020-04-05"
-          },
-          "cdcLabs": {
-            "type": "number",
-            "description": "Number of tests from CDC labs.",
-            "nullable": false,
-            "example": 10
-          },
-          "usPubHealthLabs": {
-            "type": "number",
-            "description": "Number of tests from public health labs.",
-            "nullable": false,
-            "example": 10
-          },
-          "dailyTotal": {
-            "type": "number",
-            "description": "Number of tests total tests reported by the CDC.",
-            "nullable": false,
-            "example": 10
           }
         }
       },

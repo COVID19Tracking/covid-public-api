@@ -20,13 +20,6 @@ Type Volunteers {
   website: String
 }
 
-Type CDCTests {
-  dateCollected: Date
-  cdcLabs: Int
-  usPubHealthLabs: Int
-  dailyTotal: Int
-}
-
 Type Us {
   date: Int
   states: Int
