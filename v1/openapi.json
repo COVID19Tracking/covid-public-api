@@ -1199,20 +1199,26 @@
             "nullable": true,
             "example": ""
           },
-          "blackANHPINotes": {
+          "blackANHPIPosNotes": {
             "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "blackPosNotes": {
-            "type": "number",
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "blackANHPIDeathNotes": {
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "blackDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1271,20 +1277,26 @@
             "nullable": true,
             "example": ""
           },
-          "asianANHPINotes": {
+          "asianANHPIPosNotes": {
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "asianANHPIDeathNotes": {
             "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "asianPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "asianDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1301,8 +1313,20 @@
             "nullable": true,
             "example": ""
           },
+          "aianANHPIPosNotes": {
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
           "aianPctPop": {
             "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "aianANHPIDeathNotes": {
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1343,20 +1367,14 @@
             "nullable": true,
             "example": ""
           },
-          "aianANHPINotes": {
+          "aianPosNotes": {
             "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
-          "aianPosNotes": {
-            "type": "number",
-            "description": "",
-            "nullable": true,
-            "example": ""
-          },
           "aianDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1415,20 +1433,26 @@
             "nullable": true,
             "example": ""
           },
-          "nhpiANHPINotes": {
+          "nhpiANHPIPosNotes": {
             "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nhpiPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nhpiDeathNotes": {
-            "type": "number",
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "nhpiANHPIDeathNotes": {
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1475,6 +1499,12 @@
             "nullable": true,
             "example": ""
           },
+          "twoANHPIPosNotes": {
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
           "twoPosCaution": {
             "type": "boolean",
             "description": "",
@@ -1487,20 +1517,20 @@
             "nullable": true,
             "example": ""
           },
-          "twoANHPINotes": {
+          "twoANHPIDeathNotes": {
             "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "twoPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "twoDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1559,20 +1589,26 @@
             "nullable": true,
             "example": ""
           },
-          "whiteANHPINotes": {
+          "whiteANHPIPosNotes": {
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "whiteANHPIDeathNotes": {
             "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "whitePosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "whiteDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1619,6 +1655,18 @@
             "nullable": true,
             "example": ""
           },
+          "otherANHPIPosNotes": {
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "otherANHPIDeathNotes": {
+            "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
           "otherPosCaution": {
             "type": "boolean",
             "description": "",
@@ -1631,20 +1679,14 @@
             "nullable": true,
             "example": ""
           },
-          "otherANHPINotes": {
+          "otherPosNotes": {
             "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
-          "otherPosNotes": {
-            "type": "number",
-            "description": "",
-            "nullable": true,
-            "example": ""
-          },
           "otherDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1710,13 +1752,13 @@
             "example": ""
           },
           "latinXPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "latinXDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1877,25 +1919,25 @@
             "example": ""
           },
           "blackANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "blackANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "blackPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "blackDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -1961,25 +2003,25 @@
             "example": ""
           },
           "asianANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "asianANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "asianPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "asianDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -2045,25 +2087,25 @@
             "example": ""
           },
           "aianANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "aianANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "aianPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "aianDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -2129,25 +2171,25 @@
             "example": ""
           },
           "nhpiANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nhpiANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nhpiPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nhpiDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -2213,25 +2255,25 @@
             "example": ""
           },
           "twoANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "twoANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "twoPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "twoDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -2297,25 +2339,25 @@
             "example": ""
           },
           "whiteANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "whiteANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "whitePosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "whiteDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -2381,25 +2423,25 @@
             "example": ""
           },
           "otherANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "otherANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "otherPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "otherDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -2465,25 +2507,25 @@
             "example": ""
           },
           "latinXANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "latinXANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "latinXPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "latinXDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
@@ -2549,25 +2591,25 @@
             "example": ""
           },
           "nonhispanicANHPIPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nonhispanicANHPIDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nonhispanicPosNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
           },
           "nonhispanicDeathNotes": {
-            "type": "number",
+            "type": "string",
             "description": "",
             "nullable": true,
             "example": ""
