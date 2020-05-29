@@ -385,7 +385,7 @@
     "/api/v1/race/states-separate.{format}": {
       "get": {
         "tags": [
-          "Racial data"
+          "Racial data tracker"
         ],
         "description": "Racial data on states who separate race and ethnicity",
         "responses": {
@@ -430,7 +430,7 @@
     "/api/v1/internal/race-homepage.{format}": {
       "get": {
         "tags": [
-          "Internal Endpoints"
+          "Racial data tracker"
         ],
         "description": "Top-line data for the COVID Racial Data Tracker homepage",
         "responses": {
@@ -475,7 +475,7 @@
     "/api/v1/states/info.{format}": {
       "get": {
         "tags": [
-          "Additional Endpoints"
+          "States Current and Historical Data"
         ],
         "description": "States information.",
         "responses": {
@@ -520,7 +520,7 @@
     "/api/v1/states/{state}/info.{format}": {
       "get": {
         "tags": [
-          "Additional Endpoints"
+          "States Current and Historical Data"
         ],
         "description": "The metadata about the specified state",
         "responses": {
@@ -850,7 +850,7 @@
     "/api/v1/status.{format}": {
       "get": {
         "tags": [
-          "Internal Endpoints"
+          "Status"
         ],
         "description": "The current status of the API.",
         "responses": {
