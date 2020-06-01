@@ -150,7 +150,7 @@
         "tags": [
           "US Current and Historical Data"
         ],
-        "description": "US historic values.",
+        "description": "Historic US values",
         "responses": {
           "200": {
             "description": "OK",
@@ -195,7 +195,7 @@
         "tags": [
           "US Current and Historical Data"
         ],
-        "description": "US current values.",
+        "description": "Current US values",
         "responses": {
           "200": {
             "description": "OK",
@@ -240,7 +240,7 @@
         "tags": [
           "US Current and Historical Data"
         ],
-        "description": "US current values.",
+        "description": "US historic values for a date",
         "responses": {
           "200": {
             "description": "OK",
@@ -432,7 +432,7 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "States information.",
+        "description": "State metadata",
         "responses": {
           "200": {
             "description": "OK",
@@ -477,7 +477,7 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "The metadata about the specified state",
+        "description": "Metadata about a specific state",
         "responses": {
           "200": {
             "description": "OK",
@@ -534,7 +534,7 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "States historical data.",
+        "description": "Historic values for all states",
         "responses": {
           "200": {
             "description": "OK",
@@ -579,7 +579,7 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "State current values.",
+        "description": "Current values for all states",
         "responses": {
           "200": {
             "description": "OK",
@@ -624,7 +624,7 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "State current values.",
+        "description": "Current values for a single state",
         "responses": {
           "200": {
             "description": "OK",
@@ -681,7 +681,7 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "State daily values.",
+        "description": "Historic values for a single state",
         "responses": {
           "200": {
             "description": "OK",
@@ -738,7 +738,7 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "State date values",
+        "description": "Values for a single state on a specific date",
         "responses": {
           "200": {
             "description": "OK",
@@ -807,7 +807,7 @@
         "tags": [
           "Status"
         ],
-        "description": "The current status of the API.",
+        "description": "API status",
         "responses": {
           "200": {
             "description": "OK",
@@ -944,145 +944,145 @@
         "properties": {
           "date": {
             "type": "integer",
-            "description": "",
+            "description": "Date for which the daily totals were collected.",
             "nullable": false,
             "example": 20200501
           },
           "states": {
             "type": "integer",
-            "description": "",
+            "description": "Number of states included in the data for this day.",
             "nullable": false,
             "example": 50
           },
           "positive": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have tested positive for COVID-19 so far.",
             "nullable": true,
             "example": 50
           },
           "negative": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have tested negative for COVID-19 so far.",
             "nullable": true,
             "example": 50
           },
           "pending": {
             "type": "integer",
-            "description": "",
+            "description": "Number of tests whose results have yet to be determined.",
             "nullable": true,
             "example": 50
           },
           "hospitalizedCurrently": {
             "type": "integer",
-            "description": "",
+            "description": "Number of people in hospital for COVID-19 on this day.",
             "nullable": true,
             "example": 50
           },
           "hospitalizedCumulative": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have gone to the hospital for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
             "example": 50
           },
           "inIcuCurrently": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people in the ICU for COVID-19 on this day.",
             "nullable": true,
             "example": 50
           },
           "inIcuCumulative": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have gone to the ICU for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
             "example": 50
           },
           "onVentilatorCurrently": {
             "type": "integer",
-            "description": "",
+            "description": "Number of people using a ventilator for COVID-19 on this day.",
             "nullable": true,
             "example": 50
           },
           "onVentilatorCumulative": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have used a ventilator for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
             "example": 50
           },
           "recovered": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have recovered from COVID-19 so far.",
             "nullable": true,
             "example": 50
           },
           "dateChecked": {
             "type": "string",
-            "description": "",
+            "description": "DateTime this data was entered into our database.",
             "nullable": true,
             "example": 50
           },
           "death": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have died as a result of COVID-19 so far.",
             "nullable": true,
             "example": 50
           },
           "hospitalized": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "total": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "totalTestResults": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "posNeg": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "deathIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "hospitalizedIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "negativeIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "positiveIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "totalTestResultsIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": 50
           },
           "lastModified": {
             "type": "string",
-            "description": "",
+            "description": "Deprecated",
             "nullable": false,
             "example": "2020-05-27T12:18:23.392Z"
           },
@@ -2733,127 +2733,127 @@
         "properties": {
           "date": {
             "type": "integer",
-            "description": "",
+            "description": "Date for which the daily totals were collected.",
             "nullable": false,
             "example": 20200501
           },
           "state": {
             "type": "string",
-            "description": "",
+            "description": "Two-letter code for the state.",
             "nullable": false,
             "example": ""
           },
           "fips": {
             "type": "string",
-            "description": "",
+            "description": "Census FIPS code for the state.",
             "nullable": true,
             "example": ""
           },
           "positive": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have tested positive for COVID-19 so far.",
             "nullable": true,
             "example": ""
           },
           "positiveIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "negative": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have tested negative for COVID-19 so far.",
             "nullable": true,
             "example": ""
           },
           "negativeIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "pending": {
             "type": "integer",
-            "description": "",
+            "description": "Number of tests whose results have yet to be determined.",
             "nullable": true,
             "example": ""
           },
           "total": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "totalTestResults": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "totalTestResultsIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "posNeg": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "hospitalizedCurrently": {
             "type": "integer",
-            "description": "",
+            "description": "Number of people in hospital for COVID-19 on this day.",
             "nullable": true,
             "example": ""
           },
           "hospitalizedCumulative": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have gone to the hospital for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
             "example": ""
           },
           "inIcuCurrently": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people in the ICU for COVID-19 on this day.",
             "nullable": true,
             "example": ""
           },
           "inIcuCumulative": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have gone to the ICU for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
             "example": ""
           },
           "onVentilatorCurrently": {
             "type": "integer",
-            "description": "",
+            "description": "Number of people using a ventilator for COVID-19 on this day.",
             "nullable": true,
             "example": ""
           },
           "onVentilatorCumulative": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have used a ventilator for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
             "example": ""
           },
           "recovered": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have recovered from COVID-19 so far.",
             "nullable": true,
             "example": ""
           },
           "dataQualityGrade": {
             "type": "string",
-            "description": "",
+            "description": "Grade assigned to the state based on the quality of their data reporting.",
             "nullable": true,
             "example": ""
           },
           "lastUpdateEt": {
             "type": "string",
-            "description": "",
+            "description": "Last time the day's data was updated.",
             "nullable": true,
             "example": ""
           },
@@ -2861,47 +2861,47 @@
             "type": "string",
             "description": "",
             "nullable": true,
-            "example": ""
+            "example": "Deprecated"
           },
           "checkTimeEt": {
             "type": "string",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "death": {
             "type": "integer",
-            "description": "",
+            "description": "Total number of people who have died as a result of COVID-19 so far.",
             "nullable": true,
             "example": ""
           },
           "deathIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "hospitalized": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "hospitalizedIncrease": {
             "type": "integer",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "dateChecked": {
             "type": "string",
-            "description": "",
+            "description": "Deprecated",
             "nullable": true,
             "example": ""
           },
           "hash": {
             "type": "string",
-            "description": "",
+            "description": "A hash of the current record.",
             "nullable": true,
             "example": ""
           },
