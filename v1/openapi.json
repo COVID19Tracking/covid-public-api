@@ -15,7 +15,9 @@
         "tags": [
           "Internal Endpoints"
         ],
+        "summary": "A list of news articles the COVID Tracking Project has appeared in.",
         "description": "A list of news articles the COVID Tracking Project has appeared in.",
+        "x-public-source-url": false,
         "responses": {
           "200": {
             "description": "OK",
@@ -60,7 +62,9 @@
         "tags": [
           "Internal Endpoints"
         ],
+        "summary": "State website screenshots.",
         "description": "State website screenshots.",
+        "x-public-source-url": false,
         "responses": {
           "200": {
             "description": "OK",
@@ -105,7 +109,9 @@
         "tags": [
           "Internal Endpoints"
         ],
+        "summary": "A list of volunteers who opted in to be listed on the website.",
         "description": "A list of volunteers who opted in to be listed on the website.",
+        "x-public-source-url": false,
         "responses": {
           "200": {
             "description": "OK",
@@ -150,7 +156,9 @@
         "tags": [
           "US Current and Historical Data"
         ],
-        "description": "Historic US values",
+        "summary": "Historic US values",
+        "description": "All COVID data for the US.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -195,7 +203,9 @@
         "tags": [
           "US Current and Historical Data"
         ],
-        "description": "Current US values",
+        "summary": "Current US values",
+        "description": "The most recent COVID data for the US. The most recent data may not be from today.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -240,7 +250,9 @@
         "tags": [
           "US Current and Historical Data"
         ],
-        "description": "US historic values for a date",
+        "summary": "US historic values for a date",
+        "description": "All COVID data for the US on a specific date.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -297,7 +309,9 @@
         "tags": [
           "Racial data tracker"
         ],
+        "summary": "Racial data on states who combine race and ethnicity",
         "description": "Racial data on states who combine race and ethnicity",
+        "x-public-source-url": false,
         "responses": {
           "200": {
             "description": "OK",
@@ -342,7 +356,9 @@
         "tags": [
           "Racial data tracker"
         ],
+        "summary": "Racial data on states who separate race and ethnicity",
         "description": "Racial data on states who separate race and ethnicity",
+        "x-public-source-url": false,
         "responses": {
           "200": {
             "description": "OK",
@@ -387,7 +403,9 @@
         "tags": [
           "Racial data tracker"
         ],
+        "summary": "Top-line data for the COVID Racial Data Tracker homepage",
         "description": "Top-line data for the COVID Racial Data Tracker homepage",
+        "x-public-source-url": false,
         "responses": {
           "200": {
             "description": "OK",
@@ -432,7 +450,9 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "State metadata",
+        "summary": "State metadata",
+        "description": "Basic information about states, including notes about our methodology and the websites we use to check for data.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -477,7 +497,9 @@
         "tags": [
           "States Current and Historical Data"
         ],
+        "summary": "Metadata about a specific state",
         "description": "Metadata about a specific state",
+        "x-public-source-url": false,
         "responses": {
           "200": {
             "description": "OK",
@@ -534,7 +556,9 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "Historic values for all states",
+        "summary": "Historic values for all states",
+        "description": "Lists all COVID data available for every state since tracking started.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -579,7 +603,9 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "Current values for all states",
+        "summary": "Current values for all states",
+        "description": "The most recent COVID data for every state. The current value may be different than today.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -624,7 +650,9 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "Current values for a single state",
+        "summary": "Current values for a single state",
+        "description": "The most recent COVID data for a single state. The current value may be different than today. Use lower-case state codes in the URL.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -671,7 +699,7 @@
               "type": "string",
               "example": "ca"
             },
-            "description": "Use the two-letter state code to select the current value for a single state."
+            "description": "Use the lower-case two-letter state code to select the current value for a single state."
           }
         ]
       }
@@ -681,7 +709,9 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "Historic values for a single state",
+        "summary": "Historic values for a single state",
+        "description": "All COVID data for a single state. Use lower-case state codes in the URL.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -728,7 +758,7 @@
               "type": "string",
               "example": "ca"
             },
-            "description": "Use the two-letter state code to select the current value for a single state."
+            "description": "Use the lower-case two-letter state code to select the current value for a single state."
           }
         ]
       }
@@ -738,7 +768,9 @@
         "tags": [
           "States Current and Historical Data"
         ],
-        "description": "Values for a single state on a specific date",
+        "summary": "Values for a single state on a specific date",
+        "description": "All COVID values for a single state on a specific date. Use lower-case state codes in the URL.",
+        "x-public-source-url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#",
         "responses": {
           "200": {
             "description": "OK",
@@ -785,7 +817,7 @@
               "type": "string",
               "example": "ca"
             },
-            "description": "Use the two-letter state code to select the current value for a single state."
+            "description": "Use the lower-case two-letter state code to select the current value for a single state."
           },
           {
             "name": "date",
@@ -807,7 +839,8 @@
         "tags": [
           "Status"
         ],
-        "description": "API status",
+        "summary": "API status",
+        "x-public-source-url": false,
         "responses": {
           "200": {
             "description": "OK",
