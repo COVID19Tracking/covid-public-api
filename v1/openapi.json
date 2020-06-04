@@ -2859,9 +2859,9 @@
           },
           "dateModified": {
             "type": "string",
-            "description": "",
+            "description": "Deprecated, use lastUpdateEt instead",
             "nullable": true,
-            "example": "Deprecated"
+            "example": ""
           },
           "checkTimeEt": {
             "type": "string",
