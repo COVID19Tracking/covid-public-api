@@ -1,4 +1,2 @@
 state,notes,covid19Site,covid19SiteSecondary,twitter,covid19SiteOld,name,fips,pui,pum
-AL,"Negatives = (Totals - Positives) 
-Positives occasionally update before totals do; do not revise negatives down, keep the last calculated negative.
-Last Updated (Local Time) = (current date + time = 00:00)",https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,https://dph1.adph.state.al.us/covid-19/,@alpublichealth,http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html,Alabama,01,,false
+AL,,https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,https://dph1.adph.state.al.us/covid-19/,@alpublichealth,http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html,Alabama,01,,false
