@@ -2735,6 +2735,12 @@
             "nullable": true,
             "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
           },
+          "covid19SiteTertiary": {
+            "type": "string",
+            "description": "URL to the state's tertiary COVID website",
+            "nullable": true,
+            "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
+          },
           "twitter": {
             "type": "string",
             "description": "The state's COVID-related Twitter handle",

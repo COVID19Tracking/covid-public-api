@@ -1,5 +1,5 @@
-state,notes,covid19Site,covid19SiteSecondary,twitter,covid19SiteOld,name,fips,pui,pum
+state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
 CT,"Negative = Total - Positive.  
 Positives occasionally update before totals do; we do not revise negatives down, keep the last calculated negative.
 As of May 24, Connecticut is reporting PCR specimens tested. Because some people may be tested more than once, this number is probably higher than the number of people tested.
-As of May 29, CHA changed to only reporting the number of patients with laboratory-confirmed COVID-19; data for previous dates include patients with laboratory-confirmed or suspected COVID-19. This impacts the numbers for cumulative hospitalizations and recoveries.",https://data.ct.gov/coronavirus,,@ctdph,https://portal.ct.gov/Coronavirus,Connecticut,09,,false
+As of May 29, CHA changed to only reporting the number of patients with laboratory-confirmed COVID-19; data for previous dates include patients with laboratory-confirmed or suspected COVID-19. This impacts the numbers for cumulative hospitalizations and recoveries.",https://data.ct.gov/coronavirus,,,@ctdph,https://portal.ct.gov/Coronavirus,Connecticut,09,,false

@@ -1,3 +1,3 @@
-state,notes,covid19Site,covid19SiteSecondary,twitter,covid19SiteOld,name,fips,pui,pum
+state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
 NJ,"Positive count includes deaths. Hospitalization + ICU counts include both positive cases and persons under investigation. As of May 11, New Jersey is reporting total PCR specimens tested.
-On May 16, New Jersey had a significant jump in recovered (about 7,000) due to backfilling previous days after a shift in how this figure was reported on April 28.",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,New Jersey,34,,false
+On May 16, New Jersey had a significant jump in recovered (about 7,000) due to backfilling previous days after a shift in how this figure was reported on April 28.",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,New Jersey,34,,false
