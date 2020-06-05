@@ -943,6 +943,11 @@
             "nullable": false,
             "example": ""
           },
+          "tertiary": {
+            "type": "boolean",
+            "nullable": false,
+            "example": ""
+          },
           "date": {
             "type": "string",
             "nullable": false,
