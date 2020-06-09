@@ -2831,7 +2831,7 @@
           },
           "totalTestResults": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Total Test Results Provided by the State",
             "nullable": true,
             "example": ""
           },
