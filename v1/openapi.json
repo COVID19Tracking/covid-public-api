@@ -2984,6 +2984,30 @@
             "description": "Deprecated",
             "nullable": true,
             "example": ""
+          },
+          "totalTestsViral": {
+            "type": "integer",
+            "description": "Total number of PCR tests performed.",
+            "nullable": true,
+            "example": ""
+          },
+          "positiveTestsViral": {
+            "type": "integer",
+            "description": "Total number of positive PCR tests.",
+            "nullable": true,
+            "example": ""
+          },
+          "negativeTestsViral": {
+            "type": "integer",
+            "description": "Total number of negative PCR tests.",
+            "nullable": true,
+            "example": ""
+          },
+          "positiveCasesViral": {
+            "type": "integer",
+            "description": "Total number of positive cases measured with PCR tests.",
+            "nullable": true,
+            "example": ""
           }
         }
       },

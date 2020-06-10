@@ -367,6 +367,10 @@ Type States {
   positiveScore: Int
   score: Int
   grade: String
+  totalTestsViral: Int
+  positiveTestsViral: Int
+  negativeTestsViral: Int
+  positiveCasesViral: Int
 }
 
 Type Status {
