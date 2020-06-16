@@ -104,6 +104,65 @@
         ]
       }
     },
+    "/api/v1/states/{state}/screenshots.{format}": {
+      "get": {
+        "tags": [
+          "Internal endpoints"
+        ],
+        "summary": "Screenshot values for a single state",
+        "description": "Single state website screenshots.",
+        "x-public-source-url": false,
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Screenshots"
+                  }
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Screenshots"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "format",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "json"
+            },
+            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "example": "ca"
+            },
+            "description": "Use the lower-case two-letter state code to select the current value for a single state."
+          }
+        ]
+      }
+    },
     "/api/v1/internal/volunteers.{format}": {
       "get": {
         "tags": [
