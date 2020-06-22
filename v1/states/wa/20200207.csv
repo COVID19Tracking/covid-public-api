@@ -1,2 +1,2 @@
 date,state,positive,negative,pending,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,dateModified,checkTimeEt,death,hospitalized,dateChecked,totalTestsViral,positiveTestsViral,negativeTestsViral,positiveCasesViral,fips,positiveIncrease,negativeIncrease,total,totalTestResults,totalTestResultsIncrease,posNeg,deathIncrease,hospitalizedIncrease,hash,commercialScore,negativeRegularScore,negativeScore,positiveScore,score,grade
-20200207,WA,2,,,,,,,,,,,,,,,,,,,,,53,1,0,2,2,1,2,0,0,efa09e5efcfbe7fe212e37518b4209bec7216724,0,0,0,0,0,
+20200207,WA,12,0,,,,,,,,,,,,,,,,,,,,53,1,0,12,12,1,12,0,0,1203031339d3459c09859136a5f3b8d11dc9a9f2,0,0,0,0,0,
