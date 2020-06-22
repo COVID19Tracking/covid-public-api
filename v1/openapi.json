@@ -2860,7 +2860,7 @@
           },
           "positiveIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Daily Difference in positive",
             "nullable": true,
             "example": ""
           },
@@ -2896,7 +2896,7 @@
           },
           "totalTestResultsIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Daily Difference in totalTestResults",
             "nullable": true,
             "example": ""
           },
@@ -2980,7 +2980,7 @@
           },
           "deathIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Daily difference in death",
             "nullable": true,
             "example": ""
           },
@@ -2992,7 +2992,7 @@
           },
           "hospitalizedIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Daily difference in hospitalized",
             "nullable": true,
             "example": ""
           },
