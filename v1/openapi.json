@@ -2868,6 +2868,7 @@
             "description": "Daily Difference in positive",
             "nullable": true,
             "example": "",
+            "x-sheetColumn": "Positive",
             "x-internalNote": "This field is computed by subtracting the proir date's value for positive from the current date"
           },
           "negative": {
@@ -2883,6 +2884,7 @@
             "description": "Deprecated",
             "nullable": true,
             "example": "",
+            "x-sheetColumn": "Negative",
             "x-internalNote": "This field is computed by subtracting the proir date's value for negative from the current date"
           },
           "pending": {
@@ -2897,6 +2899,7 @@
             "description": "Deprecated",
             "nullable": true,
             "example": "",
+            "x-sheetColumn": "\"Positive\", \"Negative\" & \"Pending\"",
             "x-deprecated": true,
             "x-internalNote": "This is a deprecated that adds up Positive, Negative, and Pending spreadsheet fields."
           },
@@ -2905,6 +2908,7 @@
             "description": "Total Test Results Provided by the State",
             "nullable": true,
             "example": "",
+            "x-sheetColumn": "\"Positive\" & \"Negative\"",
             "x-internalNote": "Adds up Positive and Negative spreadsheet fields."
           },
           "totalTestResultsIncrease": {
@@ -2912,6 +2916,7 @@
             "description": "Daily Difference in totalTestResults",
             "nullable": true,
             "example": "",
+            "x-sheetColumn": "\"Positive\" & \"Negative\"",
             "x-internalNote": "This field is computed by subtracting the proir date's value for `totalTestResults` from the current date"
           },
           "posNeg": {
@@ -2919,6 +2924,7 @@
             "description": "Deprecated",
             "nullable": true,
             "example": "",
+            "x-sheetColumn": "\"Positive\" & \"Negative\"",
             "x-deprecated": true,
             "x-internalNote": "Adds up Positive and Negative spreadsheet fields."
           },
@@ -2976,7 +2982,7 @@
             "description": "Grade assigned to the state based on the quality of their data reporting.",
             "nullable": true,
             "example": "",
-            "x-sheetColumn": "RecovData Quality Gradeered"
+            "x-sheetColumn": "Data Quality Grade"
           },
           "lastUpdateEt": {
             "type": "string",
@@ -2991,6 +2997,7 @@
             "nullable": true,
             "example": "",
             "x-deprecated": true,
+            "x-sheetColumn": "Last Update ET",
             "x-internalNote": "This is a re-formatted value of \"Last Update ET\" forced into UTC format for historic reasons."
           },
           "checkTimeEt": {
@@ -2999,6 +3006,7 @@
             "nullable": true,
             "example": "",
             "x-deprecated": true,
+            "x-sheetColumn": "Last Update ET",
             "x-internalNote": "This is a re-formatted value of \"Last Update ET\" forced into LL/dd HH:mm America/New_York format for historic reasons."
           },
           "death": {
@@ -3013,6 +3021,7 @@
             "description": "Daily difference in death",
             "nullable": true,
             "example": "",
+            "x-sheetColumn": "Deaths",
             "x-internalNote": "This field is computed by subtracting the proir date's value for `death` from the current date"
           },
           "hospitalized": {
@@ -3021,7 +3030,7 @@
             "nullable": true,
             "example": "",
             "x-deprecated": true,
-            "x-internalNote": "This is an old label for hospitalized."
+            "x-internalNote": "Old label for `hospitalizedCumulative`."
           },
           "hospitalizedIncrease": {
             "type": "integer",
@@ -3029,7 +3038,7 @@
             "nullable": true,
             "example": "",
             "x-deprecated": true,
-            "x-internalNote": "This is an old label for hospitalized."
+            "x-internalNote": "An increase compuation for the old label for hospitalized."
           },
           "dateChecked": {
             "type": "string",
@@ -3037,7 +3046,8 @@
             "nullable": true,
             "example": "",
             "x-deprecated": true,
-            "x-internalNote": "This is an old label for \"Last Update ET\"."
+            "x-internalNote": "This is an old label for \"Last Update ET\".",
+            "x-sheetColumn": "Last Update ET"
           },
           "hash": {
             "type": "string",
