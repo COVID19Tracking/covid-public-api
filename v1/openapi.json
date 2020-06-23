@@ -2838,235 +2838,284 @@
             "type": "integer",
             "description": "Date for which the daily totals were collected.",
             "nullable": false,
-            "example": 20200501
+            "example": 20200501,
+            "x-sheetColumn": "Date"
           },
           "state": {
             "type": "string",
             "description": "Two-letter code for the state.",
             "nullable": false,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "State"
           },
           "fips": {
             "type": "string",
             "description": "Census FIPS code for the state.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-internalNote": "This is computed from [this static list of FIPS codes](https://github.com/COVID19Tracking/covid-public-api-build/blob/master/config/state-names.js)"
           },
           "positive": {
             "type": "integer",
             "description": "Total number of people who have tested positive for COVID-19 so far.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Positive",
+            "x-websiteLabel": "Cases"
           },
           "positiveIncrease": {
             "type": "integer",
             "description": "Daily Difference in positive",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-internalNote": "This field is computed by subtracting the proir date's value for positive from the current date"
           },
           "negative": {
             "type": "integer",
             "description": "Total number of people who have tested negative for COVID-19 so far.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Negative",
+            "x-websiteLabel": "Test: Negative or \"negative test results\""
           },
           "negativeIncrease": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-internalNote": "This field is computed by subtracting the proir date's value for negative from the current date"
           },
           "pending": {
             "type": "integer",
             "description": "Number of tests whose results have yet to be determined.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Pending"
           },
           "total": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true,
+            "x-internalNote": "This is a deprecated that adds up Positive, Negative, and Pending spreadsheet fields."
           },
           "totalTestResults": {
             "type": "integer",
             "description": "Total Test Results Provided by the State",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-internalNote": "Adds up Positive and Negative spreadsheet fields."
           },
           "totalTestResultsIncrease": {
             "type": "integer",
             "description": "Daily Difference in totalTestResults",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-internalNote": "This field is computed by subtracting the proir date's value for `totalTestResults` from the current date"
           },
           "posNeg": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true,
+            "x-internalNote": "Adds up Positive and Negative spreadsheet fields."
           },
           "hospitalizedCurrently": {
             "type": "integer",
             "description": "Number of people in hospital for COVID-19 on this day.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Hospitalized – Currently"
           },
           "hospitalizedCumulative": {
             "type": "integer",
             "description": "Total number of people who have gone to the hospital for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Hospitalized – Cumulative"
           },
           "inIcuCurrently": {
             "type": "integer",
             "description": "Total number of people in the ICU for COVID-19 on this day.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "In ICU – Currently"
           },
           "inIcuCumulative": {
             "type": "integer",
             "description": "Total number of people who have gone to the ICU for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "In ICU – Cumulative"
           },
           "onVentilatorCurrently": {
             "type": "integer",
             "description": "Number of people using a ventilator for COVID-19 on this day.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "On Ventilator – Currently"
           },
           "onVentilatorCumulative": {
             "type": "integer",
             "description": "Total number of people who have used a ventilator for COVID-19 so far, including those who have since recovered or died.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "On Ventilator – Cumulative"
           },
           "recovered": {
             "type": "integer",
             "description": "Total number of people who have recovered from COVID-19 so far.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Recovered"
           },
           "dataQualityGrade": {
             "type": "string",
             "description": "Grade assigned to the state based on the quality of their data reporting.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "RecovData Quality Gradeered"
           },
           "lastUpdateEt": {
             "type": "string",
             "description": "Last time the day's data was updated.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Last Update ET"
           },
           "dateModified": {
             "type": "string",
             "description": "Deprecated, use lastUpdateEt instead",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true,
+            "x-internalNote": "This is a re-formatted value of \"Last Update ET\" forced into UTC format for historic reasons."
           },
           "checkTimeEt": {
             "type": "string",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true,
+            "x-internalNote": "This is a re-formatted value of \"Last Update ET\" forced into LL/dd HH:mm America/New_York format for historic reasons."
           },
           "death": {
             "type": "integer",
             "description": "Total number of people who have died as a result of COVID-19 so far.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Deaths"
           },
           "deathIncrease": {
             "type": "integer",
             "description": "Daily difference in death",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-internalNote": "This field is computed by subtracting the proir date's value for `death` from the current date"
           },
           "hospitalized": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true,
+            "x-internalNote": "This is an old label for hospitalized."
           },
           "hospitalizedIncrease": {
             "type": "integer",
             "description": "Daily difference in hospitalized",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true,
+            "x-internalNote": "This is an old label for hospitalized."
           },
           "dateChecked": {
             "type": "string",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true,
+            "x-internalNote": "This is an old label for \"Last Update ET\"."
           },
           "hash": {
             "type": "string",
-            "description": "A hash of the current record.",
+            "description": "Deprecated - A hash of the current record.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true,
+            "x-internalNote": "A hash we provide for consumers so they can invalidate their cache if the values of this row has changed."
           },
           "commercialScore": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true
           },
           "negativeRegularScore": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true
           },
           "negativeScore": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true
           },
           "positiveScore": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true
           },
           "score": {
             "type": "integer",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true
           },
           "grade": {
             "type": "string",
             "description": "Deprecated",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-deprecated": true
           },
           "totalTestsViral": {
             "type": "integer",
             "description": "Total number of PCR tests performed.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Total Tests (PCR)"
           },
           "positiveTestsViral": {
             "type": "integer",
             "description": "Total number of positive PCR tests.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Positive Tests (PCR)"
           },
           "negativeTestsViral": {
             "type": "integer",
             "description": "Total number of negative PCR tests.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Negative Tests (PCR)"
           },
           "positiveCasesViral": {
             "type": "integer",
             "description": "Total number of positive cases measured with PCR tests.",
             "nullable": true,
-            "example": ""
+            "example": "",
+            "x-sheetColumn": "Positive Cases (PCR)"
           }
         }
       },
