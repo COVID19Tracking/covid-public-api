@@ -55,7 +55,8 @@ As of May 7, 2020, confirmed and probable cases are included in the case totals.
 KY,"Negative = Total - Positive.
 Positives sometimes update before totals do; when this happens, we keep the last calculated negative. As of April 27, Kentucky is reporting people tested.
 On May 23, KY revised down the total number of tests.
-As of May 27, KY started separating serology tests from PCR. This might cause the number of total tests to go down compared to the previous day",https://kygeonet.maps.arcgis.com/apps/opsdashboard/index.html#/543ac64bc40445918cf8bc34dc40e334,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,,@CHFSKy,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,Kentucky,21,,false
+As of May 27, KY started separating serology tests from PCR. This might cause the number of total tests to go down compared to the previous day.
+On July 1, KY revised down the cumulative hospitalizations by 12",https://kygeonet.maps.arcgis.com/apps/opsdashboard/index.html#/543ac64bc40445918cf8bc34dc40e334,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,https://chfs.ky.gov/agencies/dph/covid19/COVID19DailyReport.pdf,@CHFSKy,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,Kentucky,21,,false
 LA,"Total = State Lab + Commercial Lab, Negative = Total - Positive
 From 4/20 through 4/24 LA paused reporting commercial testing data to do a review of the data. On June 18, a notice on LA dashboard said ""LDH is reviewing all data and will not be updating its dashboard today.""
 On June 19th, LDH removed 1666 duplicate and non resident cases after implementing a new de-duplicaton process.",http://ldh.la.gov/Coronavirus/,https://services5.arcgis.com/O5K6bb5dZVZcTo5M/arcgis/rest/services/Combined_COVID_Reporting/FeatureServer/0/query?groupByFieldsForStatistics=Measure&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%7D%5D&where=1%3D1,,@LADeptHealth,http://ldh.la.gov/Coronavirus/,Louisiana,22,,false
