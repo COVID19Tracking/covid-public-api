@@ -1,3 +1,6 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
 ID,"Negative = Totals - Positives.  Positives sometimes update before totals do. 
-Total includes Oregon residents tested in Idaho.  As of April 9, Idaho separately reports both probable and confirmed cases. Idaho reports test counts in specimens. On June 5, Idaho received a large batch of previously unreported tests.",https://coronavirus.idaho.gov/,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard_V2/Story1?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y&%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true,,@IDHW,https://coronavirus.idaho.gov/,Idaho,16,,false
+Total includes Oregon residents tested in Idaho.  
+As of April 9, Idaho separately reports both probable and confirmed cases. Idaho reports test counts in specimens. 
+On June 5, Idaho received a large batch of previously unreported tests.
+On July 3, ID revised down the Recovered number by about 1,500 noting that ""an error in auto-calculation was discovered.""",https://coronavirus.idaho.gov/,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard_V2/Story1?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y&%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true,,@IDHW,https://coronavirus.idaho.gov/,Idaho,16,,false
