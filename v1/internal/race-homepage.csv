@@ -1,2 +1,2 @@
-blackLivesLost,blackPercentOfPopulation,blackPercentOfDeath,blackLivesExpectedMultiplier,statesReportingCases,statesReportingDeaths
-"26,708",0.1267,0.2329585598,1.838662666,49,48
+blackLivesLost,blackPercentOfPopulation,blackPercentOfDeath,blackLivesExpectedMultiplier,statesReportingCases,statesReportingDeaths,blackMortalityRate,aianMortalityRate,nhpiMortalityRate,twoMortalityRate,whiteMortalityRate,otherMortalityRate,latinXMortalityRate,blackwhiteRateRatio
+"26,708",0.1267,0.2329585598,1.838662666,49,48,64.7,30.6,20.9,2.5,25.4,25.1,29.7,2.5

@@ -315,6 +315,14 @@ Type RaceHomepage {
   blackLivesExpectedMultiplier: Float
   statesReportingCases: Int
   statesReportingDeaths: Int
+  blackMortalityRate: Float
+  aianMortalityRate: Float
+  nhpiMortalityRate: Float
+  twoMortalityRate: Float
+  whiteMortalityRate: Float
+  otherMortalityRate: Float
+  latinXMortalityRate: Float
+  blackwhiteRateRatio: Float
 }
 
 Type StatesInfo {

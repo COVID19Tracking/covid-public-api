@@ -2757,6 +2757,54 @@
             "description": "The number of states reporting deaths broken down by race or ethnicity.",
             "nullable": false,
             "example": ""
+          },
+          "blackMortalityRate": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "aianMortalityRate": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "nhpiMortalityRate": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "twoMortalityRate": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "whiteMortalityRate": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "otherMortalityRate": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "latinXMortalityRate": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
+          },
+          "blackwhiteRateRatio": {
+            "type": "number",
+            "description": "",
+            "nullable": false,
+            "example": ""
           }
         }
       },
