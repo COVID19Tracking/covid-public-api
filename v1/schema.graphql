@@ -380,6 +380,8 @@ Type States {
   positiveTestsViral: Int
   negativeTestsViral: Int
   positiveCasesViral: Int
+  deathConfirmed: Int
+  deathProbable: Int
 }
 
 Type Status {
