@@ -758,7 +758,7 @@
               "type": "string",
               "example": "ca"
             },
-            "description": "Use the lower-case two-letter state code to select the current value for a single state."
+            "description": "Two-letter abbreviation for the state or territory."
           }
         ]
       }
@@ -817,7 +817,7 @@
               "type": "string",
               "example": "ca"
             },
-            "description": "Use the lower-case two-letter state code to select the current value for a single state."
+            "description": "Two-letter abbreviation for the state or territory."
           }
         ]
       }
@@ -876,7 +876,7 @@
               "type": "string",
               "example": "ca"
             },
-            "description": "Use the lower-case two-letter state code to select the current value for a single state."
+            "description": "Two-letter abbreviation for the state or territory."
           },
           {
             "name": "date",
@@ -1041,145 +1041,145 @@
         "properties": {
           "date": {
             "type": "integer",
-            "description": "Date for which the daily totals were collected.",
+            "description": "Date on which data was collected by The COVID Tracking Project.",
             "nullable": false,
             "example": 20200501
           },
           "states": {
             "type": "integer",
-            "description": "Number of states included in the data for this day.",
+            "description": "Number of states and territories included in the US dataset for this day.",
             "nullable": false,
             "example": 50
           },
           "positive": {
             "type": "integer",
-            "description": "Total number of people who have tested positive for COVID-19 so far.",
+            "description": "Individuals with confirmed or probable COVID-19 per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": 50
           },
           "negative": {
             "type": "integer",
-            "description": "Total number of people who have tested negative for COVID-19 so far.",
+            "description": "Individuals with a completed viral test that returned a negative result. For states / territories that do not report this number directly, we compute it using one of several methods, depending on which data points the state provides.",
             "nullable": true,
             "example": 50
           },
           "pending": {
             "type": "integer",
-            "description": "Number of tests whose results have yet to be determined.",
+            "description": "Tests whose results have not yet been reported.",
             "nullable": true,
             "example": 50
           },
           "hospitalizedCurrently": {
             "type": "integer",
-            "description": "Number of people in hospital for COVID-19 on this day.",
+            "description": "Individuals who are currently hospitalized with COVID-19. Definitions vary by state / territory. Where possible, we report hospitalizations with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": 50
           },
           "hospitalizedCumulative": {
             "type": "integer",
-            "description": "Total number of people who have gone to the hospital for COVID-19 so far, including those who have since recovered or died.",
+            "description": "Total number of individuals who have ever been hospitalized with COVID-19.  Definitions vary by state / territory. Where possible, we report hospitalizations with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": 50
           },
           "inIcuCurrently": {
             "type": "integer",
-            "description": "Total number of people in the ICU for COVID-19 on this day.",
+            "description": "Individuals who are currently hospitalized in the Intensive Care Unit with COVID-19. Definitions vary by state / territory. Where possible, we report patients in the ICU with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": 50
           },
           "inIcuCumulative": {
             "type": "integer",
-            "description": "Total number of people who have gone to the ICU for COVID-19 so far, including those who have since recovered or died.",
+            "description": "Total number of individuals who have ever been hospitalized in the Intensive Care Unit with COVID-19. Definitions vary by state / territory. Where possible, we report patients in the ICU with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": 50
           },
           "onVentilatorCurrently": {
             "type": "integer",
-            "description": "Number of people using a ventilator for COVID-19 on this day.",
+            "description": "Individuals who are currently hospitalized under advanced ventilation with COVID-19. Definitions vary by state / territory. Where possible, we report patients on ventilation with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": 50
           },
           "onVentilatorCumulative": {
             "type": "integer",
-            "description": "Total number of people who have used a ventilator for COVID-19 so far, including those who have since recovered or died.",
+            "description": "Total number of individuals who have ever been hospitalized under advanced ventilation with COVID-19. Definitions vary by state / territory. Where possible, we report patients on ventilation with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": 50
           },
           "recovered": {
             "type": "integer",
-            "description": "Total number of people who have recovered from COVID-19 so far.",
+            "description": "Individuals who have recovered from COVID-19. Definitions vary by state / territory.",
             "nullable": true,
             "example": 50
           },
           "dateChecked": {
             "type": "string",
-            "description": "DateTime this data was entered into our database.",
+            "description": "Deprecated. This is an old label for *lastUpdateEt*.",
             "nullable": true,
             "example": 50
           },
           "death": {
             "type": "integer",
-            "description": "Total number of people who have died as a result of COVID-19 so far.",
+            "description": "Fatalities classified as confirmed or probable COVID-19 deaths per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": 50
           },
           "hospitalized": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Deprecated. Old label for hospitalizedCumulative.",
             "nullable": true,
             "example": 50
           },
           "total": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Deprecated. Computed by adding *positive*, *negative*, and *pending* values.",
             "nullable": true,
             "example": 50
           },
           "totalTestResults": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Computed by adding *positive* and *negative* values to work around reporting lags between positives and total tests and because some states do not report totals.",
             "nullable": true,
             "example": 50
           },
           "posNeg": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Deprecated. Computed by adding *positive* and *negative* values.",
             "nullable": true,
             "example": 50
           },
           "deathIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Increase in *death* computed by subtracting the value of *death* for the previous day from the value of *death* for the current day.",
             "nullable": true,
             "example": 50
           },
           "hospitalizedIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Increase in *hospitalizedCumulative* computed by subtracting the value of *hospitalizedCumulative* for the previous day from the value of *hospitalizedCumulative* for the current day.",
             "nullable": true,
             "example": 50
           },
           "negativeIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Increase in *negative* computed by subtracting the value of *negative* for the previous day from the value for *negative* from the current day.",
             "nullable": true,
             "example": 50
           },
           "positiveIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Increase in *positive* computed by subtracting the value of *positive* from the previous day from the value of *positive* for the current day.",
             "nullable": true,
             "example": 50
           },
           "totalTestResultsIncrease": {
             "type": "integer",
-            "description": "Deprecated",
+            "description": "Deprecated. Increase in *totalTestResults* computed by subtracting the value of *totalTestResults* for the previous day from the value of *totalTestResults* for the current day.",
             "nullable": true,
             "example": 50
           },
           "lastModified": {
             "type": "string",
-            "description": "Deprecated",
+            "description": "Deprecated. Old label for lastUpdateET.",
             "nullable": false,
             "example": "2020-05-27T12:18:23.392Z"
           },
@@ -2890,28 +2890,28 @@
         "properties": {
           "date": {
             "type": "integer",
-            "description": "Date for which the daily totals were collected.",
+            "description": "Date on which data was collected by The COVID Tracking Project.",
             "nullable": false,
             "example": 20200501,
             "x-sheetColumn": "Date"
           },
           "state": {
             "type": "string",
-            "description": "Two-letter code for the state.",
+            "description": "Two-letter abbreviation for the state or territory.",
             "nullable": false,
             "example": "",
             "x-sheetColumn": "State"
           },
           "fips": {
             "type": "string",
-            "description": "Census FIPS code for the state.",
+            "description": "Federal Information Processing Standards (FIPS) code for the state or territory.",
             "nullable": true,
             "example": "",
             "x-internalNote": "This is computed from [this static list of FIPS codes](https://github.com/COVID19Tracking/covid-public-api-build/blob/master/config/state-names.js)"
           },
           "positive": {
             "type": "integer",
-            "description": "Total number of people who have tested positive for COVID-19 so far.",
+            "description": "Individuals with confirmed or probable COVID-19 per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Positive",
@@ -2919,15 +2919,15 @@
           },
           "positiveIncrease": {
             "type": "integer",
-            "description": "Daily Difference in positive",
+            "description": "Increase in *positive* computed by subtracting the value of *positive* from the previous day from the value of *positive* for the current day.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Positive",
-            "x-internalNote": "This field is computed by subtracting the proir date's value for positive from the current date"
+            "x-internalNote": "This field is computed by subtracting the prior date's value for positive from the current date"
           },
           "negative": {
             "type": "integer",
-            "description": "Total number of people who have tested negative for COVID-19 so far.",
+            "description": "Individuals with a completed viral test that returned a negative result. For states / territories that do not report this number directly, we compute it using one of several methods, depending on which data points the state provides.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Negative",
@@ -2939,11 +2939,11 @@
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Negative",
-            "x-internalNote": "This field is computed by subtracting the proir date's value for negative from the current date"
+            "x-internalNote": "This field is computed by subtracting the prior date's value for negative from the current date"
           },
           "pending": {
             "type": "integer",
-            "description": "Number of tests whose results have yet to be determined.",
+            "description": "Tests whose results have not yet been reported.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Pending"
@@ -2955,11 +2955,11 @@
             "example": "",
             "x-sheetColumn": "\"Positive\", \"Negative\" & \"Pending\"",
             "x-deprecated": true,
-            "x-internalNote": "This is a deprecated that adds up Positive, Negative, and Pending spreadsheet fields."
+            "x-internalNote": "This is a deprecated field that adds up Positive, Negative, and Pending spreadsheet fields."
           },
           "totalTestResults": {
             "type": "integer",
-            "description": "Total Test Results Provided by the State",
+            "description": "Currently computed by adding *positive* and *negative* values to work around reporting lags between positives and total tests and because some states do not report totals.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "\"Positive\" & \"Negative\"",
@@ -2971,7 +2971,7 @@
             "nullable": true,
             "example": "",
             "x-sheetColumn": "\"Positive\" & \"Negative\"",
-            "x-internalNote": "This field is computed by subtracting the proir date's value for `totalTestResults` from the current date"
+            "x-internalNote": "Increase in *totalTestResults* computed by subtracting the value of *totalTestResults* for the previous day from the value of *totalTestResults* for the current day."
           },
           "posNeg": {
             "type": "integer",
@@ -2984,63 +2984,63 @@
           },
           "hospitalizedCurrently": {
             "type": "integer",
-            "description": "Number of people in hospital for COVID-19 on this day.",
+            "description": "Individuals who are currently hospitalized with COVID-19. Definitions vary by state / territory. Where possible, we report hospitalizations with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Hospitalized – Currently"
           },
           "hospitalizedCumulative": {
             "type": "integer",
-            "description": "Total number of people who have gone to the hospital for COVID-19 so far, including those who have since recovered or died.",
+            "description": "Total number of individuals who have ever been hospitalized with COVID-19.  Definitions vary by state / territory. Where possible, we report hospitalizations with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Hospitalized – Cumulative"
           },
           "inIcuCurrently": {
             "type": "integer",
-            "description": "Total number of people in the ICU for COVID-19 on this day.",
+            "description": "Individuals who are currently hospitalized in the Intensive Care Unit with COVID-19. Definitions vary by state / territory. Where possible, we report patients in the ICU with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "In ICU – Currently"
           },
           "inIcuCumulative": {
             "type": "integer",
-            "description": "Total number of people who have gone to the ICU for COVID-19 so far, including those who have since recovered or died.",
+            "description": "Total number of individuals who have ever been hospitalized in the Intensive Care Unit with COVID-19. Definitions vary by state / territory. Where possible, we report patients in the ICU with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "In ICU – Cumulative"
           },
           "onVentilatorCurrently": {
             "type": "integer",
-            "description": "Number of people using a ventilator for COVID-19 on this day.",
+            "description": "Individuals who are currently hospitalized under advanced ventilation with COVID-19. Definitions vary by state / territory. Where possible, we report patients on ventilation with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "On Ventilator – Currently"
           },
           "onVentilatorCumulative": {
             "type": "integer",
-            "description": "Total number of people who have used a ventilator for COVID-19 so far, including those who have since recovered or died.",
+            "description": "Total number of individuals who have ever been hospitalized under advanced ventilation with COVID-19. Definitions vary by state / territory. Where possible, we report patients on ventilation with confirmed or probable COVID-19 cases per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "On Ventilator – Cumulative"
           },
           "recovered": {
             "type": "integer",
-            "description": "Total number of people who have recovered from COVID-19 so far.",
+            "description": "Individuals who have recovered from COVID-19. Definitions vary by state / territory.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Recovered"
           },
           "dataQualityGrade": {
             "type": "string",
-            "description": "Grade assigned to the state based on the quality of their data reporting.",
+            "description": "The COVID Tracking Project grade of the completeness of the data reporting by a  state.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Data Quality Grade"
           },
           "lastUpdateEt": {
             "type": "string",
-            "description": "Last time the day's data was updated.",
+            "description": "Date and time in Eastern time the state or territory last updated the data.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Last Update ET"
@@ -3065,7 +3065,7 @@
           },
           "death": {
             "type": "integer",
-            "description": "Total number of people who have died as a result of COVID-19 so far.",
+            "description": "Fatalities classified as confirmed or probable COVID-19 deaths per the expanded CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Deaths"
@@ -3076,7 +3076,7 @@
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Deaths",
-            "x-internalNote": "This field is computed by subtracting the proir date's value for `death` from the current date"
+            "x-internalNote": "Increase in *death* computed by subtracting the value of *death* for the previous day from the value of *death* for the current day."
           },
           "hospitalized": {
             "type": "integer",
@@ -3092,7 +3092,7 @@
             "nullable": true,
             "example": "",
             "x-deprecated": true,
-            "x-internalNote": "An increase compuation for the old label for hospitalized."
+            "x-internalNote": "Increase in *hospitalized* computed by subtracting the value of *hospitalizedCumulative* for the previous day from the value of *hospitalizedCumulative* for the current day."
           },
           "dateChecked": {
             "type": "string",
@@ -3155,42 +3155,42 @@
           },
           "totalTestsViral": {
             "type": "integer",
-            "description": "Total number of PCR tests performed.",
+            "description": "Completed viral tests.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Total Tests (PCR)"
           },
           "positiveTestsViral": {
             "type": "integer",
-            "description": "Total number of positive PCR tests.",
+            "description": "Completed viral tests that returned positive results.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Positive Tests (PCR)"
           },
           "negativeTestsViral": {
             "type": "integer",
-            "description": "Total number of negative PCR tests.",
+            "description": "Completed viral tests that returned negative results.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Negative Tests (PCR)"
           },
           "positiveCasesViral": {
             "type": "integer",
-            "description": "Total number of positive cases measured with PCR tests.",
+            "description": "Individuals with a completed viral test that returned a positive result.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Positive Cases (PCR)"
           },
           "deathConfirmed": {
             "type": "integer",
-            "description": "Total number deaths of individuals with COVID-19 infection confirmed by a laboratory test. In states where the information is available, it tracks only those laboratory-confirmed deaths where COVID also contributed to the death according to the death certificate.",
+            "description": "Fatalities classified as confirmed COVID-19 deaths per the CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Deaths (confirmed)"
           },
           "deathProbable": {
             "type": "integer",
-            "description": "Total number of deaths where COVID was listed as a cause of death and there is not a laboratory test confirming COVID-19 infection",
+            "description": "Fatalities classified as probable COVID-19 deaths per the CSTE case definition of April 5th, 2020 approved by the CDC.",
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Deaths (probable)"
