@@ -107,7 +107,7 @@
     "/api/v1/states/{state}/screenshots.{format}": {
       "get": {
         "tags": [
-          "Internal endpoints"
+          "Internal Endpoints"
         ],
         "summary": "Screenshot values for a single state",
         "description": "Single state website screenshots.",
@@ -159,53 +159,6 @@
               "example": "ca"
             },
             "description": "Use the lower-case two-letter state code to select the current value for a single state."
-          }
-        ]
-      }
-    },
-    "/api/v1/internal/volunteers.{format}": {
-      "get": {
-        "tags": [
-          "Internal Endpoints"
-        ],
-        "summary": "A list of volunteers who opted in to be listed on the website.",
-        "description": "A list of volunteers who opted in to be listed on the website.",
-        "x-public-source-url": false,
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Volunteers"
-                  }
-                }
-              },
-              "text/csv": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Volunteers"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "parameters": [
-          {
-            "name": "format",
-            "in": "path",
-            "required": true,
-            "style": "simple",
-            "explode": false,
-            "schema": {
-              "type": "string",
-              "example": "json"
-            },
-            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
           }
         ]
       }
@@ -1015,23 +968,6 @@
           "size": {
             "type": "number",
             "nullable": false,
-            "example": ""
-          }
-        }
-      },
-      "Volunteers": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "Name of volunteer.",
-            "nullable": false,
-            "example": "bell hooks"
-          },
-          "website": {
-            "type": "string",
-            "description": "URL of the volunteer's website.",
-            "nullable": true,
             "example": ""
           }
         }

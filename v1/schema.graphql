@@ -16,11 +16,6 @@ Type Screenshots {
   size: Int
 }
 
-Type Volunteers {
-  name: String
-  website: String
-}
-
 Type Us {
   date: Int
   states: Int
