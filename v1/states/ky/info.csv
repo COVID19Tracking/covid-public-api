@@ -1,6 +1,11 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
 KY,"Negative = Total - Positive.
-Positives sometimes update before totals do; when this happens, we keep the last calculated negative. As of April 27, Kentucky is reporting people tested.
+Positives sometimes update before totals do; when this happens, we keep the last calculated negative. 
+
+As of April 27, Kentucky is reporting people tested.
+
 On May 23, Kentucky revised down the total number of tests.
+
 As of May 27, Kentucky started separating serology tests from PCR. This might cause the number of total tests to go down compared to the previous day.
+
 On July 1, Kentucky revised down the cumulative hospitalizations by 12",https://kygeonet.maps.arcgis.com/apps/opsdashboard/index.html#/543ac64bc40445918cf8bc34dc40e334,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,https://chfs.ky.gov/agencies/dph/covid19/COVID19DailyReport.pdf,@CHFSKy,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,Kentucky,21,,false
