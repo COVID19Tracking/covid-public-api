@@ -1,2 +1,4 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
-VI,"Virgin Islands: Positive, Negative, and Pending provided. ",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,@usvidoh,https://doh.vi.gov/,US Virgin Islands,78,,false
+VI,"Virgin Islands: Positive, Negative, and Pending provided. 
+
+On August 5, the US Virgin Islands COVID-19 page apparently reported an old count of Tested persons from 8/1, but reported a new count of Tested persons in its Situation Report. We used the number from the Situation Report. ",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,@usvidoh,https://doh.vi.gov/,US Virgin Islands,78,,false
