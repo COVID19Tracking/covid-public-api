@@ -1,0 +1,20 @@
+/api/*                                    /:splat
+/states/info.csv                          /v1/states/info.csv
+/states/daily.csv                         /v1/states/daily.csv
+/states.csv                               /v1/states/current.csv
+/us.csv                                   /v1/us/current.csv
+/us/daily.csv                             /v1/us/daily.csv
+/states/daily state=:state date=:date     /v1/states/:state/:date.json
+/statesdaily state=:state date=:date      /v1/states/:state/:date.json
+/states state=:state                      /v1/states/:state/current.json
+/us date=:date                            /v1/us/:date.json
+/us/daily date=:date                      /v1/us/:date.json
+/v1/us.json                               /v1/us/current.json
+/v1/states.json                           /v1/states/current.json
+/states/info                              /v1/states/info.json
+/states/daily                             /v1/states/daily.json
+/states.json                              /v1/states/current.json
+/states                                   /v1/states/current.json
+/us                                       /v1/us/current.json
+/us.csv                                   /v1/us/current.csv
+/us/daily                                 /v1/us/daily.json
