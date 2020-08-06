@@ -2,3 +2,88 @@
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+    
+[[redirects]]
+  from="/us/daily"
+  query={date=":date"}
+  to="/v1/us/:date.json"
+
+[[redirects]]
+  from="/us"
+  query={date=":date"}
+  to="/v1/us/:date.json"
+
+[[redirects]]
+  from="/states"
+  query={state=":state"}
+  to="/v1/states/:state/current.json"
+
+[[redirects]]
+  from="/states/daily"
+  query={state=":state",date=":date"}
+  to="/v1/states/:state/:date.json"
+
+[[redirects]]
+  from="/statesdaily"
+  query={state=":state",date=":date"}
+  to="/v1/states/:state/:date.json"
+
+[[redirects]]
+  from="/v1/states.json"
+  to="/v1/states/current.json"
+
+[[redirects]]
+  from="/states/info"
+  to="/v1/states/info.json"
+
+[[redirects]]
+  from="/states/daily"
+  to="/v1/states/daily.json"
+
+[[redirects]]
+  from="/states.json"
+  to="/v1/states/current.json"
+
+[[redirects]]
+  from="/states"
+  to="/v1/states/current.json"
+
+[[redirects]]
+  from="/us"
+  to="/v1/us/current.json"
+
+[[redirects]]
+  from="/us.csv"
+  to="/v1/us/current.csv"
+
+[[redirects]]
+  from="/us/daily"
+  to="/v1/us/daily.json"
+
+[[redirects]]
+  from="/v1/us.json"
+  to="/v1/us/current.json"
+
+[[redirects]]
+  from="/us/daily.csv"
+  to="/v1/us/daily.csv"
+
+[[redirects]]
+  from="/us/daily.csv"
+  to="/v1/us/daily.csv"
+
+[[redirects]]
+  from="/us.csv"
+  to="/v1/us/current.csv"
+
+[[redirects]]
+  from="/states.csv"
+  to="/v1/states/current.csv"
+
+[[redirects]]
+  from="/states/daily.csv"
+  to="/v1/states/daily.csv"
+
+[[redirects]]
+  from="/states/info.csv"
+  to="/v1/states/info.csv"
