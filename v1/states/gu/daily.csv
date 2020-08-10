@@ -1,4 +1,5 @@
 date,state,positive,negative,pending,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,dateModified,checkTimeEt,death,hospitalized,dateChecked,totalTestsViral,positiveTestsViral,negativeTestsViral,positiveCasesViral,deathConfirmed,deathProbable,fips,positiveIncrease,negativeIncrease,total,totalTestResults,totalTestResultsIncrease,posNeg,deathIncrease,hospitalizedIncrease,hash,commercialScore,negativeRegularScore,negativeScore,positiveScore,score,grade
+20200810,GU,418,24658,,5,,1,,,,325,A,,,,5,,,24354,,,410,,,66,6,541,25076,25076,547,25076,0,0,6c3854df678bf3658998794ef3c14de4ee79ebc4,0,0,0,0,0,
 20200809,GU,412,24117,,3,,,,,,321,B,,,,5,,,24354,,,404,,,66,0,0,24529,24529,0,24529,0,0,69fea9c8756af39e668f95ca1eb662a196678132,0,0,0,0,0,
 20200808,GU,412,24117,,3,,,,,,321,B,,,,5,,,24354,,,404,,,66,1,166,24529,24529,167,24529,0,0,c60e366b5a6488222094b201b54938b1e0ff1b43,0,0,0,0,0,
 20200807,GU,411,23951,,3,,,,,,321,B,,,,5,,,24354,,,403,,,66,14,471,24362,24362,485,24362,0,0,6d6a0c83400910a658be4d32bb0e7b0492b15cff,0,0,0,0,0,
