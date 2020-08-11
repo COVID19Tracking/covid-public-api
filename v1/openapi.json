@@ -6,11 +6,11 @@
   },
   "servers": [
     {
-      "url": "https://covidtracking.com"
+      "url": "https://api.covidtracking.com"
     }
   ],
   "paths": {
-    "/api/v1/internal/press.{format}": {
+    "/v1/internal/press.{format}": {
       "get": {
         "tags": [
           "Internal Endpoints"
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "/api/v1/states/screenshots.{format}": {
+    "/v1/states/screenshots.{format}": {
       "get": {
         "tags": [
           "Internal Endpoints"
@@ -104,7 +104,7 @@
         ]
       }
     },
-    "/api/v1/states/{state}/screenshots.{format}": {
+    "/v1/states/{state}/screenshots.{format}": {
       "get": {
         "tags": [
           "Internal Endpoints"
@@ -163,7 +163,7 @@
         ]
       }
     },
-    "/api/v1/us/daily.{format}": {
+    "/v1/us/daily.{format}": {
       "get": {
         "tags": [
           "US Current and Historical Data"
@@ -210,7 +210,7 @@
         ]
       }
     },
-    "/api/v1/us/current.{format}": {
+    "/v1/us/current.{format}": {
       "get": {
         "tags": [
           "US Current and Historical Data"
@@ -257,7 +257,7 @@
         ]
       }
     },
-    "/api/v1/us/{date}.{format}": {
+    "/v1/us/{date}.{format}": {
       "get": {
         "tags": [
           "US Current and Historical Data"
@@ -316,7 +316,7 @@
         ]
       }
     },
-    "/api/v1/race/states-combined.{format}": {
+    "/v1/race/states-combined.{format}": {
       "get": {
         "tags": [
           "Racial data tracker"
@@ -363,7 +363,7 @@
         ]
       }
     },
-    "/api/v1/race/states-separate.{format}": {
+    "/v1/race/states-separate.{format}": {
       "get": {
         "tags": [
           "Racial data tracker"
@@ -410,7 +410,7 @@
         ]
       }
     },
-    "/api/v1/internal/race-homepage.{format}": {
+    "/v1/internal/race-homepage.{format}": {
       "get": {
         "tags": [
           "Racial data tracker"
@@ -457,7 +457,7 @@
         ]
       }
     },
-    "/api/v1/states/info.{format}": {
+    "/v1/states/info.{format}": {
       "get": {
         "tags": [
           "States Current and Historical Data"
@@ -504,7 +504,7 @@
         ]
       }
     },
-    "/api/v1/states/{state}/info.{format}": {
+    "/v1/states/{state}/info.{format}": {
       "get": {
         "tags": [
           "States Current and Historical Data"
@@ -563,7 +563,7 @@
         ]
       }
     },
-    "/api/v1/states/daily.{format}": {
+    "/v1/states/daily.{format}": {
       "get": {
         "tags": [
           "States Current and Historical Data"
@@ -610,7 +610,7 @@
         ]
       }
     },
-    "/api/v1/states/current.{format}": {
+    "/v1/states/current.{format}": {
       "get": {
         "tags": [
           "States Current and Historical Data"
@@ -657,7 +657,7 @@
         ]
       }
     },
-    "/api/v1/states/{state}/current.{format}": {
+    "/v1/states/{state}/current.{format}": {
       "get": {
         "tags": [
           "States Current and Historical Data"
@@ -716,7 +716,7 @@
         ]
       }
     },
-    "/api/v1/states/{state}/daily.{format}": {
+    "/v1/states/{state}/daily.{format}": {
       "get": {
         "tags": [
           "States Current and Historical Data"
@@ -775,7 +775,7 @@
         ]
       }
     },
-    "/api/v1/states/{state}/{date}.{format}": {
+    "/v1/states/{state}/{date}.{format}": {
       "get": {
         "tags": [
           "States Current and Historical Data"
@@ -846,7 +846,7 @@
         ]
       }
     },
-    "/api/v1/status.{format}": {
+    "/v1/status.{format}": {
       "get": {
         "tags": [
           "Status"
