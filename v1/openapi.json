@@ -3130,6 +3130,90 @@
             "nullable": true,
             "example": "",
             "x-sheetColumn": "Deaths (probable)"
+          },
+          "totalTestEncountersViral": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Total Test Encounters (PCR)"
+          },
+          "totalTestsPeopleViral": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Total PCR Tests (People)"
+          },
+          "totalTestsAntibody": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Total Antibody Tests"
+          },
+          "positiveTestsAntibody": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Positive Antibody Tests"
+          },
+          "negativeTestsAntibody": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Negative Antibody Tests"
+          },
+          "totalTestsPeopleAntibody": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Total Antibody Tests (People)"
+          },
+          "positiveTestsPeopleAntibody": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Positive Antibody Tests (People)"
+          },
+          "negativeTestsPeopleAntibody": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Negative Antibody Tests (People)"
+          },
+          "totalTestsPeopleAntigen": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Total Antigen Tests (People)"
+          },
+          "positiveTestsPeopleAntigen": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Positive Antigen Tests (People)"
+          },
+          "totalTestsAntigen": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Total Antigen Tests"
+          },
+          "positiveTestsAntigen": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Positive Antigen Tests"
           }
         }
       },

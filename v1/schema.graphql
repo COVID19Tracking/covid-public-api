@@ -377,6 +377,18 @@ Type States {
   positiveCasesViral: Int
   deathConfirmed: Int
   deathProbable: Int
+  totalTestEncountersViral: Int
+  totalTestsPeopleViral: Int
+  totalTestsAntibody: Int
+  positiveTestsAntibody: Int
+  negativeTestsAntibody: Int
+  totalTestsPeopleAntibody: Int
+  positiveTestsPeopleAntibody: Int
+  negativeTestsPeopleAntibody: Int
+  totalTestsPeopleAntigen: Int
+  positiveTestsPeopleAntigen: Int
+  totalTestsAntigen: Int
+  positiveTestsAntigen: Int
 }
 
 Type Status {
