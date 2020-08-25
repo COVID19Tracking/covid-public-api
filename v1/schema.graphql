@@ -345,6 +345,7 @@ Type States {
   negativeIncrease: Int
   pending: Int
   total: Int
+  totalTestResultsSource: Int
   totalTestResults: Int
   totalTestResultsIncrease: Int
   posNeg: Int

@@ -2893,6 +2893,12 @@
             "x-deprecated": true,
             "x-internalNote": "This is a deprecated field that adds up Positive, Negative, and Pending spreadsheet fields."
           },
+          "totalTestResultsSource": {
+            "type": "integer",
+            "description": "Indicates which field is being used for total test results. If it is posNeg, then it is calculated by adding all positive and negative values.",
+            "nullable": true,
+            "example": "posNeg"
+          },
           "totalTestResults": {
             "type": "integer",
             "description": "Where possible, we report total tests in units of people tested, rather than units of specimens tested. Currently computed by adding _positive_ and _negative_ values because some states do not report totals and to work around different reporting cadences for cases and tests. ",
