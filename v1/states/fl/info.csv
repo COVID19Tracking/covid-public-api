@@ -1,5 +1,5 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
-FL,"We compile much our daily update from the Florida Department of Health's raw data, some of which is not publicly displayed on  include both Florida residents and non-residents in our numbers, while the state of Florida only displays FL resident data publicly. Therefore, the data we report often has large apparent differences 
+FL,"We compile much of our daily update from machine queries against the Florida Department of Health's raw data, some of which is not displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/). This raw data includes information about Florida non-residents, which we include in our reporting, while the state of Florida's dashboard displays only Florida-resident data for some metrics.
 
 On March 21, 2020, Florida began including tests of people not investigated as PUIs in its **Negative PCR tests** metric. 
 
