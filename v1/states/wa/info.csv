@@ -1,18 +1,15 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
-WA,"Washington reports confirmed cases, laboratory tests, and deaths as of the previous day. 
+WA,"Between March 31 and April 15, 2020, Washington state did not report **Negative PCR tests (people)**. 
 
-Washington did not report new negative test results between March 31 and April 15.
+On April 18, 2020, Washington state removed 190 **confirmed cases** that were discovered to be out-of-state residents tested in Washington laboratories. 
 
-On April 18, data cleaning removed 190 confirmed cases that were discovered to be out of state residents tested in Washington labs. 
+On June 18, 2020, Washington revised its **Total PCR tests (people)** downward. On the same date, Washington decreased its count of COVID-19 **deaths by 7**, because it determined that even though those 7 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
 
-As of April 27, Washington is reporting people tested. 
+On June 22, 2020, we updated previous values for **cases** and **total tests** in our time-series using data from Washington state's dashboard. This update caused an artificial decrease in cases and tests between June 21 and June 22.
 
-On June 18, due to a previous mistake in reporting negative cases, Washington state revised down the total number of tests. Additionally, Washington state removed seven deaths from its counts where, though the individual who died tested positive, COVID was not a contributing cause in their death.
+On July 14, 2020, Washington state revised its count of COVID-19 **deaths** downward by 39, because it determined that even though those 39 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
 
-On June 22, we updated historic numbers of cases and tests from data on Washington's dashboard. This update will temporarily cause an artificial decline in cases and numbers between June 21 and June 22. 
+On August 2, 2020, Washington state Department of Health reported that ""DOH is continuing to experience issues with its reporting system today. We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""
 
-On July 11, WA revised its hospitalizations down by 3 from 4665 to 4662.
-
-On July 14, Washington state removed 39 deaths from its counts where, though the individual who died tested positive, COVID was not a contributing cause in their death. 
-
-Starting August 2, Washington DOH reported ""DOH is continuing to experience issues with its reporting system today.  We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Washington,53,,false
+Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
+",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Washington,53,,false

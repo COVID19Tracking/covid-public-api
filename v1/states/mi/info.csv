@@ -1,13 +1,6 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
-MI,"Michigan has reported each day's negative results since March 10 but has never totaled them. We sum all the negative results and report the total. Michigan reports specimens tested instead of people tested. 
-Recovered counts are updated once a week. 
+MI,"On June 11, 2020, we updated our historical data from a spreadsheet provided by Michigan's Department of Health and Human Services in order to reflect the lab-reported dates of **probable and confirmed cases** and **probable and confirmed deaths** by date of death.
 
-As of May 16, Michigan uses 'total specimens' reported on lab testing page
+As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
-As of May 23, Michigan is separating out antibody and PCR tests; we report the number of PCR tests. Total testing numbers might be impacted. 
-
-As of June 5, positives include both confirmed and probable cases of COVID-19, as reported by the Michigan Department of Health & Human Services.
-
-On June 11 Michigan DDHS provided an XLS with historical time series and we updated our data to reflect the correct dates of probable and confirmed cases and deaths. 
-
-As of July 7, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, new deaths may not always reflect deaths in the past 24 hours.","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",,@MichiganHHS,https://www.michigan.gov/coronavirus,Michigan,26,,false
+Michigan updates its **Recovered** metric weekly. Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",,@MichiganHHS,https://www.michigan.gov/coronavirus,Michigan,26,,false

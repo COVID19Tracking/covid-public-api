@@ -1,10 +1,10 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
-PR,"Death counts include both confirmed and presumed COVID deaths.
-When it is reported, we add inconclusive results to pending.
-Positive counts reflect individual who test positive, combining both PCR and antibody.
+PR,"On April 22, 2020, Puerto Rico's data changed due to deduplication. This resulted in a decrease in **Total cases**.
 
-On April 22, Puerto Rico revised down its positive count from 1,298 to 915 to exclude double-counted cases.
+On May 6, 2020, Puerto Rico stopped reporting **Negative PCR tests**.
 
-Puerto Rico reported negative testing numbers through April 23, after no updates we removed these from our data on May 6. Total test numbers were impacted by around 9,000.
+On July 7, 2020, we updated **Negative PCR tests** based on press releases from May and June.
 
-On July 7, we added back negative testing numbers based on sporadic press reports in May and June.",https://estadisticas.pr/en/covid-19,https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/3bfb64c9a91944bc8c41edd8ff27e6df,,@DeptSaludPR,http://www.salud.gov.pr/Pages/coronavirus.aspx,Puerto Rico,72,,false
+Reported **Deaths** include both confirmed and probable COVID-19 deaths.
+
+Puerto Rico reports both confirmed cases, which are identified by positive PCR tests, and probable cases, which the territory reports are identified by positive antibody tests. It is not clear whether Puerto Rico requires additional epidemiological, clinical, or vital records evidence to classify a person with a positive antibody test as a probable case. The combined case number in our dataset includes Puerto Rico's confirmed and probable cases as the territory reports them.  ",https://estadisticas.pr/en/covid-19,https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/3bfb64c9a91944bc8c41edd8ff27e6df,,@DeptSaludPR,http://www.salud.gov.pr/Pages/coronavirus.aspx,Puerto Rico,72,,false

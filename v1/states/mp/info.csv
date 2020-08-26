@@ -1,4 +1,4 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
-MP,"On July 9, MP started providing weekly updates of test totals in units of People. 
+MP,"On July 23, 2020, we switched our **Total tests** units to the people-tested metric reported by the Northern Mariana Islands, which led to a drop in total tests. We will backfill total tests data for the territory as soon as we are able to do so.
 
-As of July 23, we began using the total people tested number as the default unit. This caused a perceived drop in the number of tests on July 23. We will adjust the historic time series to match shortly.",https://www.chcc.gov.mp/coronavirusinformation.php,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,,@cnmichcc,https://www.chcc.gov.mp/coronavirusinformation.php,Northern Mariana Islands,69,,false
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.",https://www.chcc.gov.mp/coronavirusinformation.php,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,,@cnmichcc,https://www.chcc.gov.mp/coronavirusinformation.php,Northern Mariana Islands,69,,false
