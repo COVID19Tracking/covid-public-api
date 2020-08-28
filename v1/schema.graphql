@@ -1,11 +1,3 @@
-Type Press {
-  title: String
-  url: String
-  addToCovidTrackingProjectWebsite: Boolean
-  publication: String
-  publishDate: String
-}
-
 Type Screenshots {
   state: String
   url: String
@@ -156,6 +148,22 @@ Type RaceStatesCombined {
   latinXANHPINotes: String
   latinXPosNotes: String
   latinXDeathNotes: String
+  blackPosPercap: Float
+  blackDeathPercap: Float
+  asianPosPercap: Float
+  asianDeathPercap: Float
+  aianPosPercap: Float
+  aianDeathPercap: Float
+  nhpiPosPercap: Float
+  nhpiDeathPercap: Float
+  twoPosPercap: Float
+  twoDeathPercap: Float
+  whitePosPercap: Float
+  whiteDeathPercap: Float
+  otherPosPercap: Float
+  otherDeathPercap: Float
+  latinXPosPercap: Float
+  latinXDeathPercap: Float
 }
 
 Type RaceStatesSeparate {
@@ -301,6 +309,22 @@ Type RaceStatesSeparate {
   nonhispanicPosNotes: String
   nonhispanicDeathNotes: String
   nonhispanicSpecialCaseNotes: String
+  blackPosPercap: Float
+  blackDeathPercap: Float
+  asianPosPercap: Float
+  asianDeathPercap: Float
+  aianPosPercap: Float
+  aianDeathPercap: Float
+  nhpiPosPercap: Float
+  nhpiDeathPercap: Float
+  twoPosPercap: Float
+  twoDeathPercap: Float
+  whitePosPercap: Float
+  whiteDeathPercap: Float
+  otherPosPercap: Float
+  otherDeathPercap: Float
+  latinXPosPercap: Float
+  latinXDeathPercap: Float
 }
 
 Type RaceHomepage {

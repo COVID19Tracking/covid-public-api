@@ -10,53 +10,6 @@
     }
   ],
   "paths": {
-    "/v1/internal/press.{format}": {
-      "get": {
-        "tags": [
-          "Internal Endpoints"
-        ],
-        "summary": "A list of news articles the COVID Tracking Project has appeared in.",
-        "description": "A list of news articles the COVID Tracking Project has appeared in.",
-        "x-public-source-url": false,
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Press"
-                  }
-                }
-              },
-              "text/csv": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Press"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "parameters": [
-          {
-            "name": "format",
-            "in": "path",
-            "required": true,
-            "style": "simple",
-            "explode": false,
-            "schema": {
-              "type": "string",
-              "example": "json"
-            },
-            "description": "Use 'json' to return JSON arrays or object. Use 'csv' to return a CSV file."
-          }
-        ]
-      }
-    },
     "/v1/states/screenshots.{format}": {
       "get": {
         "tags": [
@@ -895,41 +848,6 @@
   },
   "components": {
     "schemas": {
-      "Press": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Title of the article.",
-            "nullable": false,
-            "example": "News from the COVID Tracking Project"
-          },
-          "url": {
-            "type": "string",
-            "description": "URL of the press article.",
-            "nullable": false,
-            "example": ""
-          },
-          "addToCovidTrackingProjectWebsite": {
-            "type": "boolean",
-            "description": "Whether the article should be included on the website.",
-            "nullable": true,
-            "example": ""
-          },
-          "publication": {
-            "type": "string",
-            "description": "Name of the publication.",
-            "nullable": false,
-            "example": ""
-          },
-          "publishDate": {
-            "type": "string",
-            "description": "Date of publication.",
-            "nullable": false,
-            "example": ""
-          }
-        }
-      },
       "Screenshots": {
         "type": "object",
         "properties": {
@@ -1795,6 +1713,102 @@
             "description": "",
             "nullable": true,
             "example": ""
+          },
+          "blackPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "blackDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "asianPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "asianDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "aianPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "aianDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "nhpiPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "nhpiDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "twoPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "twoDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "whitePosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "whiteDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "otherPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "otherDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "latinXPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "latinXDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
           }
         }
       },
@@ -2649,6 +2663,102 @@
           },
           "nonhispanicSpecialCaseNotes": {
             "type": "string",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "blackPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "blackDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "asianPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "asianDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "aianPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "aianDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "nhpiPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "nhpiDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "twoPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "twoDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "whitePosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "whiteDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "otherPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "otherDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "latinXPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "latinXDeathPercap": {
+            "type": "number",
             "description": "",
             "nullable": true,
             "example": ""
