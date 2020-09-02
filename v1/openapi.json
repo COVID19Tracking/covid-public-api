@@ -2917,6 +2917,18 @@
             "nullable": true,
             "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
           },
+          "covidTrackingProjectPreferredTotalTestUnits": {
+            "type": "string",
+            "description": "Preferred units to use for total test results.",
+            "nullable": true,
+            "example": ""
+          },
+          "covidTrackingProjectPreferredTotalTestField": {
+            "type": "string",
+            "description": "Preferred field to use for total test results.",
+            "nullable": true,
+            "example": ""
+          },
           "pui": {
             "type": "string",
             "description": "Deprecated",

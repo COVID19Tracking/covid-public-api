@@ -355,6 +355,8 @@ Type StatesInfo {
   covid19SiteTertiary: String
   twitter: String
   covid19SiteOld: String
+  covidTrackingProjectPreferredTotalTestUnits: String
+  covidTrackingProjectPreferredTotalTestField: String
   pui: String
   pum: Boolean
 }

@@ -1,2 +1,2 @@
-state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,name,fips,pui,pum
-GU,Guam's counts include 11 people tested at the San Diego naval base.,http://dphss.guam.gov/covid-19/,,,@guamdphss,https://ghs.guam.gov/coronavirus-covid-19,Guam,66,,false
+state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,name,fips,pui,pum
+GU,Guam's counts include 11 people tested at the San Diego naval base.,http://dphss.guam.gov/covid-19/,,,@guamdphss,https://ghs.guam.gov/coronavirus-covid-19,Unclear Units,posNeg,Guam,66,,false
