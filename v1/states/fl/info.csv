@@ -1,11 +1,9 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,name,fips,pui,pum
-FL,"We include data about Florida non-residents in all metrics where possible. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
+FL,"Florida combines PCR and antigen tests in the total tests figure reported on the state's dashboard (first noted July 2, 2020). We include data about Florida non-residents in all metrics where possible. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
 
 On March 21, 2020, Florida began including tests of people not investigated as PUIs in its **Negative PCR tests** metric. 
 
 As of May 15, 2020, Florida appears to report **total tests** in people and in units that resemble specimens (for both PCR and antibody tests, reported separately). We continue to attempt to clarify how all of Florida's testing data is deduplicated.
-
-As of July 2, 2020, Florida reports PCR and antigen tests together.
 
 As of July 10, 2020, Florida reports **Now hospitalized** data for those patients with a ""primary diagnosis of COVID-19.""
 
