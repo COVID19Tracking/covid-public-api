@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,name,fips,pui,pum
-AL,"On July 11, 2020, Alabama began using direct reports from hospitals for cumulative hospitalizations (which we report in our **Ever hospitalized** metric), rather than state case surveillance. Its number of cumulative hospitalizations increased by 3,616 from 3,129 to 6,745 as a result. 
+AL,"Alabama combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+On July 11, 2020, Alabama began using direct reports from hospitals for cumulative hospitalizations (which we report in our **Ever hospitalized** metric), rather than state case surveillance. Its number of cumulative hospitalizations increased by 3,616 from 3,129 to 6,745 as a result. 
 
 On July 15, 2020, we changed our data reporting to reflect that Alabama reports test totals in specimens rather than unique people tested, as we had initially believed. All test results were moved into the correct API field and metric.
 
