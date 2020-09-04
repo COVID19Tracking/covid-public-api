@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,name,fips,pui,pum
-ME,"As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
+ME,"Maine combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
 
 On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
 
