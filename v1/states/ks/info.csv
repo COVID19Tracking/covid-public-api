@@ -1,6 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,name,fips,pui,pum
 KS,"Kansas combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
+Kansas reports much of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values.
 As of May 7, 2020, **confirmed and probable cases** are included in the case totals.
 
 From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Positive PCR tests (people)**. We have corrected the error.
