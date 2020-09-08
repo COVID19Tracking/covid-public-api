@@ -1,2 +1,2 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,pui,pum,name,fips
-VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, **Negative PCR tests**, and **Pending tests**.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,@usvidoh,https://doh.vi.gov/,,,Positives Only,false,US Virgin Islands,78
+VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, **Negative PCR tests**, and **Pending tests**.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,Positives Only,false,US Virgin Islands,78

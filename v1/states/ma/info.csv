@@ -14,4 +14,4 @@ On September 2, 2020, MA [reported](https://www.mass.gov/doc/covid-19-dashboard-
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
 
-",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,,,Only positives,false,Massachusetts,25
+",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Only positives,false,Massachusetts,25

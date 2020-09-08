@@ -11,4 +11,4 @@ On August 31, 2020 we began publishing **Positive PCR tests (specimens)** for Vi
 
 Negative test results reported in our API and CSVs are calculated by subtracting ""Positive PCR tests (people)"" from ""Total PCR tests (test encounters)"" in the absence of better data.
 
-",https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard?:embed=yes&:display_count=yes&:showVizHome=no&:toolbar=no,@vdhgov,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,,,Positives + Negatives,false,Virginia,51
+",https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard?:embed=yes&:display_count=yes&:showVizHome=no&:toolbar=no,@vdhgov,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,Encounters,totalTestEncountersViral,Positives + Negatives,false,Virginia,51
