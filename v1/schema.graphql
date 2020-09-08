@@ -23,6 +23,17 @@ Type Us {
   recovered: Int
   dateChecked: String
   death: Int
+  antibodyNegative: Int
+  antibodyPositive: Int
+  antibodyTotal: Int
+  deathConfirmed: Int
+  deathProbable: Int
+  pcrNegativeTests: Int
+  pcrPositiveCases: Int
+  pcrPositiveTests: Int
+  pcrTotalTests: Int
+  positiveConfirmed: Int
+  totalTestsPeople: Int
   hospitalized: Int
   total: Int
   totalTestResults: Int

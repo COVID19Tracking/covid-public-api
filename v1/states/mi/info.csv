@@ -1,8 +1,8 @@
-state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,name,fips,pui,pum
+state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,pui,pum,name,fips
 MI,"Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 On June 11, 2020, we updated our historical data from a spreadsheet provided by Michigan's Department of Health and Human Services in order to reflect the lab-reported dates of **probable and confirmed cases** and **probable and confirmed deaths** by date of death.
 
 As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
-Michigan updates its **Recovered** metric weekly. Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",,@MichiganHHS,https://www.michigan.gov/coronavirus,Specimens,totalTestsViral,Michigan,26,,false
+Michigan updates its **Recovered** metric weekly. Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",,@MichiganHHS,https://www.michigan.gov/coronavirus,,,All data,false,Michigan,26

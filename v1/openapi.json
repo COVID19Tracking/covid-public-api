@@ -977,6 +977,72 @@
             "nullable": true,
             "example": 50
           },
+          "antibodyNegative": {
+            "type": "integer",
+            "description": "Total number of negative antibody tests.",
+            "nullable": true,
+            "example": 50
+          },
+          "antibodyPositive": {
+            "type": "integer",
+            "description": "Total number of positive antibody tests.",
+            "nullable": true,
+            "example": 50
+          },
+          "antibodyTotal": {
+            "type": "integer",
+            "description": "Total number of antibody tests.",
+            "nullable": true,
+            "example": 50
+          },
+          "deathConfirmed": {
+            "type": "integer",
+            "description": "Total number of deaths confirmed to be caused by COVID-19.",
+            "nullable": true,
+            "example": 50
+          },
+          "deathProbable": {
+            "type": "integer",
+            "description": "Total number of deaths where it is probable that theyw were caused by COVID-19.",
+            "nullable": true,
+            "example": 50
+          },
+          "pcrNegativeTests": {
+            "type": "integer",
+            "description": "Total number of negative PCR tests.",
+            "nullable": true,
+            "example": 50
+          },
+          "pcrPositiveCases": {
+            "type": "integer",
+            "description": "Total number of positive PCR cases.",
+            "nullable": true,
+            "example": 50
+          },
+          "pcrPositiveTests": {
+            "type": "integer",
+            "description": "Total number of positive PCR tests.",
+            "nullable": true,
+            "example": 50
+          },
+          "pcrTotalTests": {
+            "type": "integer",
+            "description": "Total PCR tests.",
+            "nullable": true,
+            "example": 50
+          },
+          "positiveConfirmed": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
+          "totalTestsPeople": {
+            "type": "integer",
+            "description": "",
+            "nullable": true,
+            "example": 50
+          },
           "hospitalized": {
             "type": "integer",
             "description": "Deprecated. Old label for hospitalizedCumulative.",

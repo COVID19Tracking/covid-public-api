@@ -1,4 +1,4 @@
-state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,name,fips,pui,pum
+state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,pui,pum,name,fips
 SD,"On July 27, 2020, **Negative PCR tests** decreased by 148 for unclear reasons.
 
-On August 27, the South Dakota Department of Health included cases from August 25 and 26 in their update due to a reporting aberration, resulting in a 343 case increase. They have provided historical case counts, and we are working to backfill our data.",https://doh.sd.gov/news/Coronavirus.aspx,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,People,totalTestsPeopleViral,South Dakota,46,,false
+On August 27, the South Dakota Department of Health included cases from August 25 and 26 in their update due to a reporting aberration, resulting in a 343 case increase. They have provided historical case counts, and we are working to backfill our data.",https://doh.sd.gov/news/Coronavirus.aspx,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,,,All data,false,South Dakota,46
