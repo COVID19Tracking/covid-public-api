@@ -175,6 +175,10 @@ Type RaceStatesCombined {
   otherDeathPercap: Float
   latinXPosPercap: Float
   latinXDeathPercap: Float
+  apiPosPercap: Float
+  apiDeathPercap: Float
+  apiPosRatio: Float
+  apiDeathRatio: Float
 }
 
 Type RaceStatesSeparate {
@@ -336,6 +340,10 @@ Type RaceStatesSeparate {
   otherDeathPercap: Float
   latinXPosPercap: Float
   latinXDeathPercap: Float
+  apiPosPercap: Float
+  apiDeathPercap: Float
+  apiPosRatio: Float
+  apiDeathRatio: Float
 }
 
 Type RaceHomepage {

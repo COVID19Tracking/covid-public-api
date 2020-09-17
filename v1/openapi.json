@@ -1875,6 +1875,30 @@
             "description": "",
             "nullable": true,
             "example": ""
+          },
+          "apiPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "apiDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "apiPosRatio": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "apiDeathRatio": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
           }
         }
       },
@@ -2824,6 +2848,30 @@
             "example": ""
           },
           "latinXDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "apiPosPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "apiDeathPercap": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "apiPosRatio": {
+            "type": "number",
+            "description": "",
+            "nullable": true,
+            "example": ""
+          },
+          "apiDeathRatio": {
             "type": "number",
             "description": "",
             "nullable": true,
