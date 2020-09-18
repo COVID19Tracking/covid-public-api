@@ -17,4 +17,6 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
-",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,posNeg,Washington,53,,false
+As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
+
+",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Washington,53,,false
