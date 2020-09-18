@@ -365,6 +365,7 @@ Type StatesInfo {
   covid19SiteOld: String
   covidTrackingProjectPreferredTotalTestUnits: String
   covidTrackingProjectPreferredTotalTestField: String
+  totalTestResultsField: String
   pui: String
   pum: Boolean
 }

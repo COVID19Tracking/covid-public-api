@@ -2977,6 +2977,12 @@
             "nullable": true,
             "example": ""
           },
+          "totalTestResultsField": {
+            "type": "string",
+            "description": "Source field for total test results.",
+            "nullable": true,
+            "example": ""
+          },
           "pui": {
             "type": "string",
             "description": "Deprecated",
