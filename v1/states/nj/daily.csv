@@ -1,4 +1,5 @@
 date,state,positive,negative,pending,totalTestResults,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dataQualityGrade,lastUpdateEt,dateModified,checkTimeEt,death,hospitalized,dateChecked,totalTestsViral,positiveTestsViral,negativeTestsViral,positiveCasesViral,deathConfirmed,deathProbable,totalTestEncountersViral,totalTestsPeopleViral,totalTestsAntibody,positiveTestsAntibody,negativeTestsAntibody,totalTestsPeopleAntibody,positiveTestsPeopleAntibody,negativeTestsPeopleAntibody,totalTestsPeopleAntigen,positiveTestsPeopleAntigen,totalTestsAntigen,positiveTestsAntigen,fips,positiveIncrease,negativeIncrease,total,totalTestResultsSource,totalTestResultsIncrease,posNeg,deathIncrease,hospitalizedIncrease,hash,commercialScore,negativeRegularScore,negativeScore,positiveScore,score,grade
+20200923,NJ,200988,3221759,,3422747,459,23215,90,,31,,34729,A+,9/23/2020 00:00,2020-09-23T00:00:00Z,09/22 20:00,16082,23215,2020-09-23T00:00:00Z,3422747,,,200988,14291,1791,,,,,,,,,,,,,34,408,24690,3422747,posNeg,25098,3422747,6,45,92c8ee2bfc81236413a9d6a9bdd8bf803bd15e3e,0,0,0,0,0,
 20200922,NJ,200580,3197069,,3397649,417,23170,80,,34,,34697,A+,9/22/2020 00:00,2020-09-22T00:00:00Z,09/21 20:00,16076,23170,2020-09-22T00:00:00Z,3397649,,,200580,14285,1791,,,,,,,,,,,,,34,426,44040,3397649,posNeg,44466,3397649,7,35,bcc1a2c6975fbd7ce5c822ebbfb99bcff138e2e7,0,0,0,0,0,
 20200921,NJ,200154,3153029,,3353183,349,23135,87,,32,,34672,A+,9/21/2020 00:00,2020-09-21T00:00:00Z,09/20 20:00,16069,23135,2020-09-21T00:00:00Z,3352791,,,200154,14278,1791,,,,,,,,,,,,,34,392,0,3353183,posNeg,392,3353183,2,5,74f7601918ce989485c3fe8aa2b8123230a71383,0,0,0,0,0,
 20200920,NJ,199762,3153029,,3352791,380,23130,91,,39,,34637,A+,9/20/2020 00:00,2020-09-20T00:00:00Z,09/19 20:00,16067,23130,2020-09-20T00:00:00Z,3352791,,,199762,14276,1791,,,,,,,,,,,,,34,453,59961,3352791,posNeg,60414,3352791,3,10,d7490d520c6b485d461c992d17bbfae5085fc96c,0,0,0,0,0,
@@ -200,9 +201,9 @@ date,state,positive,negative,pending,totalTestResults,hospitalizedCurrently,hosp
 20200308,NJ,6,31,0,37,,,,,,,,,,,,0,,,,,,6,,0,,37,,,,,,,,,,,34,2,31,37,posNeg,33,37,0,0,a6c9627d5e04c1f8454b2702bd379d2268475c94,0,0,0,0,0,
 20200307,NJ,4,,1,4,,,,,,,,,,,,0,,,,,,4,,0,,4,,,,,,,,,,,34,3,0,5,posNeg,3,4,0,0,02cce3725fade67240b8f6e6cc9a4ccac5c500f0,0,0,0,0,0,
 20200306,NJ,1,,,1,,,,,,,,,,,,0,,,,,,4,,0,,1,,,,,,,,,,,34,0,0,1,posNeg,0,1,0,0,d102d32355139886ec0279ef7e8f8c2edfda0aa6,0,0,0,0,0,
-20200305,NJ,1,,,1,,,,,,,,,,,,0,,,,,,2,,0,,1,,,,,,,,,,,34,1,0,1,posNeg,1,1,0,0,684c48748966f7f3221e7a5150a1fda9fc49b037,0,0,0,0,0,
-20200304,NJ,,,,,,,,,,,,,,,,0,,,,,,,,0,,,,,,,,,,,,,34,0,0,0,posNeg,0,0,0,0,58e40c1c0e4130b57ab15a0222961210cebb9814,0,0,0,0,0,
-20200303,NJ,,,,,,,,,,,,,,,,0,,,,,,,,0,,,,,,,,,,,,,34,0,0,0,posNeg,0,0,0,0,eb876c34af7b5a5ad103bceeea3178814c9d6880,0,0,0,0,0,
+20200305,NJ,1,,,1,,,,,,,,,,,,,,,,,,2,,,,1,,,,,,,,,,,34,1,0,1,posNeg,1,1,0,0,f061090b1d355167a8e2631cfc254c828b7b7b84,0,0,0,0,0,
+20200304,NJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,0,0,0,posNeg,0,0,0,0,87f6efa8c84e419ae17982420a7e932e53a39854,0,0,0,0,0,
+20200303,NJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,0,0,0,posNeg,0,0,0,0,2e3a960838fdbd4e976e4e111f814ccca7fc9e81,0,0,0,0,0,
 20200302,NJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,0,0,0,posNeg,0,0,0,0,6f4f4ebbd4f43c9c33861397d9ab678013c01db4,0,0,0,0,0,
 20200301,NJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,0,0,0,posNeg,0,0,0,0,46a411c009da643ce55d30604bebcf6cd7408a62,0,0,0,0,0,
 20200229,NJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34,0,0,0,posNeg,0,0,0,0,8754fe9e8802f53ab19ea1836ce9f7b19e978b72,0,0,0,0,0,
