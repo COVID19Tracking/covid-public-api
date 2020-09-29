@@ -931,9 +931,10 @@
           },
           "totalTestResultsSource": {
             "type": "integer",
-            "description": "Indicates which field is being used for total test results. If it is posNeg, then it is calculated by adding all positive and negative values.",
+            "description": "Deprecated field for total test results source",
             "nullable": true,
-            "example": "posNeg"
+            "example": "posNeg",
+            "x-deprecated": true
           },
           "totalTestResults": {
             "type": "integer",
