@@ -863,7 +863,19 @@
           },
           "covid19SiteTertiary": {
             "type": "string",
-            "description": "URL to the state's tertiary COVID website",
+            "description": "URL to the state's third COVID website",
+            "nullable": true,
+            "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
+          },
+          "covid19SiteQuaternary": {
+            "type": "string",
+            "description": "URL to the state's fourth COVID website",
+            "nullable": true,
+            "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
+          },
+          "covid19SiteQuinary": {
+            "type": "string",
+            "description": "URL to the state's fifth COVID website",
             "nullable": true,
             "example": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.asp"
           },
