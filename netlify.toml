@@ -87,15 +87,3 @@
 [[redirects]]
   from="/states/info.csv"
   to="/v1/states/info.csv"
-  
-[[redirects]]
-  from="/v1/internal/*"
-  to="/404"
-  force=true
-  status=404
-  
-[[redirects]]
-  from="/v1/race/*"
-  to="/404"
-  force=true
-  status=404
