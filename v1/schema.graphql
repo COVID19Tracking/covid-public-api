@@ -62,6 +62,7 @@ Type States {
   fips: String
   positive: Int
   positiveIncrease: Int
+  probableCases: Int
   negative: Int
   negativeIncrease: Int
   pending: Int
