@@ -889,6 +889,14 @@
             "x-sheetColumn": "Positive",
             "x-websiteLabel": "Cases"
           },
+          "probableCases": {
+            "type": "integer",
+            "description": "Probable cases",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Probable Cases",
+            "x-websiteLabel": "Probable Cases"
+          },
           "positiveIncrease": {
             "type": "integer",
             "description": "Increase in *positive* computed by subtracting the value of *positive* from the previous day from the value of *positive* for the current day.",
