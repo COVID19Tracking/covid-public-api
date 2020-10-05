@@ -15,9 +15,12 @@ As of August 28, 2020, we started reporting patients Now hospitalized from the [
 As of September 18, 2020, Georgia's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data. ",https://dph.georgia.gov/covid-19-daily-status-report,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,https://www.arcgis.com/apps/opsdashboard/index.html#/e40c39564f724af7bfe8fd5d88deadb6,,,@GaDPH,https://dph.georgia.gov/novelcoronavirus,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Georgia,13
-OR,"As of June 6th, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.
+MN,"On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.
 
-",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,,,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,People,posNeg,posNeg,All data,false,Oregon,41
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+
+As of September 18, 2020, Minnesota total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. 
+The number of unique people tested is available in our API as `totalTestsPeopleViral`.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
 IA,"As of May 19, 2020, Iowa reports PCR and antibody tests separately.
 
 On September 26, 2020, Iowa [announced] (https://coronavirus.iowa.gov/#CurrentStatus) that due to a data update, roughly 27,000 antigen test from long-term care facilities will be added to their COVID-19 data. This update will occur from September 26, 2020 to September 27, 2020 and will result in an increased number of antigen testing metrics.",https://coronavirus.iowa.gov/,https://coronavirus.iowa.gov/pages/access,https://coronavirus.iowa.gov/pages/case-counts,https://coronavirus.iowa.gov/pages/rmcc-data,https://coronavirus.iowa.gov/pages/serology-testing,@IAPublicHealth,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,People,posNeg,posNeg,All data,false,Iowa,19
@@ -31,33 +34,9 @@ As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
 On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,,,,,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,posNeg,Only positives,false,Maine,23
-MN,"On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.
+OR,"As of June 6th, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
-
-As of September 18, 2020, Minnesota total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. 
-The number of unique people tested is available in our API as `totalTestsPeopleViral`.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
-WA,"Between March 31 and April 15, 2020, Washington state did not report **Negative PCR tests (people)**. 
-
-On April 18, 2020, Washington state removed 190 **confirmed cases** that were discovered to be out-of-state residents tested in Washington laboratories. 
-
-On June 18, 2020, Washington revised its **Total PCR tests (people)** downward. On the same date, Washington decreased its count of COVID-19 **deaths by 7**, because it determined that even though those 7 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
-
-On June 22, 2020, we updated previous values for **cases** and **total tests** in our time-series using data from Washington state's dashboard. This update caused an artificial decrease in cases and tests between June 21 and June 22.
-
-On July 14, 2020, Washington state revised its count of COVID-19 **deaths** downward by 39, because it determined that even though those 39 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
-
-On August 2, 2020, Washington state Department of Health reported that ""DOH is continuing to experience issues with its reporting system today. We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""
-
-On August 26, 2020, Washington switched its total tests units to testing encounters, excluding future encounters from individuals who test positive. It also provided a full timeseries of the figure. This testing encounters figure is slightly different from how we define testing encounters in two ways: first, our definition of testing encounters includes encounters after a positive test, and second, it should be calculated not by summing resulted tests but by counting all daily tests in a separate reporting stream. Despite these differences, the historical and current values of Washington’s figure are still stored in our **Total PCR tests (test encounters)** field.
-
-Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
-
-We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
-
-As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
-
-",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Washington,53
+",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,,,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,People,posNeg,posNeg,All data,false,Oregon,41
 LA,"Between April 20 and April 24, 2020, Louisiana did not report testing data from commercial labs due to a state review of data.
 
 On June 19, 2020, Louisiana's data changed due to deduplication and the state's removal of out-of-state cases.
@@ -87,6 +66,27 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 
 
 ",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
+WA,"Between March 31 and April 15, 2020, Washington state did not report **Negative PCR tests (people)**. 
+
+On April 18, 2020, Washington state removed 190 **confirmed cases** that were discovered to be out-of-state residents tested in Washington laboratories. 
+
+On June 18, 2020, Washington revised its **Total PCR tests (people)** downward. On the same date, Washington decreased its count of COVID-19 **deaths by 7**, because it determined that even though those 7 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
+
+On June 22, 2020, we updated previous values for **cases** and **total tests** in our time-series using data from Washington state's dashboard. This update caused an artificial decrease in cases and tests between June 21 and June 22.
+
+On July 14, 2020, Washington state revised its count of COVID-19 **deaths** downward by 39, because it determined that even though those 39 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
+
+On August 2, 2020, Washington state Department of Health reported that ""DOH is continuing to experience issues with its reporting system today. We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""
+
+On August 26, 2020, Washington switched its total tests units to testing encounters, excluding future encounters from individuals who test positive. It also provided a full timeseries of the figure. This testing encounters figure is slightly different from how we define testing encounters in two ways: first, our definition of testing encounters includes encounters after a positive test, and second, it should be calculated not by summing resulted tests but by counting all daily tests in a separate reporting stream. Despite these differences, the historical and current values of Washington’s figure are still stored in our **Total PCR tests (test encounters)** field.
+
+Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
+
+We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
+
+As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
+
+",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Washington,53
 AK,"Alaska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Alaska reports a ""Total count"" of people who have been hospitalized, but we do not record that count in our **Ever hospitalized** metric, since it does not include people who are currently in the hospital.
