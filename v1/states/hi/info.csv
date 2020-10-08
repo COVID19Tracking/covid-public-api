@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-HI,"As of August 5, 2020, we are collecting **Now hospitalized**, **Now in ICU**, and **Now on ventilator** data from the Lt. Governor of Hawaii's Instagram account, as we have determined that these are official statistics not available elsewhere. We have backfilled our time series for all available data from this source.
+HI,"On October 8, 2020, Hawaii revised their total PCR tests (specimens) down 1,504 tests. We did not notice any formal notification explaining this decrease in total PCR tests. The state also removed the number of Total Tests (in people) from their website. We are working towards clarifying a new source or restoring the current source.
+
+As of August 5, 2020, we are collecting **Now hospitalized**, **Now in ICU**, and **Now on ventilator** data from the Lt. Governor of Hawaii's Instagram account, as we have determined that these are official statistics not available elsewhere. We have backfilled our time series for all available data from this source.
 
 On September 3, 2020, Hawaii included cases which had been previously diagnosed in their daily update due to an electronic laboratory reporting error."" As a result, new cases reported may not have been diagnosed in the previous 24 hours.
 
