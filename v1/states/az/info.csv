@@ -5,17 +5,13 @@ On June 23, 2020, we updated our historical data for **Cumulative hospitalized**
 
 From July 18–August 5, 2020, Arizona’s dashboard stopped displaying confirmed and probable breakdowns for **cases** and **deaths**. We will backfill this data if Arizona provides historical numbers.
 
-On July 28 and July 29, 2020, we noticed that Arizona's numbers for their **Now hospitalized** decreased slightly, while those for **Ever hospitalized** increased significantly. The state offered no explanation.
-
-On August 30 and August 31, the Arizona Department of Health removed duplicate case records from their data. As a result, total deaths decreased by 1 on August 31, and cumulative hospitalizations decreased on August 30 and August 31.
-
 On September 16, 2020, Arizona added antigen testing into its main totals figure. This appears to have raised its Total Tests (PCR) number more than usual.
 
 On September 18, 2020, Arizona reported a policy change in the way they count people with positive antigen testing results to comply with CSTE case definitions. This appears to have resulted in a large increase in probable cases and also likely the reason where a decrease in confirmed cases was observed
 
 As of September 25, 2020, Arizona’s total test timeseries is stored in our Total PCR Tests (People) field instead of Total PCR Tests (specimens), reflecting a response to our outreach to Arizona’s health department that it counts unique individuals tested. Arizona includes antigen tests in its totals figure, so if an individual received both an antigen and PCR test, they are counted only once. Additionally, as of September 25, 2020,  Arizona's total test results are drawn from our Total PCR Tests (People) field instead of calculated via positive+negative.
 
-On October 6, 2020, The Arizona Department of Health Services [announced] (https://directorsblog.health.azdhs.gov/covid-19-hospitalizations-in-arizona/?utm_source=TWITTER&utm_medium=AZDHS&utm_campaign=covid19,Director%27s+Blog&utm_content=3840149936&linkId=101333440)  that they were removing cases who had been admitted to a hospital but had not been hospitalized from their total hospitalization counts. This results in a decrease of Arizona's cumulative hospitalizations.
+On October 6, 2020, The Arizona Department of Health Services [announced](https://directorsblog.health.azdhs.gov/covid-19-hospitalizations-in-arizona/?utm_source=TWITTER&utm_medium=AZDHS&utm_campaign=covid19,Director%27s+Blog&utm_content=3840149936&linkId=101333440) that they were removing cases who had been admitted to a hospital but had not been hospitalized from their total hospitalization counts. This results in a decrease of Arizona's cumulative hospitalizations.
 
 Arizona regularly reviews and removes duplicate records which may occasionally result in minor decreases of cumulative figures. 
 

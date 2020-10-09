@@ -17,12 +17,6 @@ As of August 28, 2020, we started reporting patients Now hospitalized from the [
 As of September 18, 2020, Georgia's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data. ",https://dph.georgia.gov/covid-19-daily-status-report,https://www.arcgis.com/apps/opsdashboard/index.html#/e40c39564f724af7bfe8fd5d88deadb6,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,,,@GaDPH,https://dph.georgia.gov/novelcoronavirus,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Georgia,13
-MN,"On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.
-
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
-
-As of September 18, 2020, Minnesota total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. 
-The number of unique people tested is available in our API as `totalTestsPeopleViral`.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://mn.gov/covid19/data/response-prep/response-capacity.jsp,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
 IA,"As of May 19, 2020, Iowa reports PCR and antibody tests separately.
 
 On September 26, 2020, Iowa announced that due to a data update, roughly 27,000 antigen tests from long-term care facilities will be added to their COVID-19 antigen test data. This update will occur from September 26, 2020 to September 27, 2020, and will result in an increased number of antigen test tests reported in our data for Iowa. (Antigen data is available in our CSVs and API.)",https://coronavirus.iowa.gov/,https://coronavirus.iowa.gov/pages/access,https://coronavirus.iowa.gov/pages/case-counts,https://coronavirus.iowa.gov/pages/rmcc-data,https://coronavirus.iowa.gov/pages/serology-testing,@IAPublicHealth,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,People,posNeg,posNeg,All data,false,Iowa,19
@@ -36,9 +30,18 @@ As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
 On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,,,,,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,posNeg,Only positives,false,Maine,23
-OR,"As of June 6th, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.
+MO,"As of May 22, 2020, Missouri reports PCR tests separately from antibody tests. 
 
-",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,,,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,People,posNeg,posNeg,All data,false,Oregon,41
+On September 5, 2020, the Missouri DHSS [added an additional 72 deaths](http://twitter.com/HealthyLivingMo/status/1302314149620391937?s=20) to their total count, ""most of which occurred June-August"".
+
+As of October 7, 2020, Missouri's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
+
+On October 8, 2020, Missouri added current hospitalizations to their COVID-19 dashboard, and we began to capture this metric. Historical data is also available and we are working on backfilling our data for days where this metric was unavailable.
+
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.",https://showmestrong.mo.gov/data/public-health/,https://showmestrong.mo.gov/public-healthcare-testing/,https://mophep.maps.arcgis.com/apps/opsdashboard/index.html#/d05d2bf6e13745c5afffc8fc87d5b1c5,https://services6.arcgis.com/Bd4MACzvEukoZ9mR/arcgis/rest/services/hospital_by_date_production/FeatureServer/0/query?where=1%3D1&outFields=%2A%2C+covid_total+as+hosp&orderByFields=entry_date+desc&resultRecordCount=1,,@HealthyLivingMo,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Missouri,29
+NY,"Due to an exclusion of **probable COVID-19 deaths** in the state's data, New York City and New York State report substantially diverging death counts. As of June 1, 2020, New York City reported 5740 more deaths than New York State. We use the data from the state, so our dataset excludes these probable COVID-19 deaths. New York State has not reported new **Ever hospitalized** data since June 2, 2020.
+
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.",https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Fatalities?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,https://www.governor.ny.gov/news/governor-cuomo-updates-new-yorkers-states-progress-during-covid-19-pandemic,,,@healthnygov,https://www.health.ny.gov/diseases/communicable/coronavirus/,Encounters,posNeg,posNeg,Only positives,false,New York,36
 LA,"Between April 20 and April 24, 2020, Louisiana did not report testing data from commercial labs due to a state review of data.
 
 On June 19, 2020, Louisiana's data changed due to deduplication and the state's removal of out-of-state cases.
@@ -68,12 +71,9 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 
 
 ",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
-WI,"On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (people)** data downward without explanation.
+OR,"As of June 6th, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.
 
-In early June of 2020, Wisconsin started reporting probable cases of COVID-19 separately from confirmed cases of COVID-19. On June 25, 2020, The COVID Tracking Project added more than two weeks' worth of probable cases to our **Cases (confirmed plus probable)** for WI, initially causing a large single day increase in cases. We subsequently updated our historical Cases data using data provided to us by the state, which eliminated this one-day increase.
-
-In early June of 2020, Wisconsin started reporting probable deaths from COVID-19 separately from confirmed deaths from COVID-19. We did not discover this data until June 29, 2020, and so our time series only has data for this metric beginning on that date.
-",https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm,,,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,People,posNeg,posNeg,All data,false,Wisconsin,55
+",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,,,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,People,posNeg,posNeg,All data,false,Oregon,41
 AK,"Alaska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Alaska reports a ""Total count"" of people who have been hospitalized, but we do not record that count in our **Ever hospitalized** metric, since it does not include people who are currently in the hospital.
@@ -126,16 +126,12 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 MD,"Between March 12 and March 28, 2020, Maryland did not report data for **negative tests**.
 
 On July 31, 2020, we began capturing Maryland's data for **Positive PCR tests (specimens)**. On August 31 2020 , we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.",https://coronavirus.maryland.gov/,,,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Specimens,totalTestsViral,posNeg,All data,false,Maryland,24
-MO,"As of May 22, 2020, Missouri reports PCR tests separately from antibody tests. 
+WI,"On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (people)** data downward without explanation.
 
-On September 5, 2020, the Missouri DHSS [added an additional 72 deaths](http://twitter.com/HealthyLivingMo/status/1302314149620391937?s=20) to their total count, ""most of which occurred June-August"".
+In early June of 2020, Wisconsin started reporting probable cases of COVID-19 separately from confirmed cases of COVID-19. On June 25, 2020, The COVID Tracking Project added more than two weeks' worth of probable cases to our **Cases (confirmed plus probable)** for WI, initially causing a large single day increase in cases. We subsequently updated our historical Cases data using data provided to us by the state, which eliminated this one-day increase.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
-
-As of October 7, 2020, Missouri's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. 
-The number of unique people tested is available in our API as `totalTestsPeopleViral`.
-
-On October 8, 2020, Missouri added current hospitalizations to their COVID-19 dashboard, and we began to capture this metric. Historical data is also available and we are working on backfilling our data for days where this metric was unavailable.",https://showmestrong.mo.gov/data/public-health/,https://showmestrong.mo.gov/public-healthcare-testing/,https://mophep.maps.arcgis.com/apps/opsdashboard/index.html#/d05d2bf6e13745c5afffc8fc87d5b1c5,https://services6.arcgis.com/Bd4MACzvEukoZ9mR/arcgis/rest/services/hospital_by_date_production/FeatureServer/0/query?where=1%3D1&outFields=%2A%2C+covid_total+as+hosp&orderByFields=entry_date+desc&resultRecordCount=1,,@HealthyLivingMo,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Missouri,29
+In early June of 2020, Wisconsin started reporting probable deaths from COVID-19 separately from confirmed deaths from COVID-19. We did not discover this data until June 29, 2020, and so our time series only has data for this metric beginning on that date.
+",https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm,,,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,People,posNeg,posNeg,All data,false,Wisconsin,55
 DE,"On April 11, 2020, Delaware revised down negative test results from 10,415 to 9,624.
 
 On July 25, 2020, Delaware revised down total cases, confirmed positives, and total tests.
@@ -148,16 +144,12 @@ On September 9, 2020, Delaware reported that  data from September 8, 2020 and Se
 GU,"Guam's counts include 11 people tested at the San Diego naval base.
 
 On September 3, 2020, Guam reported that it had shifted to using the more restrictive August 5 definition of probable cases released by the CSTE. From March 12, 2020 to September 2, 2020 Guam reported eight probable cases under the previous probable case definition. Due to the change, Guam has no cases that classify as probable cases as of September 3, 2020, and 8 cases have been removed from Guams's total case count.",http://dphss.guam.gov/covid-19/,,,,,@guamdphss,https://ghs.guam.gov/coronavirus-covid-19,Unclear Units,posNeg,posNeg,All Data,false,Guam,66
-NY,"Due to an exclusion of **probable COVID-19 deaths** in the state's data, New York City and New York State report substantially diverging death counts. As of June 1, 2020, New York City reported 5740 more deaths than New York State. We use the data from the state, so our dataset excludes these probable COVID-19 deaths. New York State has not reported new **Ever hospitalized** data since June 2, 2020.
+MN,"On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.",https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Fatalities?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,https://www.governor.ny.gov/news/governor-cuomo-updates-new-yorkers-states-progress-during-covid-19-pandemic,,,@healthnygov,https://www.health.ny.gov/diseases/communicable/coronavirus/,Encounters,posNeg,posNeg,Only positives,false,New York,36
-WV,"On April 16, 2020, West Virginia began reporting **current hospitalization, ICU, and ventilator** metrics from 49 of 55 counties. Before April 16, 2020, those counts were less complete, as they were based on completed investigations rather than on hospital data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
-On May 23, 2020, West Virginia began reporting PCR and antibody tests separately. Total test values before this date might include both PCR and antibody tests.
-
-On July 4, 2020, West Virginia began making continual changes to its previous data for antibody testing, so its historical time series might not match COVID Tracking Project data.
-
-West Virginia reports new antibody tests daily. We sum these numbers in a running total to report a value for the total number of antibody tests West Virginia has conducted. Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://app.powerbigov.us/view?r=eyJrIjoiYmIyYTE0YWYtZDMyOS00YjAzLTgxZTItZDIyMmNlYTZmMWVkIiwidCI6IjhhMjZjZjAyLTQzNGEtNDMxZS04Y2FkLTdlYWVmOTdlZjQ4NCJ9&pageName=ReportSection3aff85597cada99d298f&pageName=ReportSection9f5bc3be6e9ebda92968,https://app.powerbigov.us/view?r=eyJrIjoiMjU5NWMzNzQtY2M3Yi00MjZiLThlMDUtYzdiOGZjNjVmZDI5IiwidCI6IjhhMjZjZjAyLTQzNGEtNDMxZS04Y2FkLTdlYWVmOTdlZjQ4NCJ9,,,@WV_DHHR,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,Specimens,posNeg,posNeg,All data,false,West Virginia,54
+As of September 18, 2020, Minnesota total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. 
+The number of unique people tested is available in our API as `totalTestsPeopleViral`.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://mn.gov/covid19/data/response-prep/response-capacity.jsp,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
 IL,"On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (in specimens)** and over 5,000 new **Cases.** According to the [Chicago Tribune](https://www.chicagotribune.com/coronavirus/ct-covid-19-pandemic-chicago-illinois-news-20200904-qun7unon5fhjbfhnsml4edwqia-story.html), ""The Illinois Department of Public Health said Friday there was significant slowdown in the agency's test reporting earlier this week that it is just catching up with."" 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,http://www.dph.illinois.gov/covid19/hospitalization-utilization,,,,@IDPH,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,Specimens,posNeg,posNeg,All data,false,Illinois,17
@@ -166,11 +158,11 @@ NH,"As of May 25, 2020, New Hampshire reports PCR tests separately from antibody
 
 On September 2, 2020, New Hampshire did not update their dashboards or summary report by the time of our update.
 
-On September 9, 2020, New Hampshire did not update their dashboards or summary report by the time of our update.
+On September 9, 2020, New Hampshire did not update their dashboards or summary report by the time of our update. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+As of September 18, 2020, New Hampshire's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
-As of September 18, 2020, New Hampshire's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The number of unique people tested is available in our API as `totalTestsPeopleViral`.",https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,https://www.nh.gov/covid19/dashboard/summary.htm,https://www.nh.gov/covid19/dashboard/overview.htm#dash,,,@NHPubHealth,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,Specimens,totalTestsViral,Total Tests (PCR),All data,false,New Hampshire,33
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.",https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,https://www.nh.gov/covid19/dashboard/summary.htm,https://www.nh.gov/covid19/dashboard/overview.htm#dash,,,@NHPubHealth,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,Specimens,totalTestsViral,Total Tests (PCR),All data,false,New Hampshire,33
 PA,"On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19.
 
 On September 3, 2020, Pennsylvania [clarified](https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx) that the test numbers they have been reporting previously are in units of unique people and began publishing new test data in units of specimens. On September 4, 2020, we therefore moved the appropriate historical data to the **Total PCR tests (people)** field and began capturing **Total PCR tests (specimens)**. ",https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://padoh.maps.arcgis.com/apps/opsdashboard/index.html#/5662e22517b644ba874ca51fa7b61c94,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx,,,@PAHealthDept,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,People,totalTestsPeopleViral,posNeg,Only positives,false,Pennsylvania,42
@@ -182,7 +174,8 @@ On August 19, 2020, North Dakota launched a new dashboard with a number of new d
 On September 9, 2020, North Dakota began reporting “Susceptible Encounters” on its dashboard, which are defined as test encounters excluding those who have tested positive after the first time. We have begun recording the value in our **Total PCR tests (test encounters)** field.
 
 As of September 11, 2020, North Dakota’s total test results reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
-",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
+
+On October 8, 2020, North Dakota released two figures describing those who are currently hospitalized. According to the [state dashboard annotation](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases), the ""Hospitalized with COVID"" figure describes those whose main reason for hospitalization is COVID-19, and it also includes all those who are ""Hospitalized due to COVID"". We are using the ""Hospitalized with COVID"" figure for our Currently hospitalized field.",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
 RI,"Rhode Island combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**.
@@ -277,17 +270,13 @@ On June 23, 2020, we updated our historical data for **Cumulative hospitalized**
 
 From July 18–August 5, 2020, Arizona’s dashboard stopped displaying confirmed and probable breakdowns for **cases** and **deaths**. We will backfill this data if Arizona provides historical numbers.
 
-On July 28 and July 29, 2020, we noticed that Arizona's numbers for their **Now hospitalized** decreased slightly, while those for **Ever hospitalized** increased significantly. The state offered no explanation.
-
-On August 30 and August 31, the Arizona Department of Health removed duplicate case records from their data. As a result, total deaths decreased by 1 on August 31, and cumulative hospitalizations decreased on August 30 and August 31.
-
 On September 16, 2020, Arizona added antigen testing into its main totals figure. This appears to have raised its Total Tests (PCR) number more than usual.
 
 On September 18, 2020, Arizona reported a policy change in the way they count people with positive antigen testing results to comply with CSTE case definitions. This appears to have resulted in a large increase in probable cases and also likely the reason where a decrease in confirmed cases was observed
 
 As of September 25, 2020, Arizona’s total test timeseries is stored in our Total PCR Tests (People) field instead of Total PCR Tests (specimens), reflecting a response to our outreach to Arizona’s health department that it counts unique individuals tested. Arizona includes antigen tests in its totals figure, so if an individual received both an antigen and PCR test, they are counted only once. Additionally, as of September 25, 2020,  Arizona's total test results are drawn from our Total PCR Tests (People) field instead of calculated via positive+negative.
 
-On October 6, 2020, The Arizona Department of Health Services [announced] (https://directorsblog.health.azdhs.gov/covid-19-hospitalizations-in-arizona/?utm_source=TWITTER&utm_medium=AZDHS&utm_campaign=covid19,Director%27s+Blog&utm_content=3840149936&linkId=101333440)  that they were removing cases who had been admitted to a hospital but had not been hospitalized from their total hospitalization counts. This results in a decrease of Arizona's cumulative hospitalizations.
+On October 6, 2020, The Arizona Department of Health Services [announced](https://directorsblog.health.azdhs.gov/covid-19-hospitalizations-in-arizona/?utm_source=TWITTER&utm_medium=AZDHS&utm_campaign=covid19,Director%27s+Blog&utm_content=3840149936&linkId=101333440) that they were removing cases who had been admitted to a hospital but had not been hospitalized from their total hospitalization counts. This results in a decrease of Arizona's cumulative hospitalizations.
 
 Arizona regularly reviews and removes duplicate records which may occasionally result in minor decreases of cumulative figures. 
 
@@ -367,6 +356,13 @@ On August 19, 2020, Vermont's **total tests** decreased by about 200 tests with 
 On September 23, 2020, Vermont's **total tests** decreased by about 80 tests with no explanation. 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.",https://experience.arcgis.com/experience/85f43bd849e743cb957993a545d17170,https://www.healthvermont.gov/response/coronavirus-covid-19/current-activity-vermont#dashboard,,,,@healthvermont,https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavirus,People,posNeg,posNeg,Positives + Negatives,false,Vermont,50
+WV,"On April 16, 2020, West Virginia began reporting **current hospitalization, ICU, and ventilator** metrics from 49 of 55 counties. Before April 16, 2020, those counts were less complete, as they were based on completed investigations rather than on hospital data.
+
+On May 23, 2020, West Virginia began reporting PCR and antibody tests separately. Total test values before this date might include both PCR and antibody tests.
+
+On July 4, 2020, West Virginia began making continual changes to its previous data for antibody testing, so its historical time series might not match COVID Tracking Project data.
+
+West Virginia reports new antibody tests daily. We sum these numbers in a running total to report a value for the total number of antibody tests West Virginia has conducted. Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://app.powerbigov.us/view?r=eyJrIjoiYmIyYTE0YWYtZDMyOS00YjAzLTgxZTItZDIyMmNlYTZmMWVkIiwidCI6IjhhMjZjZjAyLTQzNGEtNDMxZS04Y2FkLTdlYWVmOTdlZjQ4NCJ9&pageName=ReportSection3aff85597cada99d298f&pageName=ReportSection9f5bc3be6e9ebda92968,https://app.powerbigov.us/view?r=eyJrIjoiMjU5NWMzNzQtY2M3Yi00MjZiLThlMDUtYzdiOGZjNjVmZDI5IiwidCI6IjhhMjZjZjAyLTQzNGEtNDMxZS04Y2FkLTdlYWVmOTdlZjQ4NCJ9,,,@WV_DHHR,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,Specimens,posNeg,posNeg,All data,false,West Virginia,54
 CO,"On May 15, Colorado started reporting deaths for which COVID-19 is listed on the death certificate, in addition to the figure it already provided, deaths among laboratory-confirmed and probable cases (whether or not COVID was a cause of death). On July 1, 2020, we revised our historical data to reflect the death-certificate metric instead of the deaths-among-cases metric. Because of this change in methodology, there is a drop from 1,091 deaths on May 15 to 878 on May 16 in our data. Colorado also reports subsets of confirmed and probable COVID-19 deaths, but these metrics correspond to the deaths-among-cases metric we no longer report, so we do not compile this data.
 
 On June 14, 2020, Colorado revised previous ""daily discharged"" numbers. This caused an overall decline in their **Recovered** data.
