@@ -28,8 +28,6 @@ Type Us {
 
 Type StatesInfo {
   state: String
-  name: String
-  fips: String
   notes: String
   covid19Site: String
   covid19SiteSecondary: String
@@ -41,6 +39,8 @@ Type StatesInfo {
   covidTrackingProjectPreferredTotalTestUnits: String
   covidTrackingProjectPreferredTotalTestField: String
   totalTestResultsField: String
+  name: String
+  fips: String
   pui: String
   pum: Boolean
 }

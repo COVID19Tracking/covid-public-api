@@ -765,18 +765,6 @@
             "nullable": false,
             "example": "CA"
           },
-          "name": {
-            "type": "string",
-            "description": "The name of the state",
-            "nullable": false,
-            "example": "California"
-          },
-          "fips": {
-            "type": "string",
-            "description": "The census FIPS code",
-            "nullable": false,
-            "example": "09"
-          },
           "notes": {
             "type": "string",
             "description": "Notes about the state",
@@ -842,6 +830,18 @@
             "description": "Source field for total test results.",
             "nullable": true,
             "example": ""
+          },
+          "name": {
+            "type": "string",
+            "description": "The name of the state",
+            "nullable": false,
+            "example": "California"
+          },
+          "fips": {
+            "type": "string",
+            "description": "The census FIPS code",
+            "nullable": false,
+            "example": "09"
           },
           "pui": {
             "type": "string",
