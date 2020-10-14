@@ -17,6 +17,19 @@ As of August 28, 2020, we started reporting patients Now hospitalized from the [
 As of September 18, 2020, Georgia's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data. ",https://dph.georgia.gov/covid-19-daily-status-report,https://www.arcgis.com/apps/opsdashboard/index.html#/e40c39564f724af7bfe8fd5d88deadb6,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,,,@GaDPH,https://dph.georgia.gov/novelcoronavirus,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Georgia,13
+IA,"As of May 19, 2020, Iowa reports PCR and antibody tests separately.
+
+On September 26, 2020, Iowa announced that due to a data update, roughly 27,000 antigen tests from long-term care facilities will be added to their COVID-19 antigen test data. This update will occur from September 26, 2020 to September 27, 2020, and will result in an increased number of antigen test tests reported in our data for Iowa. (Antigen data is available in our CSVs and API.)",https://coronavirus.iowa.gov/,https://coronavirus.iowa.gov/pages/access,https://coronavirus.iowa.gov/pages/case-counts,https://coronavirus.iowa.gov/pages/rmcc-data,https://coronavirus.iowa.gov/pages/serology-testing,@IAPublicHealth,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,People,posNeg,posNeg,All data,false,Iowa,19
+IN,"Indiana combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,,,@statehealthin,https://www.in.gov/isdh/28470.htm,People,posNeg,posNeg,Only positives,false,Indiana,18
+ME,"Maine combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
+
+On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
+
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,,,,,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,posNeg,Only positives,false,Maine,23
 WY,"During the week of April 6, 2020, Wyoming began reporting confirmed and probable cases separately.
 
 During the week of April 7, 2020, Wyoming began to report both confirmed and probable cases in its Recovered metrics.
@@ -33,19 +46,6 @@ On October 14, 2020, Wyoming's **Total PCR Tests (specimens)** and **Total PCR T
 
 Wyoming reports both **Positive tests PCR (specimens)** and **Negative tests PCR (specimens)** as percentages of **Total tests PCR**. We convert these percentages to integers. Wyoming reports the number of people currently hospitalized with COVID-19 in each hospital: we sum these values for the state total. Wyoming reports the number of people ever hospitalized with COVID-19 as a percentage: we convert this percentage to an integer. Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 ",https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-testing-data/,,,@health_wyoming,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,People,posNeg,posNeg,No data,false,Wyoming,56
-IA,"As of May 19, 2020, Iowa reports PCR and antibody tests separately.
-
-On September 26, 2020, Iowa announced that due to a data update, roughly 27,000 antigen tests from long-term care facilities will be added to their COVID-19 antigen test data. This update will occur from September 26, 2020 to September 27, 2020, and will result in an increased number of antigen test tests reported in our data for Iowa. (Antigen data is available in our CSVs and API.)",https://coronavirus.iowa.gov/,https://coronavirus.iowa.gov/pages/access,https://coronavirus.iowa.gov/pages/case-counts,https://coronavirus.iowa.gov/pages/rmcc-data,https://coronavirus.iowa.gov/pages/serology-testing,@IAPublicHealth,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,People,posNeg,posNeg,All data,false,Iowa,19
-IN,"Indiana combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
-
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,,,@statehealthin,https://www.in.gov/isdh/28470.htm,People,posNeg,posNeg,Only positives,false,Indiana,18
-ME,"Maine combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
-
-As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
-
-On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
-
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,,,,,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,posNeg,Only positives,false,Maine,23
 LA,"Between April 20 and April 24, 2020, Louisiana did not report testing data from commercial labs due to a state review of data.
 
 On June 19, 2020, Louisiana's data changed due to deduplication and the state's removal of out-of-state cases.
@@ -386,7 +386,7 @@ From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or 
 
 On July 15, 2020, Kansas began reporting additional data from hospitals, and at that time, data for the **Now hospitalized** metric was only available through July 10.
 
-The **Recovered** data point we report for Kansas reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Kansas notes that this metric only includes cases with available discharge information reported to the Kansas Department of Health and Environment.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,http://www.kdheks.gov/coronavirus/,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
+The **Recovered** data point we report for Kansas reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Kansas notes that this metric only includes cases with available discharge information reported to the Kansas Department of Health and Environment.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
 NJ,"On May 16, 2020, a backfill effort by New Jersey caused the state's data for **Recovered** to rise by approximately 7,000 people. 
 
 On July 16, 2020, New Jersey's **Recovered** figure decreased.
