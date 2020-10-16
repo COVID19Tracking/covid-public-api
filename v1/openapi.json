@@ -889,14 +889,6 @@
             "x-sheetColumn": "Positive",
             "x-websiteLabel": "Cases"
           },
-          "probableCases": {
-            "type": "integer",
-            "description": "Probable cases",
-            "nullable": true,
-            "example": "",
-            "x-sheetColumn": "Probable Cases",
-            "x-websiteLabel": "Probable Cases"
-          },
           "positiveIncrease": {
             "type": "integer",
             "description": "Increase in *positive* computed by subtracting the value of *positive* from the previous day from the value of *positive* for the current day.",
@@ -904,6 +896,14 @@
             "example": "",
             "x-sheetColumn": "Positive",
             "x-internalNote": "This field is computed by subtracting the prior date's value for positive from the current date"
+          },
+          "probableCases": {
+            "type": "integer",
+            "description": "Probable cases",
+            "nullable": true,
+            "example": "",
+            "x-sheetColumn": "Probable Cases",
+            "x-websiteLabel": "Probable Cases"
           },
           "negative": {
             "type": "integer",
@@ -938,11 +938,10 @@
             "x-internalNote": "This is a deprecated field that adds up Positive, Negative, and Pending spreadsheet fields."
           },
           "totalTestResultsSource": {
-            "type": "integer",
-            "description": "Deprecated field for total test results source",
+            "type": "string",
+            "description": "Indicates which field is being used for total test results. If it is posNeg, then it is calculated by adding all positive and negative values.",
             "nullable": true,
-            "example": "posNeg",
-            "x-deprecated": true
+            "example": "posNeg"
           },
           "totalTestResults": {
             "type": "integer",
@@ -974,7 +973,7 @@
             "description": "Individuals who are currently hospitalized with COVID-19. Definitions vary by state / territory. Where possible, we report hospitalizations with confirmed or probable COVID-19 cases per the expanded [CSTE case definition](https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf) of April 5th, 2020 [approved by the CDC](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/).",
             "nullable": true,
             "example": "",
-            "x-sheetColumn": "Hospitalized – Currently"
+            "x-sheetColumn": "Hospitalized – Currently"
           },
           "hospitalizedCumulative": {
             "type": "integer",
@@ -988,28 +987,28 @@
             "description": "Individuals who are currently hospitalized in the Intensive Care Unit with COVID-19. Definitions vary by state / territory. Where possible, we report patients in the ICU with confirmed or probable COVID-19 cases per the expanded [CSTE case definition](https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf) of April 5th, 2020 [approved by the CDC](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/).",
             "nullable": true,
             "example": "",
-            "x-sheetColumn": "In ICU – Currently"
+            "x-sheetColumn": "In ICU – Currently"
           },
           "inIcuCumulative": {
             "type": "integer",
             "description": "Total number of individuals who have ever been hospitalized in the Intensive Care Unit with COVID-19. Definitions vary by state / territory. Where possible, we report patients in the ICU with confirmed or probable COVID-19 cases per the expanded [CSTE case definition](https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf) of April 5th, 2020 [approved by the CDC](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/).",
             "nullable": true,
             "example": "",
-            "x-sheetColumn": "In ICU – Cumulative"
+            "x-sheetColumn": "In ICU – Cumulative"
           },
           "onVentilatorCurrently": {
             "type": "integer",
             "description": "Individuals who are currently hospitalized under advanced ventilation with COVID-19. Definitions vary by state / territory. Where possible, we report patients on ventilation with confirmed or probable COVID-19 cases per the expanded [CSTE case definition](https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf) of April 5th, 2020 [approved by the CDC](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/).",
             "nullable": true,
             "example": "",
-            "x-sheetColumn": "On Ventilator – Currently"
+            "x-sheetColumn": "On Ventilator – Currently"
           },
           "onVentilatorCumulative": {
             "type": "integer",
             "description": "Total number of individuals who have ever been hospitalized under advanced ventilation with COVID-19. Definitions vary by state / territory. Where possible, we report patients on ventilation with confirmed or probable COVID-19 cases per the expanded [CSTE case definition](https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf) of April 5th, 2020 [approved by the CDC](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/).",
             "nullable": true,
             "example": "",
-            "x-sheetColumn": "On Ventilator – Cumulative"
+            "x-sheetColumn": "On Ventilator – Cumulative"
           },
           "recovered": {
             "type": "integer",
