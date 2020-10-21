@@ -50,8 +50,8 @@ Type States {
   state: String
   fips: String
   positive: Int
-  positiveIncrease: Int
   probableCases: Int
+  positiveIncrease: Int
   negative: Int
   negativeIncrease: Int
   pending: Int
