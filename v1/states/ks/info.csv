@@ -3,12 +3,12 @@ KS,"Kansas combines PCR and antigen tests in the total tests figure reported on 
 
 Kansas reports much of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values, which can represent 2-3 days of data.
 
-As of May 7, 2020, **confirmed and probable cases** are included in the case totals.
-
-From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Positive PCR tests (people)**. We have corrected the error.
-
-On July 15, 2020, Kansas began reporting additional data from hospitals, and at that time, data for the **Now hospitalized** metric was only available through July 10.
+The **Recovered** data point we report for Kansas reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Kansas notes that this metric only includes cases with available discharge information reported to the Kansas Department of Health and Environment.
 
 On October 21, 2020, the **inIcuCurrently** value for KS dropped from 81 to 1 on the state's dashboard. We recorded it, but expect it to be revised at another point. 
 
-The **Recovered** data point we report for Kansas reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Kansas notes that this metric only includes cases with available discharge information reported to the Kansas Department of Health and Environment.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalCapacity?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalSummary?%3Aembed=y&%3AshowVizHome=no,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
+On July 15, 2020, Kansas began reporting additional data from hospitals, and at that time, data for the **Now hospitalized** metric was only available through July 10.
+
+From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Positive PCR tests (people)**. We have corrected the error.
+
+As of May 7, 2020, **confirmed and probable cases** are included in the case totals.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalCapacity?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalSummary?%3Aembed=y&%3AshowVizHome=no,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
