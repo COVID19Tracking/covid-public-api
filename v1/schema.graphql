@@ -13,17 +13,6 @@ Type Us {
   recovered: Int
   dateChecked: String
   death: Int
-  antibodyNegative: Int
-  antibodyPositive: Int
-  antibodyTotal: Int
-  deathConfirmed: Int
-  deathProbable: Int
-  pcrNegativeTests: Int
-  pcrPositiveCases: Int
-  pcrPositiveTests: Int
-  pcrTotalTests: Int
-  positiveConfirmed: Int
-  totalTestsPeople: Int
   hospitalized: Int
   total: Int
   totalTestResults: Int
@@ -39,8 +28,6 @@ Type Us {
 
 Type StatesInfo {
   state: String
-  name: String
-  fips: String
   notes: String
   covid19Site: String
   covid19SiteSecondary: String
@@ -52,6 +39,8 @@ Type StatesInfo {
   covidTrackingProjectPreferredTotalTestUnits: String
   covidTrackingProjectPreferredTotalTestField: String
   totalTestResultsField: String
+  name: String
+  fips: String
   pui: String
   pum: Boolean
 }
@@ -61,13 +50,13 @@ Type States {
   state: String
   fips: String
   positive: Int
-  positiveIncrease: Int
   probableCases: Int
+  positiveIncrease: Int
   negative: Int
   negativeIncrease: Int
   pending: Int
   total: Int
-  totalTestResultsSource: Int
+  totalTestResultsSource: String
   totalTestResults: Int
   totalTestResultsIncrease: Int
   posNeg: Int
