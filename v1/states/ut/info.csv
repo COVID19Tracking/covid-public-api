@@ -3,6 +3,8 @@ UT,"Utah combines PCR and antigen tests in the top-line total tests figure repor
 
 Our Total PCR Tests (People) is still sourced from the dashboard, and includes both PCR and antigen tests.
 
+As of October 29, 2020, Utah's `totalTestResults` field represents encounters instead of pos+neg. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field. 
+
 As of July 16, 2020, Utah is reporting both specimens and people tested. We report positives and negatives based on the number of people tested.
 
-As of June 11, 2020, Utah reports a combined case count for total intubated patients and patients on a ventilator. We report this figure as **Ever on ventilator**.",https://coronavirus-dashboard.utah.gov/,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,,,@utahdepofhealth,https://health.utah.gov/coronavirus,People,posNeg,posNeg,Only positives,false,Utah,49
+As of June 11, 2020, Utah reports a combined case count for total intubated patients and patients on a ventilator. We report this figure as **Ever on ventilator**.",https://coronavirus-dashboard.utah.gov/,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,,,@utahdepofhealth,https://health.utah.gov/coronavirus,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Utah,49
