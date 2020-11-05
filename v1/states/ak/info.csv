@@ -5,6 +5,8 @@ Alaska reports a ""Total count"" of people who have been hospitalized, but we do
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On November 5, 2020, Alaska’s Total PCR tests (specimens) increased from roughly 628k to 782k. We were unable to find an explanation for the increase.
+
 As of September 18, 2020, Alaska's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
 As of July 16, 2020, we are reporting non-resident cases as part of **Cases or Positive PCR tests (people)** for Alaska.",http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/monitoring.aspx,https://experience.arcgis.com/experience/ed1c874ca60b4c15ab09095a070065ca,https://alaska-dhss.maps.arcgis.com/apps/opsdashboard/index.html#/8782a14ef52342e99f866a3b8a3e624a,,,@Alaska_DHSS,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Alaska,02
