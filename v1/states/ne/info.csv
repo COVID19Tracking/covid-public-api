@@ -1,7 +1,9 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric.
 
-As of October 30th, 2020,, our **Total tests** metrics include Nevada's **Total tests (in specimens)**.
+On November 6, 2020, Nebraska removed 114 recoveries without explanation.
+
+As of October 30th, 2020, our **Total tests** metrics include Nevada's **Total tests (in specimens)**.
 
 On October 30, 2020, we backfilled the full time series for Nebraska's Total Tests into our ""Total Tests (PCR)"" metric from a Nebraska GIS query. At the same time, we filled our Positive Tests (PCR) and Negative Tests (PCR) from the same query.
 
