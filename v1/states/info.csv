@@ -86,7 +86,7 @@ CT,"Negative test results reported in our API and CSVs are calculated by subtrac
 
 The **Recovered** data point we report for Connecticut reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
-On November 5, 2020, the state of Connecticut released total test numbers lumping antigen and PCR tests alongside separate PCR and antigen counts. On November 6, 2020, while the lumped figure continues to be updated daily in the corresponding pdfs where they can be found, the separated PCR and antigen test counts were not. As such, we're carrying over these figures until it updates again or a more consistent source is identified
+On November 5, 2020, the state of Connecticut released total test numbers lumping antigen and PCR tests alongside separate PCR and antigen counts. On November 6, 2020, while the lumped figure continues to be updated daily in the state's ""Daily Data Report,"" the separated PCR and antigen test counts were not. As such, we're carrying over these figures until it updates again or a more consistent source is identified
 
 On November 5, 2020, Connecticut announced that a backlog of roughly 500 cases identified in August-November 2020, would be reported in the totals for November 5, 2020.
 
@@ -188,6 +188,8 @@ On June 5, 2020, Idaho reported a large batch of previously unreported tests. Th
 
 As of April 9, 2020, Idaho reports **probable and confirmed cases** separately. ",https://coronavirus.idaho.gov/,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Testing?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Demographics?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Hospitalizations?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Deaths?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,@IDHW,https://coronavirus.idaho.gov/,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,Idaho,16
 IL,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+
+On November 6, 2020, Illinois announced that they ""will report confirmed cases and probable cases combined.” We are carrying over the last available separate **Confirmed** and **Probable Case** values while we reach out to the state to see if these values will be made available elsewhere.
 
 As of October 15, 2020, Illinois combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
