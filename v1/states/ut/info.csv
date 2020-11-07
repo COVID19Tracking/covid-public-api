@@ -1,7 +1,6 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-UT,"Utah combines PCR and antigen tests in the top-line total tests figure reported on the state's dashboard. However, as of October 28, 2020, our Total Tests (PCR) and Positive Tests (PCR) for Utah are derived from the data download available on the Utah dashboard, which separates PCR and antigen tests. Total Tests (PCR) is calculated by adding positive and negative PCR tests from this [download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip).
-
-Our Total PCR Tests (People) is still sourced from the dashboard, and includes both PCR and antigen tests.
+UT,"
+As of October 28, 2020, our Total Tests (PCR) and Positive Tests (PCR) for Utah are derived from the data download available on the Utah dashboard, which separates PCR and antigen tests. Total Tests (PCR) is calculated by adding positive and negative PCR tests from this [download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip).
 
 As of October 29, 2020, Utah's `totalTestResults` field represents encounters instead of pos+neg. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field. 
 
