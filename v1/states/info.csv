@@ -413,7 +413,7 @@ PR,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
 Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports.
 
-On November 7, 2020, Puerto Rico switched from using antibody tests to antigen tests to identify probable cases in accordance with August 2020 CSTE guidelines. This caused probable cases to drop by 33,888. We cleared probable case history to match the new definition.
+On November 7, 2020, Puerto Rico switched from using antibody tests to antigen tests to identify probable cases in accordance with August 2020 CSTE guidelines. This caused probable cases to drop by 33,888. We cleared the history of our **Probable Cases** Field to match the new definition. We also modified our **Cases (confirmed + probable)** field to remove probables identified via antibody from April 24, 2020 onward, when we have access to a breakdown.
 
 On November 2, 2020, Puerto Rico removed 551 recoveries without explanation.
 
