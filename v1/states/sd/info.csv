@@ -1,8 +1,8 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-SD,"On October, 7, 2020 South Dakota started reporting **Probable cases**. This added 473 new cases to South Dakota's **Total cases** number.
-
-As of September 18, 2020, South Dakota's total test results are drawn from our `totalTestsPeopleViral` field instead of calculated via positive+negative.
+SD,"On July 27, 2020, **Negative PCR tests** decreased by 148 for unclear reasons.
 
 On August 27, the South Dakota Department of Health included cases from August 25 and 26 in their update due to a reporting aberration, resulting in a 343 case increase. They have provided historical case counts, and we are working to backfill our data.
 
-On July 27, 2020, **Negative PCR tests** decreased by 148 for unclear reasons.",https://doh.sd.gov/news/Coronavirus.aspx,,,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,South Dakota,46
+As of September 18, 2020, South Dakota's total test results are drawn from our `totalTestsPeopleViral` field instead of calculated via positive+negative.
+
+On October, 7, 2020 South Dakota started reporting **Probable cases**. This added 473 new cases to South Dakota's **Total cases** number.",https://doh.sd.gov/news/Coronavirus.aspx,,,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,South Dakota,46

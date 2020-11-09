@@ -1,10 +1,10 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-DE,"On September 9, 2020, Delaware reported that  data from September 8, 2020 and September 9, 2020 would not be available until September 10, 2020 due to a maintenance issue with their electronic reporting system. We will backfill data for September 8, 2020 and September 9, 2020 to the best of our abilities when data is released
-
-On September 6, 2020, the Division of Public Health reported a technical issue which caused between 175-200 positive cases to be excluded from Delaware's cumulative confirmed case count. These cases will be added in the coming days. As a result new cases reported may not have been diagnosed in the past 24 hour period.
-
-On August 27, 2020, Delaware revised down total cases and confirmed positives. This is a semi-regular occurrence which will impact Delware's number occasionally. 
+DE,"On April 11, 2020, Delaware revised down negative test results from 10,415 to 9,624.
 
 On July 25, 2020, Delaware revised down total cases, confirmed positives, and total tests.
 
-On April 11, 2020, Delaware revised down negative test results from 10,415 to 9,624.",https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,People,posNeg,posNeg,All data,false,Delaware,10
+On August 27, 2020, Delaware revised down total cases and confirmed positives. This is a semi-regular occurrence which will impact Delware's number occasionally. 
+
+On September 6, 2020, the Division of Public Health reported a technical issue which caused between 175-200 positive cases to be excluded from Delaware's cumulative confirmed case count. These cases will be added in the coming days. As a result new cases reported may not have been diagnosed in the past 24 hour period.
+
+On September 9, 2020, Delaware reported that  data from September 8, 2020 and September 9, 2020 would not be available until September 10, 2020 due to a maintenance issue with their electronic reporting system. We will backfill data for September 8, 2020 and September 9, 2020 to the best of our abilities when data is released",https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,People,posNeg,posNeg,All data,false,Delaware,10
