@@ -1,22 +1,20 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-WA,"Between March 31 and April 15, 2020, Washington state did not report **Negative PCR tests (people)**. 
-
-On April 18, 2020, Washington state removed 190 **confirmed cases** that were discovered to be out-of-state residents tested in Washington laboratories. 
-
-On June 18, 2020, Washington revised its **Total PCR tests (people)** downward. On the same date, Washington decreased its count of COVID-19 **deaths by 7**, because it determined that even though those 7 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
-
-On June 22, 2020, we updated previous values for **cases** and **total tests** in our time-series using data from Washington state's dashboard. This update caused an artificial decrease in cases and tests between June 21 and June 22.
-
-On July 14, 2020, Washington state revised its count of COVID-19 **deaths** downward by 39, because it determined that even though those 39 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
-
-On August 2, 2020, Washington state Department of Health reported that ""DOH is continuing to experience issues with its reporting system today. We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""
-
-On August 26, 2020, Washington switched its total tests units to testing encounters, excluding future encounters from individuals who test positive. It also provided a full timeseries of the figure. This testing encounters figure is slightly different from how we define testing encounters in two ways: first, our definition of testing encounters includes encounters after a positive test, and second, it should be calculated not by summing resulted tests but by counting all daily tests in a separate reporting stream. Despite these differences, the historical and current values of Washington’s figure are still stored in our **Total PCR tests (test encounters)** field.
-
-As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
-
-Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
+WA,"Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
-",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Washington,53
+As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
+
+On August 26, 2020, Washington switched its total tests units to testing encounters, excluding future encounters from individuals who test positive. It also provided a full timeseries of the figure. This testing encounters figure is slightly different from how we define testing encounters in two ways: first, our definition of testing encounters includes encounters after a positive test, and second, it should be calculated not by summing resulted tests but by counting all daily tests in a separate reporting stream. Despite these differences, the historical and current values of Washington’s figure are still stored in our **Total PCR tests (test encounters)** field.
+
+On August 2, 2020, Washington state Department of Health reported that ""DOH is continuing to experience issues with its reporting system today. We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""
+
+On July 14, 2020, Washington state revised its count of COVID-19 **deaths** downward by 39, because it determined that even though those 39 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
+
+On June 22, 2020, we updated previous values for **cases** and **total tests** in our time-series using data from Washington state's dashboard. This update caused an artificial decrease in cases and tests between June 21 and June 22.
+
+On June 18, 2020, Washington revised its **Total PCR tests (people)** downward. On the same date, Washington decreased its count of COVID-19 **deaths by 7**, because it determined that even though those 7 people had tested positive for COVID-19, COVID-19 was not a contributing cause in their deaths.
+
+On April 18, 2020, Washington state removed 190 **confirmed cases** that were discovered to be out-of-state residents tested in Washington laboratories. 
+
+Between March 31 and April 15, 2020, Washington state did not report **Negative PCR tests (people)**. ",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Washington,53
