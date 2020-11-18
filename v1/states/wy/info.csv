@@ -4,6 +4,10 @@ WY,"Wyoming reports both **Positive tests PCR (specimens)** and **Negative tests
 Wyoming’s Currently hospitalized value is calculated from the percentage of “Lab Confirmed Cases by
 Reported Hospitalization” graph on their [page] (https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/) in the absence of better data. As a result of the calculation, this value may fluctuate.
 
+On November 17, 2020, Wyoming’s Confirmed cases increased by more than their Total PCR tests (specimens) without explanation. As a result Negative test results which are calculated by subtracting Positive PCR tests (people) from Total PCR tests (specimens) decreased.
+
+On November 17, 2020, Wyoming’s Confirmed cases increased by more than their Total PCR tests (specimens) without explanation. As a result Negative test results which are calculated by subtracting Positive PCR tests (people) from Total PCR tests (specimens) decreased.
+
 On October 14, 2020, Wyoming's **Total PCR Tests (specimens)** and **Total PCR Tests (people)** values both decreased by over 1000 with no explanation. We believe the state might have deduplicated its data.
 
 On August 26, 2020, Wyoming did not report **Total PCR tests (people).** We have carried over the previous day's value.
