@@ -3,11 +3,11 @@ ND,"On October 8, 2020, North Dakota released two figures describing those who a
 
 On November 12, 2020, North Dakota explained that higher than normal fluctuations may be seen in data from the week of November 9, 2020, due to a software issue which has been resolved.
 
-On November 12, 2020, North Dakota [announced] (https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) that the high number of tests and positives was due in part to 5600 test backlog experienced by a third-party lab.
+On November 12, 2020, North Dakota [announced](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) that the high number of tests and positives was due in part to 5600 test backlog experienced by a third-party lab.
 
 On November 11, 2020, North Dakota reported two days of data for all metrics except for Total PCR tests (specimens), Positive PCR tests (people), and Positive cases (confirmed + probable).
 
-On November 10, 2020, North Dakota reported that their software for hospitalization metrics was down, an issue which also impacts active cases. We updated Total PCR tests (specimens), Positive PCR tests (people), and Positive cases (confirmed + probable) from their [daily news release] (https://www.health.nd.gov/news/covid-19-test-results-0).
+On November 10, 2020, North Dakota reported that their software for hospitalization metrics was down, an issue which also impacts active cases. We updated Total PCR tests (specimens), Positive PCR tests (people), and Positive cases (confirmed + probable) from their [daily news release](https://www.health.nd.gov/news/covid-19-test-results-0).
 
 As of September 11, 2020, North Dakota’s total test results reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
