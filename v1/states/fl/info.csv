@@ -3,8 +3,6 @@ FL,"Florida combines PCR and antigen tests in the total tests figure reported on
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
 
-On November 22, 2020, Florida did not update their daily COVID-19: summary of cases and monitoring report by the time we published our data. As a result, we were unable to update Total PCR tests (specimens), Positive PCR tests (specimens), Negative PCR tests (specimens), Positive PCR tests (people), and Probable cases.
-
 On November 3, 2020, Florida’s **Positive PCR Tests (specimens)** dropped by over 200 with no explanation.
 
 On October 30, 2020, the number of negative residents ('T_NegRes') remained unchanged on Florida's ArcGIS layer. The number of unique people tested in 'totalTestsPeopleViral' draws from 'T_NegRes' and 'C_AllResTypes' fields on Florida's ArcGIS layer. 
