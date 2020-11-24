@@ -7,6 +7,8 @@ We report the most recent hospitalization data available for Washington. In some
 
 As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
 
+On November 24, 2020, Washington announced via their [COVID-19 Data Dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that they would be unable to update laboratory testing data on November 24, 2020, and that they “ will resume updating all data on 11/30/2020"".
+
 On November 23, 2020, Washington announced that the department of health experienced multiple errors to their reporting process and would be unable to update their data dashboard.
 
 On August 26, 2020, Washington switched its total tests units to testing encounters, excluding future encounters from individuals who test positive. It also provided a full timeseries of the figure. This testing encounters figure is slightly different from how we define testing encounters in two ways: first, our definition of testing encounters includes encounters after a positive test, and second, it should be calculated not by summing resulted tests but by counting all daily tests in a separate reporting stream. Despite these differences, the historical and current values of Washington’s figure are still stored in our **Total PCR tests (test encounters)** field.
