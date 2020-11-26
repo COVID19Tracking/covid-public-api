@@ -5,9 +5,11 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
+On November 25, 2020, Washington announced that the Department of Health will not be reporting new negative test results until November 30, 2020. As a result, Washington’s PCR testing data may be affected.
+
 As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
 
-On November 24, 2020, Washington announced via their [COVID-19 Data Dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that they would be unable to update laboratory testing data on November 24, 2020, and that they “ will resume updating all data on 11/30/2020"".
+On November 24, 2020, Washington announced via their [COVID-19 Data Dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that they would be unable to update laboratory testing data on November 24, 2020, and that they “will resume updating all data on 11/30/2020"".
 
 On November 23, 2020, Washington announced that the department of health experienced multiple errors to their reporting process and would be unable to update their data dashboard.
 
