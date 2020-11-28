@@ -1,5 +1,5 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-WY,"Wyoming's metrics do not update every day, and don't always update together. As a result, please exercise extra caution when using numbers that are calculated from daily changes, especially if these calculations use multiple metrics.
+WY,"Wyoming’s metrics do not update every day, and don’t always update together. As a result, please exercise extra caution when using numbers that are calculated from daily changes, especially if these calculations use multiple metrics. If anomalies are observed, numbers from previous days will be carried over until corrections are made.
 
 Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a percentage of “Lab Confirmed Cases by Reported Hospitalization” on their [Statistics page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/). In the absence of a better data source we convert this percentage to an integer, and as a result of the calculation, this value may fluctuate.
 
