@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-ND,"On December 8, 2020, North Dakota  announced that they would not be updating their website due to site construction as they prepare to add antigen tests to their dashboard. As a result, we were unable to update their data on December 8, 2020.
+ND,"On December 9, 2020, North Dakota began reporting antigen tests, which we are reporting as Probable Cases. Until we can obtain a time series of the previous dates these tests were conducted, they will all be reported for 12/09/2020. North Dakota also made a number of changes to its data dashboard on this date that might affect our data reporting.
+
+On December 8, 2020, North Dakota  announced that they would not be updating their website due to site construction as they prepare to add antigen tests to their dashboard. As a result, we were unable to update their data on December 8, 2020.
 
 On December 3, 2020, North Dakota stopped reporting patients Hospitalized with COVID on their [COVID-19 dashboard](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) to “eliminate the discrepancy” between patients Hospitalized with COVID and patients Hospitalized due to COVID. As of December 3, 2020, North Dakota’s Currently hospitalized will include only patients hospitalized due to COVID.
 
