@@ -15,4 +15,4 @@ On June 18, 2020, Connecticut corrected some errors in its data, resulting in a 
 
 On May 29, 2020, Connecticut hospitalization data changed due to reporting laboratory-confirmed cases only. These changes resulted in a decrease in the numbers for **Ever hospitalized** and **Recovered** (which can be found in our API and CSVs). 
 
-On May 27, 2020, Connecticut deduplicated some of its data, resulting in a decrease in **Cases** and **Total PCR tests (specimens)**.",https://data.ct.gov/coronavirus,https://data.ct.gov/stories/s/q5as-kyim,,,,@ctdph,https://portal.ct.gov/Coronavirus,Specimens,posNeg,posNeg,All data,false,Connecticut,09
+On May 27, 2020, Connecticut deduplicated some of its data, resulting in a decrease in **Cases** and **Total PCR tests (specimens)**.",https://data.ct.gov/coronavirus,https://data.ct.gov/stories/s/q5as-kyim,https://data.ct.gov/api/id/rf3k-f8fg.json?%24query=select+%2A+order+by+date+desc+limit+1,,,@ctdph,https://portal.ct.gov/Coronavirus,Specimens,posNeg,posNeg,All data,false,Connecticut,09
