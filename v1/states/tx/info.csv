@@ -3,15 +3,11 @@ TX,"The Texas Department of State Health Services regularly includes older cases
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
-On December 11, 2020, Texas added probable cases to their dashboard, and provided a timeseries of **Probable cases** going back to November 1 2020. On December 12,2020, we backfilled the **Probable cases** and ajusted  *Cases (confirmed plus probable)** based on the data provided by Texas. We also backfilled **Positive antibody tests (specimens)**,  Neagtive antibody tests (specimens), **Total antigen tests (specimens)** and **Total antibody tests (specimens)** from the data provided by Texas at the same time.
+On December 14 2020, we backfilled the full time series of **Positive PCR tests (specimens)**, **Positive PCR tests (specimens)** from data available on [Texas ArcGis Layer](https://services5.arcgis.com/ACaLB9ifngzawspq/ArcGIS/rest/services/TX_DSHS_COVID19_TestData_Service/FeatureServer/6). 
 
-On November 16, 2020, Texas announced that due to technical difficulties testing data would not be updated. In addition, the “DSHS will be unable to separate laboratory data for Nov. 15 and Nov. 16 for the following indicators: total tests reported…“. As a result, testing data for November 17, 2020 will include tests reported on November 15, 2020 and November 16, 2020.
-
-On November 15, 2020, Texas did not update any testing metrics. 
+On December 11, 2020, Texas added probable cases to their dashboard, and provided a timeseries of **Probable cases** going back to November 1 2020. On December 12,2020, we backfilled the **Probable cases** and ajusted  *Cases (confirmed plus probable)** based on the data provided by Texas. We also backfilled **Positive antibody tests (specimens)** from the data provided by Texas at the same time.
 
 On November 11, 2020, Texas reported that their update to **Deaths (confirmed and probable)** would be delayed due to technical difficulties.
-
-On September 14, 2020, Texas ""revised its method for reporting Total Tests,"" resulting in an approximately 300,000 unit decrease in **Total PCR tests (specimens)** and approximately 17,000 unit decrease in **Total antibody tests (specimens)**. We are currently investigating how this change affects our understanding of Texas' testing units.
 
 As of August 16, 2020, several commercial laboratories submitted previously backlogged test results to the Texas Department of State Health Services. As a result, new confirmed cases may not have occurred in the past 24 hours. The Texas Department of State Health Services is working to resolve these issues.
 
