@@ -21,7 +21,7 @@ On October 10, 2020, Florida did not report COVID-19 data. The state initially r
 
 On September 1, 2020, the Florida Department of Health [announced](http://www.floridahealth.gov/newsroom/2020/09/090120-1112-covid19.pr.html) that Quest Diagnostics had reported nearly 75,000 backlogged tests dating as far back as April.
 
-On August 14, 2020, Florida began distinguishing between people with positive antigen tests and people with positive PCR tests in the Total Cases number given in their daily state report. As of September 30, 2020, we have removed these antigen positives from the values for **Cases or Positive PCR tests (people)** (_positiveCasesViral_ in our API), so the values for this metric in our time series will be lower. **Cases (confirmed plus probable)** (_positive_ in our API) will be unaffected.
+On August 14, 2020, Florida began distinguishing between people with positive antigen tests and people with positive PCR tests in the Total Cases number given in their daily state report. As of September 30, 2020, we have removed these antigen positives from the values for **Cases or Confirmed cases** (`positiveCasesViral` in our API), so the values for this metric in our time series will be lower. **Cases (confirmed plus probable)** (`positive` in our API) will be unaffected.
 
 On August 12, 2020, the Florida Department of Health reported via Twitter that it had received a large backlog of testing data from Niznik Lab Corp in Miami: ""The lab reported over 4,000 cases occurring over the last 7 weeks, but which had not been reported to FDOH until today. Therefore, this backlog severely skews today's daily report for Miami-Dade and is not reflective of current trends.""
 

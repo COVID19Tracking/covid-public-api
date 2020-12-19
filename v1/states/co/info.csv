@@ -1,16 +1,15 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 CO,"The **Recovered** data point we report for Colorado reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+
 As of December 11, 2020, we are switching our deaths source for Colorado from deaths due to COVID to deaths among cases because of a processing lag. On September 1, 2020, there was only a 97 difference between the two figures: 1946 deaths among cases, vs. 1849 deaths due to COVID. On December 11, 2020, there is now a 759 difference—3759 deaths among cases, as opposed to 3005 deaths due to COVID. This means 20% of deaths among cases do not have death certificate data, vs. 5% in September, indicating a lag. Previously, on July 1, 2020, we had revised our historical data to reflect the death-certificate metric instead of the deaths-among-cases metric to comply with federal standards from the National Center for Health Statistics.
 
-We are also capturing a confirmed/probable breakdown from May 15, 2020 onward, which we did not used to capture since it was not provided for due to COVID
+We are also capturing a confirmed/probable breakdown from May 15, 2020 onward, which we did not used to capture since it was not provided for due to COVID.
+
 On November 18, 2020, we shifted the entire time series of Colorado metrics by one day to match the date that the state reports on its dashboard. 
 
-On November 13, 2020, the state of Colorado reported an increase in **Positive PCR tests (people)** that is less than that of the increase in **Positive PCR Tests (people)**. This resulted in a large decrease in **Negative (People or Cases)** metric due to our calculations. For now we are holding this metric, **Negative PCR Tests (People)**, constant until further notice
-
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
-
-As of August 13, 2020, Colorado's **total test results** reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
+On November 13, 2020, the state of Colorado reported an increase in **Confirmed cases** that is less than that of the increase in **Positive PCR Tests (people)**. This resulted in a large decrease in **Negative (People or Cases)** metric due to our calculations. For now we are holding this metric, **Negative (People or Cases)**, constant until further noticeAs of August 13, 2020, Colorado's **total test results** reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
 On July 27, 2020, Colorado posted a notice that, ""Due to a server issue yesterday and today with our electronic laboratory reporting system, the number of tests completed and cases reported today, July 27, 2020, may be artificially low."" We report Colorado data a day after posting due to timing, so this note applies to the data published on July 28.
 
