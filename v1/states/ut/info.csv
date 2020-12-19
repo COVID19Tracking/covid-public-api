@@ -1,11 +1,11 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 UT,"On November 25, 2020, Utah [announced](https://twitter.com/UtahCoronavirus/status/1331703634942451715) via their official Utah COVID-19 response twitter that there would be no update to their data on November 26, 2020. Additionally, the data that would normally have been published on November 26, 2020 will be included in the November 27, 2020 update.
 
-As of November 9, 2020, our **Confirmed cases** metric for Utah is sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests. This caused a slight decrease in the number of **Confirmed Cases**.
+As of November 9, 2020, our **Confirmed cases** metric for Utah is sourced from the data download available on the [Utah dashboard](https://coronavirus-dashboard.utah.gov/), which separates PCR and antigen tests. This caused a slight decrease in the number of **Confirmed Cases**.
 
-As of November 6, 2020, our **Total PCR tests (people)** and **Negative PCR tests (people)** metrics for Utah are sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests.
+As of November 6, 2020, our **Total PCR tests (people)** and **Negative PCR tests (people)** metrics for Utah are sourced from the data download available on the [Utah dashboard](https://coronavirus-dashboard.utah.gov/), which separates PCR and antigen tests.
 
-As of October 28, 2020, our **Total PCR tests (specimens)** and **Positive PCR tests (specimens)** metrics for Utah are derived from the data download available on the Utah dashboard, which separates PCR and antigen tests. **Total PCR tests (specimens)** is calculated by adding positive and negative PCR tests from this [download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip).
+As of October 28, 2020, our **Total PCR tests (specimens)** and **Positive PCR tests (specimens)** metrics for Utah are sourced from the data download available on the [Utah dashboard](https://coronavirus-dashboard.utah.gov/), which separates PCR and antigen tests. **Total PCR tests (specimens)** is calculated by adding positive and negative PCR tests from this [download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip).
 
 As of October 29, 2020, Utah's `totalTestResults` field represents encounters instead of pos+neg. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field. 
 

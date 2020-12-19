@@ -15,7 +15,7 @@ On December 3, 2020, Alabama announced that: ""The Alabama Department of Public 
 
 As of December 2, 2020, Alabama's total test results are drawn from our `totalTestsPeopleViral` field instead of  `totalTestsViral`. Before that, as of September 18, 2020, Alabama's total test results were switched to draw from our `totalTestsViral` field instead of being calculated via positive+negative. The timeseries are the same, but previously, Alabama's units had been unclear, and therefore we stored the series in our specimens field. 
 
-On December 2, 2020, Alabama announced that a backlog of 706 positive PCR tests preformed from November 23, 2020 through November 29, 2020 would be included in their daily update for December 2, 2020.
+On December 2, 2020, Alabama announced that a backlog of 706 positive PCR tests performed from November 23, 2020 through November 29, 2020 would be included in their daily update for December 2, 2020.
 
 On December 1, 2020, Alabama [announced](https://twitter.com/alpublichealth/status/1333790272648409093?s=21) that increased new case and death counts are due to delayed data from Thanksgiving.
 
