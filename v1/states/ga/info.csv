@@ -1,8 +1,6 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 GA,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data. 
 
-On December 18, 2020 Georgia’s hospital dashboard had an increase of 1,069 Patients Under Investigation after being down due to a “technical problem” for two days. This resulted in a large increase in **Currently hospitalized**. If we discover this was an error we will correct our data.”
-
 On November 13, 202 we backfilled the **Total PCR tests (specimens)** time series to include only PCR testing, reported by the state in their data download file. This updates the previously reported series that until May 27, 2020 included both PCR and antibody tests.
 
 On November 3, 2020, Georgia started reporting probable deaths and antigen positive cases in their COVID-19 Daily Status report. On November 4, we added the probable deaths in our **Deaths (probable)** field for November 3 and 4, causing the daily rise in deaths on the 3rd to appear as 480. This large increase includes the data dump of 450 probable deaths, many of which are not from the most recent 24 hour period. We also began recording the 29,937 antigen positive cases in our `positiveTestsPeopleAntigen` API field. We have reached out to Georgia's health department for clarity on the definition of this number. 
