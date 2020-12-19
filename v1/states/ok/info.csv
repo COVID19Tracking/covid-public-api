@@ -1,7 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 OK,"On December 17, 2020, Oklahoma announced that due to technical issues on December 16, 2020, they were unable to update their testing data. As a result, we were unable to update Total PCR tests (specimens), Positive PCR tests (specimens), Negative PCR tests (specimens), or Negative PCR tests (people) on December 17, 2020.
 
-On December 16, 2020, Oklahoma stopped reporting “persons under investigation” who are **Currently hospitalized** or **Currently in ICU.** We have carried over the values from December 15, 2020 for these metrics while we investigate to see if Oklahoma is reporting the information in another location.
+As of December 16, 2020, Oklahoma’s Currently hospitalized and Currently in ICU include only patients with confirmed COVID-19. Prior to December 16, 2020, they included confirmed COVID-19 patients and people under investigation.
 
 On December 4, 2020 Oklahoma announced that the increase of 4,287 cases reported today was largely attributable to an issue with the state's reporting system, which resulted in the inclusion of backlogged cases from December 2 to December 4.
 
