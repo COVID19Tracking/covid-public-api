@@ -7,6 +7,8 @@ We report the most recent hospitalization data available for Washington. In some
 
 As of December 20, 2020, Washington no longer updates their data on Sundays. Because Washington’s data is on a one day lag in our timeseries, we are unable to update their data on Mondays.
 
+On December 23, 2020, Washington announced that due to an issue with their hospital reporting process, their hospital data was incomplete. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 24, 2020.
+
 On December 18, 2020, Washington announced on their COVID-19 [Data Dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that due to a change in the way they report COVID-19 deaths, a timing error caused an artificial decrease of 13 Deaths (confirmed + probable) and Deaths (confirmed) on December 18, 2020. Because Washington’s data is on a one day lag in our timeseries due to late updates, this will affect our data for December 19, 2020.
 
 From November 21, 2020 through today, Washington has reported a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
