@@ -3,6 +3,8 @@ FL,"Florida combines PCR and antigen tests in the total tests figure reported on
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
 
+On December 25, 2020, Florida [announced](https://twitter.com/healthyfla/status/1342511673261711360?s=21) via the official Florida Department of Health twitter that they would not be updating their data on December 25, 2020 due to the Christmas holiday. We were able to update **Now hospitalized** from Florida's separate [hospitalization source](https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?:isGuestRedirectFromVizportal=y&:embed=y).
+
 On December 10, 2020,  we cleared **Deaths (confirmed)** from August 12 onward and are reporting them as **Deaths (confirmed and probable)**. On August 11, Florida added antigen tests to its data definition for deaths, which were previously PCR only.
 
 On November 26, 2020, Florida did not update their data, presumably due to the Thanksgiving holiday.
