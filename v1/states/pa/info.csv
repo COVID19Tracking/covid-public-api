@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-PA,"On December 14, 2020, Pennsylvania’s **Total PCR tests (specimens)** decreased by roughly 297k without explanation.
+PA,"On December 28, 2020, Pennsylvania's Total PCR tests (specimens) value increased by ~690,000 from 7,202,533 tests to 7,892,184 tests. On December 29, 2020, this Total PCR tests value decreased by ~580,000 to 7,312,858 tests. We were unable to find an explanation for this fluctuation.
+
+On December 14, 2020, Pennsylvania’s **Total PCR tests (specimens)** decreased by roughly 297k without explanation.
 
 On September 3, 2020, Pennsylvania [clarified](https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx) that the test numbers they have been reporting previously are in units of unique people and began publishing new test data in units of specimens. On September 4, 2020, we therefore moved the appropriate historical data to the **Total tests (people)** field and began capturing **Total PCR tests (specimens)**. 
 
