@@ -5,6 +5,8 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
+Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+
 As of December 20, 2020, Washington no longer updates their data on Sundays. Because Washington’s data is on a one day lag in our timeseries, we are unable to update their data on Mondays.
 
 On December 29, 2020, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20201230-001452.png) that their death data included a “backlog of roughly 200 cases that were previously unreported due to a processing issue”. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 30, 2020. 
@@ -14,8 +16,6 @@ On December 25, 2020, Washington announced on their [COVID-19 dashboard](https:/
 On December 23, 2020, Washington announced that due to an issue with their hospital reporting process, their hospital data was incomplete. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 24, 2020.
 
 On December 18, 2020, Washington announced on their COVID-19 [Data Dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that due to a change in the way they report COVID-19 deaths, a timing error caused an artificial decrease of 13 Deaths (confirmed + probable) and Deaths (confirmed) on December 18, 2020. Because Washington’s data is on a one day lag in our timeseries due to late updates, this will affect our data for December 19, 2020.
-
-From November 21, 2020 through today, Washington has reported a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
 On December 19, 2020, Washington's total test number returned to its normal level, so we updated the December 18th value, replacing the anomalous 2,765,404 with the last value from December 17th (3,432,892), to avoid a huge one day drop in the cumulative test count.
 
