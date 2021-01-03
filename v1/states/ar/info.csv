@@ -1,8 +1,6 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 AR,"Arkansas reports a category of “non-COVID deaths,” representing individuals who died with COVID positive but of causes unrelated to COVID. We do not count these individuals in our deaths metric, consistent with our policy of tracking only individuals with COVID as a cause of death where possible.
 
-On December 9, 2020, AR did not update its data before our publication time.
-
 During the week of September 20, 2020, Arkansas made some continual adjustments to its antigen people tested numbers, resulting in some fluctuation in its negatives and totals.
 
 As of September 18, 2020, Arkansas's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The totals do not include repeat positives—counting individuals only for their first positive—but do count repeat negative tests.
