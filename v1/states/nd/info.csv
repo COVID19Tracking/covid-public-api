@@ -1,7 +1,5 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-ND,"As of December 30, 2020, North Dakota's total test metrics [now include both antigen and PCR test results](https://twitter.com/NDDOH/status/1344329384262451201).
-
-From December 30, 2020 to December 31, 2020, we carried over the existing value for **Negative PCR Tests (people)** while we evaluate the source for that metric.
+ND,"On December 30, 2020, North Dakota began reporting antigen in addition to PCR testing. From December 31, 2020 to January 3, 2021, we captured those numbers combined in our Total Tests (PCR) and Total Test Encounters (PCR) fields. On January 4, 2021, we began reporting these figures separately and revised our historical data to reflect the separate antigen and PCR numbers North Dakota provides.
 
 On December 25, 2020, North Dakota announced on their [COVID-19 dashboard](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. On January 1, 2020, they noted that there would be no update on January 1, 2020 due to the New Years holiday.
 
