@@ -672,7 +672,7 @@
           },
           "recovered": {
             "type": "integer",
-            "description": "Individuals who have recovered from COVID-19. Definitions vary by state / territory.",
+            "description": "Deprecated: Individuals who have recovered from COVID-19. Definitions vary by state / territory.",
             "nullable": true,
             "example": 50
           },
