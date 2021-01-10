@@ -1,5 +1,5 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-WI,"On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. Because of this we carried over the previous day’s value.
+WI,"On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. The metric was updated, and then patched in our data, later on January 9, 2021.
 
 On October 29, we populated the full time series for **Total Test Encounters (PCR)** from a time series provided by Wisconsin via CSV on their dashboard. Also as of October 29, Wisconsin's `totalTestResults` represent total test encounters instead of being calculated via pos+neg. The number of unique people ever tested remains available in the API in the `totalTestsPeopleViral` field. 
 
