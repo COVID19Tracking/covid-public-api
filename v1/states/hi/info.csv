@@ -1,15 +1,13 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 HI,"Hawaii’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** in the absence of better data.
-
-On December 25, 2020, Hawaii’s Total PCR tests (test encounters) decreased by 6184 without explanation.
+On December 25, 2020, Hawaii’s **Total PCR tests (test encounters)** decreased by 6184 without explanation.
 
 On November 10, 2020, we switched the source for Hawaii’s **Currently Hospitalized** to the Hawaii Emergency Management Agency’s COVID-19 dashboard. As a result, current hospitalizations decreased by 14.
 
 As of October 9, 2020, Hawaii’s total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. 
 
-As of October 7th, 2020, Hawaii has stopped reporting the number of unique people tested, which is available in our API as `totalTestsPeopleViral`. We will carry forward the last value as a lower bound.
+On October 7, 2020, Hawaii stopped reporting **Total PCR tests (people)** and **Total PCR tests (specimens)** and began reporting **Total PCR tests (test encounters)**. Due to this we cannot continue reporting **Total tests PCR (people)**, **Total PCR tests (specimens)** and `negative`, which was calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**, however the time series for the metrics are available in the historical data, and our data downloads. 
 
 On September 3, 2020, Hawaii included cases which had been previously diagnosed in their daily update due to an electronic laboratory reporting error."" As a result, new cases reported may not have been diagnosed in the previous 24 hours.
 
