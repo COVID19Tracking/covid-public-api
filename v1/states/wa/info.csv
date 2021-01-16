@@ -5,9 +5,9 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
-On January 14, 2021, Washington state announced that their data on hospitalizations was incomplete due to an interruption in their data reporting process. As a result, Cumulative hospitalized was not updated on January 15, 2021; a complete update is expected on January 16, 2021.
-
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+
+On January 14, 2021, Washington announced that their hospitalization data was incomplete due to an interruption in their data reporting process. On January 15, 2021, they announced that their hospitalization data was “unusually high” due to a backlog from January 13, 2021 and January 14, 2021. Because their data is on a one day lag in our timeseries, this affects our data for January 15, 2021 and January 16, 2021. To avoid recording incomplete data, we did not update their Ever hospitalized on January 15, 2021 and urge caution when interpreting their hospital data from this time period.
 
 On January 8, 2021, Washington noted that their hospitalization data for the day was incomplete due to a data processing issue, and their Ever hospitalized decreased by 11. Because Washington’s data is on a one day lag in our timeseries, this is reflected in our data for January 9, 2021.
 
