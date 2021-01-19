@@ -13,7 +13,9 @@ On October 11, 2020, [Missouri announced that a database error had resulted in a
 
 On October 8, 2020, Missouri added current hospitalizations to their COVID-19 dashboard, and we began to capture this metric. Historical data is also available and we are working on backfilling our data for days where this metric was unavailable.
 
-As of October 7, 2020, Missouri's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
+As of October 7, 2020, Missouri's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The number of unique people tested is available in our API as `totalTestsPeopleViral`. 
+
+On September 28, 2020, Missouri removed the Positive and Negative antibody tests (people) metrics from their dashboards. Due to this we cannot continue reporting **Positive antibody tests (people)** and **Negative antibody tests (people)**, however the time series for these metrics are available in the historical data, and our data downloads. 
 
 On September 5, 2020, the Missouri DHSS [added an additional 72 deaths](http://twitter.com/HealthyLivingMo/status/1302314149620391937?s=20) to their total count, ""most of which occurred June-August"".
 
