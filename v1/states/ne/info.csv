@@ -1,8 +1,9 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
 
-
 Nebraska’s **Recovered** numbers occasionally decrease without explanation.
+
+On January 20, 2021, Nebraska reported that its dashboard would be down until “later in the week” due to system maintenance. The Nebraska Department of Health reported **Deaths** and **Now hospitalized** values manually.
 
 On January 13, 2021, Nebraska’s Recovered decreased by 1864 without explanation.
 
