@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-NY,"New York State has not reported new **Ever hospitalized** data since June 2, 2020.
+NY,"New York City reports **Deaths (probable)** from COVID-19 that New York State does not include in its data reporting. Because we collect state data, not city or county data, these New York City probable deaths from COVID-19 are not included in our dataset. The total number of deaths from COVID-19 for New York State reported by the CDC is significantly larger than the total number of deaths from COVID-19 reported by New York State.
+
+New York State has not reported new **Ever hospitalized** data since June 2, 2020.
 
 As of November 23, 2020, New York's `totalTestResults` are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
 
