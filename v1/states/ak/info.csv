@@ -11,7 +11,7 @@ On January 1, 2021, Alaska noted that there would be no update to their data on 
 
 On December 25, 2020, Alaska announced on their [COVID Response Hub](https://coronavirus-response-alaska-dhss.hub.arcgis.com)that there would be no update to their data on December 25, 2020. 
 
-On November 17, 2020, Alaska [announced](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. As a result, Alaska’s **Recovered** will no longer be updated.
+On November 17, 2020, Alaska [announced](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
 
 On November 16, 2020 we updated the **Total cases** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
 
