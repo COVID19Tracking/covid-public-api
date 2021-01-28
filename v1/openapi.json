@@ -1022,7 +1022,8 @@
             "description": "The COVID Tracking Project grade of the completeness of the data reporting by a  state.",
             "nullable": true,
             "example": "",
-            "x-sheetColumn": "Data Quality Grade"
+            "x-sheetColumn": "Data Quality Grade",
+            "x-deprecated": true
           },
           "lastUpdateEt": {
             "type": "string",
