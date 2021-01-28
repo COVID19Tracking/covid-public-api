@@ -1,2 +1,2 @@
 date,states,positive,negative,pending,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,dateChecked,death,hospitalized,totalTestResults,lastModified,recovered,total,posNeg,deathIncrease,hospitalizedIncrease,negativeIncrease,positiveIncrease,totalTestResultsIncrease,hash
-20201012,56,7744944,82488149,11329,35148,416680,6860,21625,1663,2464,2020-10-12T24:00:00Z,207114,416680,125463772,2020-10-12T24:00:00Z,,0,0,285,1106,650490,43234,1020226,629fb7b8326352f512cf3868034208487fd12259
+20201012,56,7744944,67340353,11329,35148,416680,6860,21625,1663,2464,2020-10-12T24:00:00Z,207114,416680,125463772,2020-10-12T24:00:00Z,,0,0,285,1106,522553,43234,1020226,898447080961b1e7946b4e03ae420eb0cd08ed06
