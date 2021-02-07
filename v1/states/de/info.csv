@@ -1,6 +1,8 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 DE,"Throughout the week of December 17, 2020, Delaware has experienced technical issues with lab reporting. Please exercise caution when looking at their data from this period and be aware that 7 day averages are a more reliable metric than individual figures.
 
+On February 7, 2021, Delaware noted that due to a technical issue it was reporting 260 cases reported to DPH on February 5 as well as the new cases reported on February 6.
+
 On December 18, 2020, Delaware announced that due to laboratory reporting delays, the number of cases reported for December 17, 2020 is lower than previous days, and the number of cases reported for December 18, 2020 would be higher than previous days to make up for it. Because Delaware reports their data as of the previous day, this affects our data for December 18, 2020 and December 19, 2020.
 
 On December 7, 2020, Delaware announced that they would no longer be reporting **Recovered** as it was “no longer a true reflection of the number of persons that recovered from the disease” because this metric included only cases who had self-reported their recovery to the Division of Public Health. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
