@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-WI,"On February 1, 2021, Wisconsin’s Total PCR tests (test encounters) decreased by roughly 17k without explanation.
+WI,"On February 8, 2021, Wisconsin's Total PCR tests (test encounters) decreased by roughly 13,000 without explanation.
+
+On February 1, 2021, Wisconsin’s Total PCR tests (test encounters) decreased by roughly 17,000  without explanation.
 
 On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. The metric was updated, and then patched in our data, later on January 9, 2021.
 
