@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-PA,"As of February 2, 2021, Pennsylvania's totalTestResults field is drawn from the 'totalTestEncountersViral' field instead of being calculated from positive+negative.
+PA,"On February 9, 2021, Pennsylvania [announced](https://www.media.pa.gov/pages/health-details.aspx?newsid=1286) via a press release that case data for February 8, 2021 would be low as a result of “technical maintenance to the data server on Sunday”. Data for February 9, 2021, will include cases from “catch-up reporting because of lengthy server downtime”. Additionally, they noted that death data is sourced from a different server and was not affected.
+
+As of February 2, 2021, Pennsylvania's totalTestResults field is drawn from the 'totalTestEncountersViral' field instead of being calculated from positive+negative.
 
 On February 1, 2021, we backfilled the full time series of **Total Test Encounters (PCR)**, from data now available on [Open Data Pennsylvania](https://data.pa.gov/Health/COVID-19-PCR-Test-Counts-March-2020-Current-Statew/r6ti-va88), and cleared our **Total Tests (PCR)** column. Going forward, we will enter PA's ""Total PCR Tests"" into Our **Total Test Encounters (PCR)** column rather than **Total Tests (PCR)**, as the state's site describes the data as encounters.
 
