@@ -13,7 +13,7 @@ On December 25, 2020, Alaska announced on their dashboard that there would be no
 
 On November 17, 2020, Alaska [announced](https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
 
-On November 16, 2020 we updated the **Total cases** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
+On November 16, 2020 we updated the **Cases (confirmed plus probable)** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
 
 On November 16, 2020 we added **Cumulative Hospitalized** (which includes both residents and non-residents), although the value does not reflect current hospitalizations.
 
