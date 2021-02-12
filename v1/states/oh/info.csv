@@ -1,6 +1,8 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 OH,"Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
+On February 10, 2021, Ohio [announced](https://odh.ohio.gov/wps/portal/gov/odh/media-center/odh-news-releases/odh-news-release-02-10-20) that up to 4,000 COVID-19 deaths were underreported in the state’s reporting system and on their COVID-29 dashboard. These deaths will be added to their counts over the week on February 11, 2021. As a result, new deaths will be substantially higher than normal throughout this period. We urge caution when interpreting data from this period. Our data quality team will continue to investigate how best to handle the addition of these death.
+
 On January 6, 2021, we switched Ohio's `totalTestResults` to draw from `totalTestsViral` instead of by calculating from positive+negative. 
 
 On December 29, 2020, Ohio provided a timeseries of Total Tests (PCR), Positive Tests (PCR), Total Antigen Tests, and Positive Antigen Tests. On January 6, 2021, we backfilled all 4 metrics from this download, which resulted in the addition of three new metrics (positive tests PCR, positive tests antigen, total tests antigen) and a full history for Total Tests (PCR).
