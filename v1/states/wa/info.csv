@@ -7,6 +7,8 @@ We report the most recent hospitalization data available for Washington. In some
 
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
+On February 15, 2021, Washington announced that there would be no update to their data due to the President’s day holiday. Because Washington’s data is on a one day lag in our timeseries, we were unable to update their data on February 16, 2021.
+
 On February 10, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210211-123942.png) that their cumulative hospitalizations decreased by 14, noting that “in some cases, after a detailed information review, local health departments reclassify cases as not hospitalized or hospitalized for a reason other than COVID-19.” Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 11, 2021.
 
 On February 9, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210210-123423.png) that the higher number of deaths was due to a “data processing backlog” from February 8, 2021 being cleared. Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 10, 2021.
