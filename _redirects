@@ -18,3 +18,4 @@
 /us                                       /v1/us/current.json
 /us.csv                                   /v1/us/current.csv
 /us/daily                                 /v1/us/daily.json
+/v2beta/*                                 /v2/:splat
