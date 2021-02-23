@@ -1073,6 +1073,13 @@
             "x-deprecated": true,
             "x-internalNote": "Old label for `hospitalizedCumulative`."
           },
+          "hospitalizedDischarged": {
+            "type": "integer",
+            "description": "Total number of discharged hospitalizations",
+            "nullable": true,
+            "example": "",
+            "x-deprecated": false
+          },
           "hospitalizedIncrease": {
             "type": "integer",
             "description": "Daily difference in hospitalized",

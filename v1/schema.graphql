@@ -74,6 +74,7 @@ Type States {
   death: Int
   deathIncrease: Int
   hospitalized: Int
+  hospitalizedDischarged: Int
   hospitalizedIncrease: Int
   dateChecked: String
   hash: String
