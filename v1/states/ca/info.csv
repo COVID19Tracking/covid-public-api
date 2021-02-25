@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-CA,"On December 16, 2020, California [announced](https://www.cdph.ca.gov/Programs/OPA/Pages/NR20-338.aspx) that their cases for December 16, 2020 include 15,337 cases from previous days due to a change in case processing. It appears this new process will regularly include a higher volume of cases that were not identified within the previous 24 hours.
+CA,"On February 25, 2021, California announced that their deaths included a backlog of 806 deaths initially not reported as COVID-19 deaths from Los Angeles County. As a result, many of the deaths reported on February 25, 2021 occurred between December 3, 2020 and February 3, 2021. We urge caution when interpreting numbers from this period, and encourage the use of 7 and 14-day averages as more reliable metrics than individual figures.
+
+On December 16, 2020, California [announced](https://www.cdph.ca.gov/Programs/OPA/Pages/NR20-338.aspx) that their cases for December 16, 2020 include 15,337 cases from previous days due to a change in case processing. It appears this new process will regularly include a higher volume of cases that were not identified within the previous 24 hours.
 
 As of September 18, 2020, California's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
