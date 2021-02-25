@@ -5,7 +5,7 @@ On February 22, 2021 through February 24, 2021, Virginia announced that the Virg
 
 On January 31, 2021 through February 1, 2021, Virginia noted that “Surveillance system upgrades occurring on Saturday, January 30, 2021, will affect the data on the COVID-19 Cases & Testing Dashboards on January 31 and February 1, 2021. A decrease in the number of cases and tests reported on January 31, and an increase in the number of cases and tests reported on February 1 is anticipated because of these upgrades”. 
 
-On January 12, 2021, we backfilled antibody (`totalTestsAntibody`, `positiveTestsAntibody`) and antigen (`totalTestsAntigen`, `positiveTestsAntigen`) testing time series from the statess dataset. The data from the state describes *testing encounters* for both antibody and antigen testing, since we do not track testing encounters for antibody and antigen testing, we're using the testing specimens fields.
+On January 12, 2021, we backfilled antibody (`totalTestsAntibody`, `positiveTestsAntibody`) and antigen (`totalTestsAntigen`, `positiveTestsAntigen`) testing time series from the states dataset. The data from the state describes *testing encounters* for both antibody and antigen testing, since we do not track testing encounters for antibody and antigen testing, we're using the testing specimens fields.
 Antigen testing is reported as starting from January 26th, 2020, which is very early for antigen testing, we'll ask the state for clarifications.
 
 On December 8, 2020, Virginia’s **Recovered** decreased by 200 without explanation.
