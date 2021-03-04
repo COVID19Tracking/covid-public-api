@@ -1,5 +1,7 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-UT,"On February 12, 2021, we cleared the history of Utah's **Confirmed cases** field, which we previously filled using data from its positive people tested via PCR number. Utah does not present this figure as confirmed cases and instead calls its main case number, which includes both PCR and antigen tests, ""lab-confirmed cases."" We did not duplicate Utah's main case number into Confirmed cases to replace this positive PCR individuals number because the definition the state uses for ""confirmed"" is not in accordance with CSTE definitions.
+UT,"On March 4, 2021, Utah did not update their COVID-19 dashboards by the time of our daily update. As a result, we were unable to update their Cases (confirmed + probable) and hospitalization and death data.
+
+On February 12, 2021, we cleared the history of Utah's **Confirmed cases** field, which we previously filled using data from its positive people tested via PCR number. Utah does not present this figure as confirmed cases and instead calls its main case number, which includes both PCR and antigen tests, ""lab-confirmed cases."" We did not duplicate Utah's main case number into Confirmed cases to replace this positive PCR individuals number because the definition the state uses for ""confirmed"" is not in accordance with CSTE definitions.
 
 On December 25, 2020, Utah did not update their data by the time of our daily update, presumably due to the Christmas holiday.
 
