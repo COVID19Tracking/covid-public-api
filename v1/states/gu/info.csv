@@ -3,6 +3,8 @@ GU,"As of November 21, 2020, Guam’s Negative test results reported in our API 
 
 Guam's counts include 11 people tested at the San Diego naval base.
 
+On March 5, 2021, Guam [announced](https://ghs.guam.gov/jic-release-no-592-covid-19-related-fatalities-reviewed-and-adjusted-132nd-133rd-fatalities) that, ""the Department of Public Health and Social Services (DPHSS) Chief Medical Officer and Territorial Epidemiologist, in coordination with the Acting Chief Medical Examiner, have been conducting a review of all possible COVID-19-related deaths."" This review has led to 2 additional reported COVID-19 related deaths.
+
 As of December 7, 2020, Guam’s Total PCR tests (specimens), Total antigen tests (specimens), Total antibody tests (specimens) will include all specimens reported. Previously they did not include follow up testing for known cases.
 
 On November 21, 2020, we cleared Guam’s **Total PCR tests (People)** timeseries. Prior to November 21, we had believed that Guam’s negative counts represented people. However after outreach to Guam’s health department, we learned that the negatives represented specimens (while its positives represent cases). This change means Guam’s totalTestResults represent specimens excluding repeat positive results.
