@@ -935,7 +935,9 @@ On August 14, 2020, South Carolina reported an unusually large number of tests w
 On July 18, 2020, South Carolina announced it was transitioning to new reporting systems and that ""there may be incomplete data with significant gaps."" Though reporting resumed July 28, 2020, this resulted in data being carried over at times. We will backfill with the updated numbers when they are available.
 
 As of June 11, 2020, South Carolina reports PCR tests separately from antibody tests. Total test numbers were reduced by around 22,000 as a result of this change. ",https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/sc-demographic-data-covid-19,https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/hospital-bed-capacity-covid-19,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/south-carolina-county-level-data-covid-19,https://public.tableau.com/views/MainDashboard_15964746061440/Testing?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Fpublic.tableau.com%2F&%3Aembed_code_version=3&%3Atabs=no&%3Atoolbar=no&%3Aanimate_transition=no&%3Adisplay_static_image=no&%3Adisplay_spinner=no&%3Adisplay_overlay=no&%3Adisplay_count=yes&%3Alanguage=en&publish=yes&%3AloadOrderID=2,@scdhec,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,Specimens,posNeg,posNeg,All data,false,South Carolina,45
-SD,"On March 4, 2021, we backfilled South Dakota's **Total Tests (Specimens)** and **Positive Tests (PCR)** with data from the ""PCR Test Positivity Rate by Date Reported to SD-DOH"" on the state's dashboard. The updated time series includes only PCR tests.
+SD,"As of March 4, 2021, South Dakota's `totalTestResults` field is taken directly from `totalTestsViral` instead of calculated from positive + negative. 
+
+On March 4, 2021, we backfilled South Dakota's **Total Tests (Specimens)** and **Positive Tests (PCR)** with data from the ""PCR Test Positivity Rate by Date Reported to SD-DOH"" on the state's dashboard. The updated time series includes only PCR tests.
 
 On February 11, 2021, South Dakota [announced](https://twitter.com/SDDOH/status/1359925746219814916?s=20) on the official South Dakota Department of Health twitter that “a large number of COVID-19 test results are reported in today’s update due to IT system updates completed on one of several reporting methods”. As a result, not all new tests reported on February 11, 2021 were reported in the previous 24 hour period.
 
@@ -949,7 +951,7 @@ As of September 18, 2020, South Dakota's total test results are drawn from our `
 
 On August 27, the South Dakota Department of Health included cases from August 25 and 26 in their update due to a reporting aberration, resulting in a 343 case increase. They have provided historical case counts, and we are working to backfill our data.
 
-On July 27, 2020, **Negative PCR tests** decreased by 148 for unclear reasons.",https://doh.sd.gov/COVID/Dashboard.aspx,,,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,South Dakota,46
+On July 27, 2020, **Negative PCR tests** decreased by 148 for unclear reasons.",https://doh.sd.gov/COVID/Dashboard.aspx,,,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,South Dakota,46
 TN,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 Tennessee continually updates its **Currently hospitalized / Now hospitalized** data which can cause differences between their historic data and ours. 
