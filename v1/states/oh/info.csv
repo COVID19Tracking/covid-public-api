@@ -1,7 +1,9 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
-OH,"As of March 2, 2021, Ohio updates their mortality figures twice a week as death certificate information is received and verified from the National Center for Health Statistics.
+OH,"As of March 2, 2021, Ohio updates their mortality figures twice a week as death certificate information is received and verified from the National Center for Health Statistics. As a result of this change, Deaths (confirmed + probable) decreased from 17,346 to 17,189 on March 2, 2021. To allow our data quality team time to evaluate this change, we did not record this change on March 2, 2021, and backfilled our timeseries on March 3, 2021.
 
-Since February 10, 2021, Ohio has been reconciling their death data. As a result, death figures may fluctuate more than normal, and may include deaths which were not reported in the previous 24 hours. We urge caution when interpreting data from this period and encourage the use of 7 and 14-day averages as more reliable metrics. Our data quality team will continue to investigate how best to handle changes to their data.
+As of March 2, 2021, Ohio no longer reports Deaths (confirmed) and Deaths (probable) on their [COVID-19 dashboard](https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/). As a result, we are unable to update these metrics.
+
+From February 10, 2021 through March 1, 2021, Ohio reconciled their death data. As a result, death figures from this period may fluctuate more than normal, and may include deaths which were not reported in the previous 24 hours. We urge caution when interpreting data from this period and encourage the use of 7 and 14-day averages as more reliable metrics. Our data quality team will continue to investigate how best to handle changes to their data.
 
 Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
