@@ -509,6 +509,8 @@ Michigan combines PCR and antigen tests in the total tests figure reported on th
 
 Michigan does not update their COVID-19 data on Sundays. As a result, new referrals of confirmed cases to the MDSS regularly affect the Confirmed cases we report on Mondays and over the weekend.
 
+On March 4, 2021, we fixed an error in a backfill from June 11, 2020, where we forgot to paste historical data from March 10, 2020 to March 16, 2020 for Positive Tests (PCR), Negative Tests (PCR), Total Tests (PCR), and Deaths.
+
 As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
 On January 2, 2021, Michigan did not publish updated testing data by the time of our daily update. As a result, we were unable to update Total Antibody Tests, Total Tests (PCR), Positive Tests (PCR), Negative Tests (PCR), or Negative (People or Cases) on January 2, 2021.
