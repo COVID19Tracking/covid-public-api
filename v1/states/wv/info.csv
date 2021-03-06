@@ -1,9 +1,9 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 WV,"West Virginia reports new antibody tests daily. We sum these numbers in a running total to report a value for the total number of antibody tests West Virginia has conducted. 
 
-As of March 5, 2021, West Virginia's `totalTestResults` are drawn directly from `totalTestsViral` instead of calculated via positive+negative. This change resulted in a decrease of 26637 tests due to the removal of probable cases from the figure.
-
 On March 5, 2021, we cleared the history of West Virginia's **Negative (people or cases)**. The number previously mixed units and is no longer needed since `totalTestResults` are no longer calculated via positive+negative.
+
+As of March 5, 2021, West Virginia's `totalTestResults` are drawn directly from `totalTestsViral` instead of calculated via positive+negative. This change resulted in a decrease of 26637 tests due to the removal of probable cases from the figure.
 
 On March 5, 2021, we backfilled the history of West Virginia's **Total PCR Tests (specimens)** from data scraped from its dashboard. This allowed us to get historical testing data we did not have from March 13, 2020 to April 28, 2020.
 
