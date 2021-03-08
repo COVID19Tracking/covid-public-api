@@ -1,6 +1,8 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 PR,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
+On March 7, 2021, Puerto Rico's dashboard link was broken and required a login. As a result, data will be frozen until a suitable replacement is found.
+
 Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports. The most recent test data for Puerto Rico is taken from a [Departamento de Salud press release](https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf) from August 28, 2020. 
 
 Puerto Rico’s **Recovered** numbers occasionally decrease without explanation. We suspect this is due to some sort of data quality assurance or de-deduplication.
